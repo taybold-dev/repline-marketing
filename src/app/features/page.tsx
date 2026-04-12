@@ -4,15 +4,15 @@ import { FeatureGrid } from "@/components/feature-grid";
 import { CTASection } from "@/components/cta-section";
 
 export const metadata: Metadata = {
-  title: "Features",
+  title: "Features | Hockey Agent CRM & Player Management Software — Repline",
   description:
-    "Player profiles, career pipelines, contact cadence, PDF reports, e-signatures, and more. Everything an agent or advisor needs.",
+    "Player profiles, contract tracking, PDF scouting reports, e-signatures, SMS texting, agency oversight, and league calendar — purpose-built for hockey representation.",
   alternates: { canonical: "/features" },
   openGraph: {
     type: "website",
-    title: "Features | Repline",
+    title: "Features | Hockey Agent CRM & Player Management Software — Repline",
     description:
-      "Player profiles, career pipelines, contact cadence, PDF reports, e-signatures, and more. Built for hockey agents.",
+      "Player profiles, contract tracking, PDF scouting reports, e-signatures, SMS texting, agency oversight, and league calendar — purpose-built for hockey representation.",
     url: "https://www.repline.io/features",
   },
 };
@@ -30,6 +30,14 @@ export default function FeaturesPage() {
           </h1>
           <p className="mt-4 text-lg text-muted max-w-2xl mx-auto">
             Repline replaces your spreadsheets, sticky notes, and scattered group chats with one purpose-built platform.
+          </p>
+        </div>
+      </section>
+
+      <section className="pb-8">
+        <div className="mx-auto max-w-3xl px-6">
+          <p className="text-sm text-muted leading-relaxed text-center">
+            Repline is <strong>hockey agent software</strong> designed from the ground up for how agents and advisors actually work. Unlike generic CRMs built for sales teams, Repline is a <strong>hockey advisor CRM</strong> that understands player pipelines, draft eligibility, family relationships, and the seasonal rhythms of the sport. Every feature below was built in partnership with working agents and advisors.
           </p>
         </div>
       </section>
