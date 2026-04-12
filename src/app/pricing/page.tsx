@@ -4,6 +4,7 @@ import { PricingCards } from "@/components/pricing-cards";
 import { CTASection } from "@/components/cta-section";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { SoftwareApplicationSchema } from "@/components/schema-org";
+import { defaultOgImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Pricing | Hockey Agent & Advisor CRM — Repline",
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
     description:
       "Simple pricing for solo reps and agencies. Start free for 30 days. Plans from $75/mo for advisors to $695/mo for agencies.",
     url: "https://www.repline.io/pricing",
+    images: [defaultOgImage],
   },
 };
 

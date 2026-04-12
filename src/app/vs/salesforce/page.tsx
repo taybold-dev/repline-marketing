@@ -3,6 +3,7 @@ import { Section, SectionHeader } from "@/components/section";
 import { ComparisonTable, PersonaQuote, CalloutBox } from "@/components/comparison-table";
 import { CTASection } from "@/components/cta-section";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { defaultOgImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Repline vs. Salesforce for Hockey Agencies — Purpose-Built Beats Enterprise",
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
     description:
       "Salesforce is too expensive and too complex for hockey advisory firms. Compare pricing, setup, and hockey-specific features.",
     url: "https://www.repline.io/vs/salesforce",
+    images: [defaultOgImage],
   },
 };
 

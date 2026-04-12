@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Section } from "@/components/section";
 import { CTASection } from "@/components/cta-section";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { defaultOgImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "About Repline | Built for Hockey Agents and Advisors",
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
     description:
       "Repline is purpose-built CRM software for hockey player representation — by people who understand the agent and advisor workflow.",
     url: "https://www.repline.io/about",
+    images: [defaultOgImage],
   },
 };
 

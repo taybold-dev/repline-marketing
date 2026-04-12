@@ -4,6 +4,7 @@ import { Section, SectionHeader } from "@/components/section";
 import { FeatureGrid } from "@/components/feature-grid";
 import { CTASection } from "@/components/cta-section";
 import { SoftwareApplicationSchema } from "@/components/schema-org";
+import { defaultOgImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Repline | Hockey Agent & Advisor CRM — Manage Players, Contracts & Pipelines",
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
     description:
       "The CRM built for hockey agents and advisors. Track players, contracts, scouting reports, and compliance deadlines in one place. Replace your spreadsheets. Free 30-day trial.",
     url: "https://www.repline.io",
+    images: [defaultOgImage],
   },
 };
 

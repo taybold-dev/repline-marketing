@@ -3,6 +3,7 @@ import { Section, SectionHeader } from "@/components/section";
 import { FeatureGrid } from "@/components/feature-grid";
 import { CTASection } from "@/components/cta-section";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { defaultOgImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Features | Hockey Agent CRM & Player Management Software — Repline",
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
     description:
       "Player profiles, contract tracking, PDF scouting reports, e-signatures, SMS texting, agency oversight, and league calendar — purpose-built for hockey representation.",
     url: "https://www.repline.io/features",
+    images: [defaultOgImage],
   },
 };
 

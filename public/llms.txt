@@ -1,0 +1,48 @@
+# Repline
+
+> The CRM built for hockey agents and advisors.
+
+Repline is purpose-built CRM software for hockey player representation. It replaces spreadsheets and generic CRMs (HubSpot, Salesforce, Monday.com) with tools designed specifically for managing players, contracts, scouting reports, and compliance deadlines.
+
+## Who it's for
+
+- Hockey agents (NHLPA-certified and independent)
+- Hockey advisors and player representatives
+- Agencies managing multiple agents and rosters
+
+## What it does
+
+- Player profiles with hockey-specific fields (position, league, draft year, handedness)
+- Visual pipeline board with hockey-native stages (Prospect, Draft Eligible, Signed, Active)
+- Contract tracking with key dates and compliance deadlines
+- PDF scouting report generation
+- E-signatures for representation agreements
+- Agency oversight with multi-user roles and permissions
+- Touch tracking for player and contact relationship management
+
+## Pricing
+
+- Pro: $75/month or $765/year (solo advisors, up to 50 players)
+- Agency: $695/month or $7,000/year (multi-user, unlimited players)
+- Free 30-day trial, no credit card required
+
+## Key pages
+
+- Homepage: https://www.repline.io
+- Features: https://www.repline.io/features
+- Pricing: https://www.repline.io/pricing
+- About: https://www.repline.io/about
+- Blog: https://www.repline.io/blog
+- Contact: https://www.repline.io/contact-sales
+
+## Comparisons
+
+- vs. Spreadsheets: https://www.repline.io/vs/spreadsheets
+- vs. Monday.com: https://www.repline.io/vs/monday
+- vs. HubSpot: https://www.repline.io/vs/hubspot
+- vs. Salesforce: https://www.repline.io/vs/salesforce
+
+## Contact
+
+- Email: hello@repline.io
+- Website: https://www.repline.io

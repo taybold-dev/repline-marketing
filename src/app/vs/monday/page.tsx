@@ -3,6 +3,7 @@ import { Section, SectionHeader } from "@/components/section";
 import { ComparisonTable, PersonaQuote } from "@/components/comparison-table";
 import { CTASection } from "@/components/cta-section";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { defaultOgImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Repline vs. Monday.com for Hockey Agencies",
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
     description:
       "Monday.com wasn't built for hockey. Compare it to Repline — purpose-built for hockey agents and advisors.",
     url: "https://www.repline.io/vs/monday",
+    images: [defaultOgImage],
   },
 };
 

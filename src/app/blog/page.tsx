@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllPosts } from "@/lib/blog";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { defaultOgImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Blog | Hockey Agent & Advisor Insights — Repline",
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
     description:
       "Insights, guides, and news for hockey agents and advisors.",
     url: "https://www.repline.io/blog",
+    images: [defaultOgImage],
   },
 };
 
