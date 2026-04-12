@@ -29,7 +29,7 @@ export default function ContactSalesPage() {
           {/* Calendly embed */}
           <div className="rounded-xl border border-border/60 overflow-hidden bg-background">
             <iframe
-              src="https://calendly.com/repline/intro"
+              src="https://calendly.com/taybold/30min"
               width="100%"
               height="700"
               frameBorder="0"
