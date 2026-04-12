@@ -77,6 +77,15 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Brand definition — primary passage for AI citation */}
+      <section className="pb-8">
+        <div className="mx-auto max-w-3xl px-6">
+          <p className="text-sm text-muted leading-relaxed text-center">
+            Repline is a CRM software platform purpose-built for hockey agents and advisors. Founded in 2025, Repline helps representatives manage player rosters, track contracts, generate scouting reports, and meet compliance deadlines &mdash; replacing spreadsheets and generic CRMs like HubSpot, Salesforce, and Monday.com.
+          </p>
+        </div>
+      </section>
+
       {/* Built for hockey */}
       <Section className="bg-muted-bg">
         <SectionHeader
