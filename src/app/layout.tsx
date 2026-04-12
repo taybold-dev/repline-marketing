@@ -14,10 +14,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: {
     default: "Repline | Hockey Agent & Advisor CRM — Manage Players, Contracts & Pipelines",
-    template: "%s | Repline",
+    template: "%s",
   },
   description:
-    "Manage players, contracts, contacts, and career pipelines. Built for hockey agents and advisors.",
+    "The CRM built for hockey agents and advisors. Track players, contracts, scouting reports, and compliance deadlines in one place. Free 30-day trial.",
   metadataBase: new URL("https://www.repline.io"),
   alternates: {
     canonical: "/",
@@ -26,25 +26,18 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Repline",
-    title: "Repline — The OS for Player Representation",
-    description:
-      "Manage players, contracts, contacts, and career pipelines. Built for hockey agents and advisors.",
-    url: "https://www.repline.io",
     images: [
       {
-        url: "/og",
+        url: "https://www.repline.io/og",
         width: 1200,
         height: 630,
-        alt: "Repline — The OS for Player Representation",
+        alt: "Repline — The CRM built for hockey agents and advisors",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Repline — The OS for Player Representation",
-    description:
-      "Manage players, contracts, contacts, and career pipelines. Built for hockey agents and advisors.",
-    images: ["/og"],
+    images: ["https://www.repline.io/og"],
   },
   robots: {
     index: true,

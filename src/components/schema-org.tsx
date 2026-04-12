@@ -35,14 +35,8 @@ export function WebSiteSchema() {
     "@type": "WebSite",
     name: "Repline",
     url: "https://www.repline.io",
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: "https://www.repline.io/features?q={search_term_string}",
-      },
-      "query-input": "required name=search_term_string",
-    },
+    description:
+      "The CRM built for hockey agents and advisors. Manage players, contracts, contacts, and career pipelines.",
   };
 
   return (
@@ -78,7 +72,7 @@ export function SoftwareApplicationSchema() {
       {
         "@type": "Offer",
         name: "Agency",
-        price: "695.00",
+        price: "695",
         priceCurrency: "USD",
         priceValidUntil: "2027-12-31",
         description:
