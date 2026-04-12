@@ -5,15 +5,15 @@ import { CTASection } from "@/components/cta-section";
 import { SoftwareApplicationSchema } from "@/components/schema-org";
 
 export const metadata: Metadata = {
-  title: "Pricing",
+  title: "Pricing | Hockey Agent & Advisor CRM — Repline",
   description:
-    "Simple, transparent pricing for solo reps and multi-advisor agencies. Start free, upgrade when you're ready.",
+    "Simple pricing for solo reps and agencies. Start free for 30 days. Plans from $75/mo for advisors to $695/mo for agencies.",
   alternates: { canonical: "/pricing" },
   openGraph: {
     type: "website",
-    title: "Pricing | Repline",
+    title: "Pricing | Hockey Agent & Advisor CRM — Repline",
     description:
-      "Pro $75/mo, Agency $695/mo, Enterprise custom. 30-day free trial, no credit card required.",
+      "Simple pricing for solo reps and agencies. Start free for 30 days. Plans from $75/mo for advisors to $695/mo for agencies.",
     url: "https://www.repline.io/pricing",
   },
 };
