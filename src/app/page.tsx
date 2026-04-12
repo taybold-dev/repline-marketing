@@ -1,10 +1,12 @@
 import { Section, SectionHeader } from "@/components/section";
 import { FeatureGrid } from "@/components/feature-grid";
 import { CTASection } from "@/components/cta-section";
+import { SoftwareApplicationSchema } from "@/components/schema-org";
 
 export default function Home() {
   return (
     <>
+      <SoftwareApplicationSchema />
       {/* Hero */}
       <section className="pt-20 pb-16 md:pt-32 md:pb-24">
         <div className="mx-auto max-w-6xl px-6 text-center">

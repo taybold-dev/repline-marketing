@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
+import { OrganizationSchema, WebSiteSchema } from "@/components/schema-org";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -45,6 +46,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} h-full`}>
+      <head>
+        <OrganizationSchema />
+        <WebSiteSchema />
+      </head>
       <body className="min-h-full flex flex-col antialiased">
         <Nav />
         <main className="flex-1">{children}</main>
