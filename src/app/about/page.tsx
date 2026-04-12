@@ -3,15 +3,15 @@ import { Section } from "@/components/section";
 import { CTASection } from "@/components/cta-section";
 
 export const metadata: Metadata = {
-  title: "About",
+  title: "About Repline | Built for Hockey Agents and Advisors",
   description:
-    "Repline was built because agents and advisors deserve better tools than spreadsheets and group chats.",
+    "Repline is purpose-built CRM software for hockey player representation — by people who understand the agent and advisor workflow.",
   alternates: { canonical: "/about" },
   openGraph: {
     type: "website",
-    title: "About | Repline",
+    title: "About Repline | Built for Hockey Agents and Advisors",
     description:
-      "Why we built a purpose-built OS for hockey player representation — and why generic CRMs don't cut it.",
+      "Repline is purpose-built CRM software for hockey player representation — by people who understand the agent and advisor workflow.",
     url: "https://www.repline.io/about",
   },
 };
