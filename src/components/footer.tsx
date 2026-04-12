@@ -4,6 +4,14 @@ const productLinks = [
   { href: "/features", label: "Features" },
   { href: "/pricing", label: "Pricing" },
   { href: "/contact-sales", label: "Talk to Us" },
+  { href: "/blog", label: "Blog" },
+];
+
+const compareLinks = [
+  { href: "/vs/spreadsheets", label: "vs. Spreadsheets" },
+  { href: "/vs/monday", label: "vs. Monday.com" },
+  { href: "/vs/hubspot", label: "vs. HubSpot" },
+  { href: "/vs/salesforce", label: "vs. Salesforce" },
 ];
 
 const legalLinks = [
@@ -20,7 +28,7 @@ export function Footer() {
   return (
     <footer className="border-t border-border/60 bg-muted-bg">
       <div className="mx-auto max-w-6xl px-6 py-12">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="text-lg font-bold tracking-tight">
@@ -36,6 +44,20 @@ export function Footer() {
             <h3 className="text-sm font-semibold mb-3">Product</h3>
             <ul className="space-y-2">
               {productLinks.map(({ href, label }) => (
+                <li key={href}>
+                  <Link href={href} className="text-sm text-muted hover:text-foreground transition-colors">
+                    {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Compare */}
+          <div>
+            <h3 className="text-sm font-semibold mb-3">Compare</h3>
+            <ul className="space-y-2">
+              {compareLinks.map(({ href, label }) => (
                 <li key={href}>
                   <Link href={href} className="text-sm text-muted hover:text-foreground transition-colors">
                     {label}

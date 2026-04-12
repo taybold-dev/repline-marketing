@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { Section, SectionHeader } from "@/components/section";
 import { FeatureGrid } from "@/components/feature-grid";
 import { CTASection } from "@/components/cta-section";
@@ -270,6 +271,31 @@ export default function FeaturesPage() {
             },
           ]}
         />
+      </Section>
+
+      {/* Compare */}
+      <Section>
+        <SectionHeader
+          tag="Switching?"
+          title="See how Repline compares"
+          description="Already using another tool? See a side-by-side comparison."
+        />
+        <div className="flex flex-wrap justify-center gap-3 max-w-3xl mx-auto">
+          {[
+            { href: "/vs/spreadsheets", label: "vs. Spreadsheets" },
+            { href: "/vs/monday", label: "vs. Monday.com" },
+            { href: "/vs/hubspot", label: "vs. HubSpot" },
+            { href: "/vs/salesforce", label: "vs. Salesforce" },
+          ].map(({ href, label }) => (
+            <Link
+              key={href}
+              href={href}
+              className="inline-flex items-center rounded-lg border border-border/60 px-4 py-2.5 text-sm font-medium hover:bg-muted-bg transition-colors"
+            >
+              Repline {label} &rarr;
+            </Link>
+          ))}
+        </div>
       </Section>
 
       <CTASection

@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { Section, SectionHeader } from "@/components/section";
 import { ComparisonTable, PersonaQuote, CalloutBox } from "@/components/comparison-table";
 import { CTASection } from "@/components/cta-section";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { VsCrossLinks } from "@/components/vs-cross-links";
 import { defaultOgImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -154,6 +156,62 @@ export default function VsSalesforce() {
           </p>
         </div>
       </Section>
+
+      {/* Migration */}
+      <Section className="bg-muted-bg">
+        <SectionHeader
+          tag="Switching"
+          title="How to migrate from Salesforce"
+        />
+        <div className="max-w-3xl mx-auto">
+          <div className="space-y-4">
+            {[
+              { step: "1", title: "Export your data", desc: "Use Salesforce Data Export or Report Export to pull contacts, accounts, and opportunities as CSV. No need to export your custom objects — Repline has its own hockey-native model." },
+              { step: "2", title: "Map your objects", desc: "Salesforce 'Opportunities' become players. 'Accounts' map to teams or organizations. 'Contacts' stay as contacts with hockey relationship types. The mapping is simpler than you'd expect." },
+              { step: "3", title: "Import and go", desc: "Upload your CSVs into Repline. Pipeline stages auto-assign based on player status. No admin configuration, no custom objects to build, no formula fields to maintain." },
+              { step: "4", title: "Save immediately", desc: "Most agencies reduce their CRM spend by 60-80% switching from Salesforce to Repline. A 5-user Salesforce setup at $75/user/month ($375/mo) becomes one Repline Agency plan at $695/month for up to 15 users." },
+            ].map((s) => (
+              <div key={s.step} className="flex gap-4 items-start">
+                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground text-sm font-bold flex items-center justify-center">{s.step}</span>
+                <div>
+                  <h3 className="font-semibold mb-1">{s.title}</h3>
+                  <p className="text-sm text-muted leading-relaxed">{s.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Section>
+
+      {/* Who should use what */}
+      <Section>
+        <SectionHeader
+          tag="Decision guide"
+          title="Salesforce vs. Repline: which is right?"
+        />
+        <div className="max-w-3xl mx-auto space-y-4">
+          <div className="rounded-lg border border-border/60 p-4">
+            <h3 className="font-semibold mb-1">Keep Salesforce if...</h3>
+            <p className="text-sm text-muted leading-relaxed">
+              You&apos;re a large multi-sport agency with 50+ employees, a dedicated IT team, and existing Salesforce integrations across departments (finance, marketing, operations). The switching cost outweighs the benefit.
+            </p>
+          </div>
+          <div className="rounded-lg border border-border/60 p-4">
+            <h3 className="font-semibold mb-1">Switch to Repline if...</h3>
+            <p className="text-sm text-muted leading-relaxed">
+              You&apos;re a 1-15 person hockey agency paying for Salesforce features you don&apos;t use. If your reps avoid the CRM because it&apos;s too complex and fall back to spreadsheets and text threads, you&apos;re paying for a tool that isn&apos;t working. Repline is built so reps actually want to use it &mdash; especially at the rink.
+            </p>
+          </div>
+          <div className="rounded-lg border border-border/60 p-4">
+            <h3 className="font-semibold mb-1">Pricing comparison</h3>
+            <p className="text-sm text-muted leading-relaxed">
+              Salesforce Essentials starts at <strong>$25/user/month</strong> but most agencies need Professional (<strong>$75/user/month</strong>) or Enterprise (<strong>$150/user/month</strong>) for workflows and API access. A 5-person agency on Professional costs <strong>$375/month</strong> before add-ons. Repline Agency is <strong>$695/month flat</strong> for up to 15 users &mdash; and includes every feature (scouting reports, e-signatures, league calendars, compliance tracking) without add-ons.
+            </p>
+          </div>
+        </div>
+      </Section>
+
+      <VsCrossLinks current="/vs/salesforce" />
 
       <CTASection
         title="Purpose-built beats enterprise"

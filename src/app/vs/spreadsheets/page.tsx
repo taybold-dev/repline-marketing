@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { Section, SectionHeader } from "@/components/section";
 import { ComparisonTable, PersonaQuote } from "@/components/comparison-table";
 import { CTASection } from "@/components/cta-section";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { VsCrossLinks } from "@/components/vs-cross-links";
 import { defaultOgImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -156,6 +158,62 @@ export default function VsSpreadsheets() {
           />
         </div>
       </Section>
+
+      {/* Migration */}
+      <Section className="bg-muted-bg">
+        <SectionHeader
+          tag="Switching"
+          title="How to migrate from spreadsheets"
+        />
+        <div className="max-w-3xl mx-auto">
+          <div className="space-y-4">
+            {[
+              { step: "1", title: "Export your roster", desc: "Save your spreadsheet as CSV or Excel (.xlsx). Any format works — Repline maps your columns automatically." },
+              { step: "2", title: "Import into Repline", desc: "Use the bulk import tool to upload players and contacts. Map your columns to Repline fields in a visual editor. Takes about 5 minutes for a typical roster." },
+              { step: "3", title: "Set up your pipeline", desc: "Your players automatically land in the right pipeline stages based on their status. Active clients, prospects, draft-eligible players — all organized from day one." },
+              { step: "4", title: "Invite your team", desc: "Add reps and assign players. Each person gets their own view. Agency owners see everything. No more shared file permissions." },
+            ].map((s) => (
+              <div key={s.step} className="flex gap-4 items-start">
+                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground text-sm font-bold flex items-center justify-center">{s.step}</span>
+                <div>
+                  <h3 className="font-semibold mb-1">{s.title}</h3>
+                  <p className="text-sm text-muted leading-relaxed">{s.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Section>
+
+      {/* Who should use what */}
+      <Section>
+        <SectionHeader
+          tag="Decision guide"
+          title="When spreadsheets still make sense"
+        />
+        <div className="max-w-3xl mx-auto space-y-4">
+          <div className="rounded-lg border border-border/60 p-4">
+            <h3 className="font-semibold mb-1">Stick with spreadsheets if...</h3>
+            <p className="text-sm text-muted leading-relaxed">
+              You represent fewer than 5 players, work solo with no plans to add team members, and don&apos;t need compliance tracking or scouting reports. A simple spreadsheet can work at that scale.
+            </p>
+          </div>
+          <div className="rounded-lg border border-border/60 p-4">
+            <h3 className="font-semibold mb-1">Switch to Repline if...</h3>
+            <p className="text-sm text-muted leading-relaxed">
+              You manage more than 10 players, have an agency with multiple reps, need to track compliance deadlines, want to generate scouting reports, or simply can&apos;t afford to miss a follow-up with a player&apos;s family. The free trial lets you test it risk-free.
+            </p>
+          </div>
+          <div className="rounded-lg border border-border/60 p-4">
+            <h3 className="font-semibold mb-1">Pricing comparison</h3>
+            <p className="text-sm text-muted leading-relaxed">
+              Spreadsheets are &ldquo;free&rdquo; &mdash; but the hidden cost is your time. Repline Pro starts at <strong>$75/month</strong> for solo advisors (up to 50 players). Agency plans are <strong>$695/month</strong> for up to 15 users with unlimited players. Both include a free 30-day trial.
+            </p>
+          </div>
+        </div>
+      </Section>
+
+      <VsCrossLinks current="/vs/spreadsheets" />
 
       <CTASection
         title="Replace your spreadsheet today"

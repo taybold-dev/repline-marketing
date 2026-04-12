@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { Section, SectionHeader } from "@/components/section";
 import { ComparisonTable, PersonaQuote, CalloutBox } from "@/components/comparison-table";
 import { CTASection } from "@/components/cta-section";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { VsCrossLinks } from "@/components/vs-cross-links";
 import { defaultOgImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -154,6 +156,62 @@ export default function VsHubspot() {
           </p>
         </div>
       </Section>
+
+      {/* Migration */}
+      <Section className="bg-muted-bg">
+        <SectionHeader
+          tag="Switching"
+          title="How to migrate from HubSpot"
+        />
+        <div className="max-w-3xl mx-auto">
+          <div className="space-y-4">
+            {[
+              { step: "1", title: "Export contacts and deals", desc: "From HubSpot, export your contacts and deals as CSV. Go to Contacts > Actions > Export, then Deals > Actions > Export." },
+              { step: "2", title: "Map to Repline's model", desc: "HubSpot's 'deals' become players. 'Companies' map to teams. 'Contacts' stay as contacts but gain hockey-specific relationship types (parent, billet, coach, scout)." },
+              { step: "3", title: "Import and organize", desc: "Upload both CSVs into Repline's import tool. Players automatically slot into the right pipeline stages. Contacts link to players via relationship mapping." },
+              { step: "4", title: "Set cadences and alerts", desc: "Configure contact cadences per player — something HubSpot's email sequences were never designed for. Repline tracks calls, texts, and in-person meetings, not just emails." },
+            ].map((s) => (
+              <div key={s.step} className="flex gap-4 items-start">
+                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground text-sm font-bold flex items-center justify-center">{s.step}</span>
+                <div>
+                  <h3 className="font-semibold mb-1">{s.title}</h3>
+                  <p className="text-sm text-muted leading-relaxed">{s.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Section>
+
+      {/* Who should use what */}
+      <Section>
+        <SectionHeader
+          tag="Decision guide"
+          title="HubSpot vs. Repline: which is right?"
+        />
+        <div className="max-w-3xl mx-auto space-y-4">
+          <div className="rounded-lg border border-border/60 p-4">
+            <h3 className="font-semibold mb-1">Keep HubSpot if...</h3>
+            <p className="text-sm text-muted leading-relaxed">
+              You run a multi-sport agency where hockey is one of several divisions, and you need HubSpot&apos;s marketing automation (email campaigns, landing pages, ad tracking) for business development across sports.
+            </p>
+          </div>
+          <div className="rounded-lg border border-border/60 p-4">
+            <h3 className="font-semibold mb-1">Switch to Repline if...</h3>
+            <p className="text-sm text-muted leading-relaxed">
+              You&apos;re a hockey-focused agency or solo advisor. Your &ldquo;sales process&rdquo; is building relationships with 14-year-olds and their families over years, not running email drip campaigns. You need player profiles, scouting reports, compliance tracking, and league calendars &mdash; not marketing automation.
+            </p>
+          </div>
+          <div className="rounded-lg border border-border/60 p-4">
+            <h3 className="font-semibold mb-1">Pricing comparison</h3>
+            <p className="text-sm text-muted leading-relaxed">
+              HubSpot&apos;s free CRM is limited (no automation, basic reporting). Starter is <strong>$20/seat/month</strong>. Professional jumps to <strong>$100/seat/month</strong> with required onboarding fees. A 5-person hockey agency on Professional costs over <strong>$500/month</strong> plus a one-time <strong>$1,500 onboarding fee</strong>. Repline Agency is <strong>$695/month flat</strong> for up to 15 users, no onboarding fee, every feature included.
+            </p>
+          </div>
+        </div>
+      </Section>
+
+      <VsCrossLinks current="/vs/hubspot" />
 
       <CTASection
         title="Switch from HubSpot in minutes"

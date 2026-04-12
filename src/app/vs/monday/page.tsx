@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { Section, SectionHeader } from "@/components/section";
 import { ComparisonTable, PersonaQuote } from "@/components/comparison-table";
 import { CTASection } from "@/components/cta-section";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { VsCrossLinks } from "@/components/vs-cross-links";
 import { defaultOgImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -147,6 +149,62 @@ export default function VsMonday() {
           />
         </div>
       </Section>
+
+      {/* Migration */}
+      <Section className="bg-muted-bg">
+        <SectionHeader
+          tag="Switching"
+          title="How to migrate from Monday.com"
+        />
+        <div className="max-w-3xl mx-auto">
+          <div className="space-y-4">
+            {[
+              { step: "1", title: "Export your Monday.com boards", desc: "Export your player board and contact data as CSV from Monday.com. Board settings > Export to Excel." },
+              { step: "2", title: "Import into Repline", desc: "Upload your CSV into Repline's bulk import tool. Map Monday.com columns to Repline's hockey-specific fields. Your custom statuses map to Repline's pipeline stages." },
+              { step: "3", title: "Replace automations with built-in features", desc: "Monday.com automations you built manually — contract alerts, follow-up reminders, status updates — are built into Repline natively. No configuration needed." },
+              { step: "4", title: "Cancel Monday.com", desc: "Once your team is onboarded (usually same day), cancel your Monday.com seats. Most agencies break even on the switch within the first month." },
+            ].map((s) => (
+              <div key={s.step} className="flex gap-4 items-start">
+                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground text-sm font-bold flex items-center justify-center">{s.step}</span>
+                <div>
+                  <h3 className="font-semibold mb-1">{s.title}</h3>
+                  <p className="text-sm text-muted leading-relaxed">{s.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Section>
+
+      {/* Who should use what */}
+      <Section>
+        <SectionHeader
+          tag="Decision guide"
+          title="Monday.com vs. Repline: which is right?"
+        />
+        <div className="max-w-3xl mx-auto space-y-4">
+          <div className="rounded-lg border border-border/60 p-4">
+            <h3 className="font-semibold mb-1">Keep Monday.com if...</h3>
+            <p className="text-sm text-muted leading-relaxed">
+              You use Monday.com across your business for non-hockey operations (marketing, HR, project management) and hockey is a small part of your workflow. Monday.com&apos;s strength is general-purpose project management.
+            </p>
+          </div>
+          <div className="rounded-lg border border-border/60 p-4">
+            <h3 className="font-semibold mb-1">Switch to Repline if...</h3>
+            <p className="text-sm text-muted leading-relaxed">
+              Your primary job is representing hockey players. You need scouting reports, league calendars, compliance tracking, and player-family relationship management. These aren&apos;t things you can bolt onto a project management tool.
+            </p>
+          </div>
+          <div className="rounded-lg border border-border/60 p-4">
+            <h3 className="font-semibold mb-1">Pricing comparison</h3>
+            <p className="text-sm text-muted leading-relaxed">
+              Monday.com starts at <strong>$9/seat/month</strong> but scales quickly with users and feature tiers. A 5-person agency on Pro plan costs ~$80/month. Repline Pro is <strong>$75/month</strong> for a solo advisor. Agency plan is <strong>$695/month</strong> for up to 15 users &mdash; flat pricing, no per-seat surprises, and every hockey-specific feature included.
+            </p>
+          </div>
+        </div>
+      </Section>
+
+      <VsCrossLinks current="/vs/monday" />
 
       <CTASection
         title="Built for hockey from day one"
