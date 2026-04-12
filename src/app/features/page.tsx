@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   title: "Features",
   description:
     "Player profiles, career pipelines, contact cadence, PDF reports, e-signatures, and more. Everything an agent or advisor needs.",
+  alternates: { canonical: "/features" },
+  openGraph: {
+    type: "website",
+    title: "Features | Repline",
+    description:
+      "Player profiles, career pipelines, contact cadence, PDF reports, e-signatures, and more. Built for hockey agents.",
+    url: "https://www.repline.io/features",
+  },
 };
 
 export default function FeaturesPage() {

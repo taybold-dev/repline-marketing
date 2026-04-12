@@ -1,7 +1,19 @@
+import type { Metadata } from "next";
 import { Section, SectionHeader } from "@/components/section";
 import { FeatureGrid } from "@/components/feature-grid";
 import { CTASection } from "@/components/cta-section";
 import { SoftwareApplicationSchema } from "@/components/schema-org";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    title: "Repline — The OS for Player Representation",
+    description:
+      "Stop managing your practice in spreadsheets. Repline gives hockey agents and advisors one place to manage players, contracts, contacts, and career pipelines.",
+    url: "https://www.repline.io",
+  },
+};
 
 export default function Home() {
   return (

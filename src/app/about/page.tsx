@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: "About",
   description:
     "Repline was built because agents and advisors deserve better tools than spreadsheets and group chats.",
+  alternates: { canonical: "/about" },
+  openGraph: {
+    type: "website",
+    title: "About | Repline",
+    description:
+      "Why we built a purpose-built OS for hockey player representation — and why generic CRMs don't cut it.",
+    url: "https://www.repline.io/about",
+  },
 };
 
 export default function AboutPage() {

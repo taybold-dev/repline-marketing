@@ -8,6 +8,14 @@ export const metadata: Metadata = {
   title: "Pricing",
   description:
     "Simple, transparent pricing for solo reps and multi-advisor agencies. Start free, upgrade when you're ready.",
+  alternates: { canonical: "/pricing" },
+  openGraph: {
+    type: "website",
+    title: "Pricing | Repline",
+    description:
+      "Pro $75/mo, Agency $695/mo, Enterprise custom. 30-day free trial, no credit card required.",
+    url: "https://www.repline.io/pricing",
+  },
 };
 
 const faqs = [

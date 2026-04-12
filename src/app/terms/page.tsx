@@ -4,6 +4,8 @@ import { Section } from "@/components/section";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description: "Repline terms of service \u2014 the agreement between you and Repline.",
+  alternates: { canonical: "/terms" },
+  robots: { index: false, follow: true },
 };
 
 export default function TermsPage() {

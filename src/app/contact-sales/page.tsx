@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Talk to Us",
   description:
     "Book a call with the Repline team. Whether you're a solo rep, running an agency, or exploring enterprise options \u2014 we'd love to chat.",
+  alternates: { canonical: "/contact-sales" },
+  openGraph: {
+    type: "website",
+    title: "Talk to Us | Repline",
+    description:
+      "Book a call with the Repline team. Solo reps, agencies, and enterprise \u2014 we'd love to chat.",
+    url: "https://www.repline.io/contact-sales",
+  },
 };
 
 export default function ContactSalesPage() {

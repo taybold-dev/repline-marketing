@@ -18,7 +18,10 @@ export const metadata: Metadata = {
   },
   description:
     "Manage players, contracts, contacts, and career pipelines. Built for hockey agents and advisors.",
-  metadataBase: new URL("https://repline.io"),
+  metadataBase: new URL("https://www.repline.io"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -26,12 +29,22 @@ export const metadata: Metadata = {
     title: "Repline — The OS for Player Representation",
     description:
       "Manage players, contracts, contacts, and career pipelines. Built for hockey agents and advisors.",
+    url: "https://www.repline.io",
+    images: [
+      {
+        url: "/og",
+        width: 1200,
+        height: 630,
+        alt: "Repline — The OS for Player Representation",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Repline — The OS for Player Representation",
     description:
       "Manage players, contracts, contacts, and career pipelines. Built for hockey agents and advisors.",
+    images: ["/og"],
   },
   robots: {
     index: true,

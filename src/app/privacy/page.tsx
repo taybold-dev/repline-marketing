@@ -4,6 +4,8 @@ import { Section } from "@/components/section";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "Repline privacy policy \u2014 how we collect, use, and protect your data.",
+  alternates: { canonical: "/privacy" },
+  robots: { index: false, follow: true },
 };
 
 export default function PrivacyPage() {
