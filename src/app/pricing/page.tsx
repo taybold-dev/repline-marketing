@@ -3,7 +3,7 @@ import { Section, SectionHeader } from "@/components/section";
 import { PricingCards } from "@/components/pricing-cards";
 import { CTASection } from "@/components/cta-section";
 import { Breadcrumbs } from "@/components/breadcrumbs";
-import { SoftwareApplicationSchema } from "@/components/schema-org";
+import { SoftwareApplicationSchema, FAQPageSchema } from "@/components/schema-org";
 import { defaultOgImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -52,6 +52,7 @@ export default function PricingPage() {
   return (
     <>
       <SoftwareApplicationSchema />
+      <FAQPageSchema faqs={faqs} />
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Pricing" }]} />
       <section className="pt-12 pb-4 md:pt-16">
         <div className="mx-auto max-w-6xl px-6 text-center">
