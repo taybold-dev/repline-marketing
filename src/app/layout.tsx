@@ -13,7 +13,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Repline — The OS for Player Representation",
+    default: "Repline | Hockey Agent & Advisor CRM — Manage Players, Contracts & Pipelines",
     template: "%s | Repline",
   },
   description:

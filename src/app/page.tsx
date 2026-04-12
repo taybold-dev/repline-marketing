@@ -5,12 +5,15 @@ import { CTASection } from "@/components/cta-section";
 import { SoftwareApplicationSchema } from "@/components/schema-org";
 
 export const metadata: Metadata = {
+  title: "Repline | Hockey Agent & Advisor CRM — Manage Players, Contracts & Pipelines",
+  description:
+    "The CRM built for hockey agents and advisors. Track players, contracts, scouting reports, and compliance deadlines in one place. Replace your spreadsheets. Free 30-day trial.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
-    title: "Repline — The OS for Player Representation",
+    title: "Repline | Hockey Agent & Advisor CRM — Manage Players, Contracts & Pipelines",
     description:
-      "Stop managing your practice in spreadsheets. Repline gives hockey agents and advisors one place to manage players, contracts, contacts, and career pipelines.",
+      "The CRM built for hockey agents and advisors. Track players, contracts, scouting reports, and compliance deadlines in one place. Replace your spreadsheets. Free 30-day trial.",
     url: "https://www.repline.io",
   },
 };
@@ -26,10 +29,13 @@ export default function Home() {
             Built for hockey. Built for you.
           </span>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] max-w-4xl mx-auto">
-            The operating system for player representation
+            The CRM built for hockey agents and advisors
           </h1>
-          <p className="mt-6 text-lg md:text-xl text-muted max-w-2xl mx-auto">
-            Stop managing your practice in spreadsheets and group chats. Repline gives hockey agents and advisors one place to manage players, contracts, contacts, and career pipelines &mdash; from bantam to the bigs.
+          <h2 className="mt-4 text-lg md:text-2xl font-medium text-muted max-w-2xl mx-auto">
+            The OS for player representation
+          </h2>
+          <p className="mt-4 text-base md:text-lg text-muted max-w-2xl mx-auto">
+            Track players, contracts, scouting reports, and compliance deadlines in one place. Replace your spreadsheets &mdash; from bantam to the bigs.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
             <a
