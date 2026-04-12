@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Section, SectionHeader } from "@/components/section";
 import { FeatureGrid } from "@/components/feature-grid";
 import { CTASection } from "@/components/cta-section";
+import { Breadcrumbs } from "@/components/breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Features | Hockey Agent CRM & Player Management Software — Repline",
@@ -20,7 +21,8 @@ export const metadata: Metadata = {
 export default function FeaturesPage() {
   return (
     <>
-      <section className="pt-20 pb-4 md:pt-28">
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Features" }]} />
+      <section className="pt-12 pb-4 md:pt-16">
         <div className="mx-auto max-w-6xl px-6 text-center">
           <span className="inline-block mb-4 text-xs font-semibold tracking-widest uppercase text-muted">
             Features
@@ -219,7 +221,8 @@ export default function FeaturesPage() {
       <CTASection
         title="See it in action"
         description="Start your free trial or book a walkthrough with our team."
-        secondaryLabel="Book a call"
+        secondaryHref="/pricing"
+        secondaryLabel="See pricing"
       />
     </>
   );

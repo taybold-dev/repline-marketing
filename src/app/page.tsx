@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Section, SectionHeader } from "@/components/section";
 import { FeatureGrid } from "@/components/feature-grid";
 import { CTASection } from "@/components/cta-section";
@@ -86,6 +87,11 @@ export default function Home() {
             },
           ]}
         />
+        <div className="mt-8 text-center">
+          <Link href="/features" className="text-sm font-medium text-muted hover:text-foreground transition-colors underline underline-offset-4">
+            See all features &rarr;
+          </Link>
+        </div>
       </Section>
 
       {/* Your practice, organized */}
@@ -148,6 +154,11 @@ export default function Home() {
             },
           ]}
         />
+        <div className="mt-8 text-center">
+          <Link href="/pricing" className="text-sm font-medium text-muted hover:text-foreground transition-colors underline underline-offset-4">
+            See pricing &rarr;
+          </Link>
+        </div>
       </Section>
 
       {/* CTA */}
