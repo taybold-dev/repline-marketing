@@ -16,21 +16,6 @@ interface Tier {
 
 const tiers: Tier[] = [
   {
-    name: "Free",
-    monthlyPrice: 0,
-    annualPrice: 0,
-    description: "For reps just getting started.",
-    features: [
-      "5 players",
-      "1 user",
-      "100 MB document storage",
-      "Player profiles + pipelines",
-      "Basic alerts",
-    ],
-    cta: "Get started",
-    href: "https://app.repline.io/auth/sign-up?plan=free",
-  },
-  {
     name: "Pro",
     monthlyPrice: 75,
     annualPrice: 64,
@@ -53,8 +38,8 @@ const tiers: Tier[] = [
   {
     name: "Agency",
     monthlyPrice: 695,
-    annualPrice: 591,
-    description: "For multi-rep agencies scaling up.",
+    annualPrice: 583,
+    description: "For multi-advisor agencies scaling up.",
     features: [
       "200 players",
       "15 users",
@@ -92,7 +77,7 @@ export function PricingCards() {
 
   return (
     <section className="py-12">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-5xl px-6">
         {/* Toggle */}
         <div className="flex items-center justify-center gap-3 mb-12">
           <span
@@ -123,7 +108,7 @@ export function PricingCards() {
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {tiers.map((tier) => {
             const price = annual ? tier.annualPrice : tier.monthlyPrice;
             return (

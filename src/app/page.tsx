@@ -15,7 +15,7 @@ export default function Home() {
             The operating system for player representation
           </h1>
           <p className="mt-6 text-lg md:text-xl text-muted max-w-2xl mx-auto">
-            Stop managing your practice in spreadsheets and group chats. Repline gives agents and advisors one place to manage players, contracts, contacts, and career pipelines.
+            Stop managing your practice in spreadsheets and group chats. Repline gives hockey agents and advisors one place to manage players, contracts, contacts, and career pipelines &mdash; from bantam to the bigs.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
             <a
@@ -32,7 +32,7 @@ export default function Home() {
             </a>
           </div>
           <p className="mt-3 text-xs text-muted">
-            Free for 14 days. No credit card required.
+            Free 30-day trial. No credit card required.
           </p>
         </div>
       </section>
@@ -42,7 +42,7 @@ export default function Home() {
         <SectionHeader
           tag="Purpose-built"
           title="Built for hockey, not sales reps"
-          description="Generic CRMs don't understand player pipelines, draft eligibility, or contact cadence. Repline does."
+          description="Generic CRMs don't understand OHL import drafts, NCAA transfer windows, or CHL eligibility rules. Repline does."
         />
         <FeatureGrid
           features={[
@@ -54,15 +54,15 @@ export default function Home() {
             },
             {
               icon: "\u{1F514}",
-              title: "Contact cadence alerts",
+              title: "Never go cold on a family",
               description:
-                "Set a cadence for every player \u2014 weekly, monthly, quarterly. Repline tracks your last interaction and tells you when you're falling behind.",
+                "Set a contact cadence for every player \u2014 weekly, monthly, quarterly. Repline tracks your last call, text, or meeting and alerts you before relationships go cold.",
             },
             {
               icon: "\u{1F4F1}",
-              title: "Mobile-first",
+              title: "Works at the rink",
               description:
-                "Works on your phone at the rink, in the car, at the draft. Installable as an app. No downloads needed.",
+                "Pull up a player profile between periods. Log a conversation in the parking lot after a game. Installable on your phone \u2014 no app store needed.",
             },
           ]}
         />
@@ -85,9 +85,9 @@ export default function Home() {
             },
             {
               icon: "\u{1F4C5}",
-              title: "Calendar + deadlines",
+              title: "Trade deadlines to draft dates",
               description:
-                "League key dates, contract expirations, and custom deadlines \u2014 all auto-generated. Never miss a trade deadline again.",
+                "OHL, WHL, QMJHL, USHL, NCAA \u2014 league key dates auto-populate. Contract expirations generate alerts. Never miss a deadline again.",
             },
             {
               icon: "\u{1F4C4}",
@@ -133,7 +133,7 @@ export default function Home() {
       {/* CTA */}
       <CTASection
         title="Ready to run your practice like a business?"
-        description="Join agents and advisors who stopped dropping balls and started closing deals."
+        description="Join hockey agents and advisors who stopped losing track of players and started winning more families."
       />
     </>
   );

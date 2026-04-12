@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "How does the free trial work?",
-    a: "You get 14 days with up to 15 players and 3 users. No credit card required. At the end of the trial, you can upgrade to Pro or Agency, or continue on the Free plan with limited features.",
+    a: "You get 30 days with up to 15 players and 3 users. No credit card required. At the end of the trial, you can upgrade to Pro or Agency, or continue on the Free plan with limited features.",
   },
   {
     q: "Can I cancel anytime?",
@@ -73,7 +73,7 @@ export default function PricingPage() {
 
       <CTASection
         title="Start your free trial today"
-        description="15 players, 3 users, 14 days. No credit card required."
+        description="15 players, 3 users, 30 days. No credit card required."
       />
     </>
   );
