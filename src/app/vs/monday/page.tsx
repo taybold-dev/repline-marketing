@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Section, SectionHeader } from "@/components/section";
 import { ComparisonTable, PersonaQuote } from "@/components/comparison-table";
 import { CTASection } from "@/components/cta-section";
@@ -88,6 +89,21 @@ export default function VsMonday() {
           <p className="mt-4 text-lg text-muted max-w-2xl mx-auto">
             Monday.com is a solid project management tool. But hockey representation isn&apos;t project management &mdash; it&apos;s relationship management with compliance, scouting, and contract tracking layered on top.
           </p>
+        </div>
+      </section>
+
+      {/* Product screenshot */}
+      <section className="pb-8">
+        <div className="mx-auto max-w-4xl px-6">
+          <div className="rounded-xl border border-border/60 overflow-hidden shadow-lg">
+            <Image
+              src="/screenshots/tasks-board.png"
+              alt="Repline task management board — hockey-specific tasks like contract negotiations and compliance tracking, organized in a kanban view unlike generic Monday.com boards"
+              width={2880}
+              height={1800}
+              className="w-full h-auto"
+            />
+          </div>
         </div>
       </section>
 

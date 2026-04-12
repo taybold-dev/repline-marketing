@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Section, SectionHeader } from "@/components/section";
 import { ComparisonTable, PersonaQuote, CalloutBox } from "@/components/comparison-table";
 import { CTASection } from "@/components/cta-section";
@@ -97,6 +98,21 @@ export default function VsSalesforce() {
       </section>
 
       {/* Core problem */}
+      {/* Product screenshot */}
+      <section className="pb-8">
+        <div className="mx-auto max-w-4xl px-6">
+          <div className="rounded-xl border border-border/60 overflow-hidden shadow-lg">
+            <Image
+              src="/screenshots/dashboard.png"
+              alt="Repline dashboard — a simple, purpose-built hockey agent CRM that replaces Salesforce complexity with an intuitive overview of players, tasks, and contract deadlines"
+              width={2880}
+              height={1800}
+              className="w-full h-auto"
+            />
+          </div>
+        </div>
+      </section>
+
       <Section>
         <SectionHeader
           tag="The problem"

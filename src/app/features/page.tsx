@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Section, SectionHeader } from "@/components/section";
 import { FeatureGrid } from "@/components/feature-grid";
 import { CTASection } from "@/components/cta-section";
@@ -93,6 +94,26 @@ export default function FeaturesPage() {
             },
           ]}
         />
+        <div className="mt-12 grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+          <div className="rounded-xl border border-border/60 overflow-hidden shadow-lg">
+            <Image
+              src="/screenshots/players-list.png"
+              alt="Hockey agent career pipeline board view — players organized by playing level from U.S. Junior A through CHL, NCAA, and professional leagues"
+              width={2880}
+              height={1800}
+              className="w-full h-auto"
+            />
+          </div>
+          <div className="rounded-xl border border-border/60 overflow-hidden shadow-lg">
+            <Image
+              src="/screenshots/player-detail.png"
+              alt="Player profile page showing personal details, hockey position, current team, scouting notes, and contract information for a hockey client"
+              width={2880}
+              height={1800}
+              className="w-full h-auto"
+            />
+          </div>
+        </div>
       </Section>
 
       {/* Contracts + signatures */}
@@ -131,6 +152,17 @@ export default function FeaturesPage() {
             },
           ]}
         />
+        <div className="mt-12 mx-auto max-w-3xl">
+          <div className="rounded-xl border border-border/60 overflow-hidden shadow-lg">
+            <Image
+              src="/screenshots/player-contracts.png"
+              alt="Repline contract management showing a team contract with the Syracuse Crunch (AHL) and an advisory agreement — with start dates, expiry, value, and term details"
+              width={2880}
+              height={1800}
+              className="w-full h-auto"
+            />
+          </div>
+        </div>
       </Section>
 
       {/* For agencies */}
@@ -180,6 +212,26 @@ export default function FeaturesPage() {
             },
           ]}
         />
+        <div className="mt-12 grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+          <div className="rounded-xl border border-border/60 overflow-hidden shadow-lg">
+            <Image
+              src="/screenshots/tasks-board.png"
+              alt="Task management board for hockey agents — kanban view with To Do, In Progress, and Done columns showing tasks like contract negotiations and compliance follow-ups"
+              width={2880}
+              height={1800}
+              className="w-full h-auto"
+            />
+          </div>
+          <div className="rounded-xl border border-border/60 overflow-hidden shadow-lg">
+            <Image
+              src="/screenshots/contacts-list.png"
+              alt="Contact management list showing scouts, coaches, parents, and GMs with their team affiliations and contact details — organized for hockey agent relationship tracking"
+              width={2880}
+              height={1800}
+              className="w-full h-auto"
+            />
+          </div>
+        </div>
       </Section>
 
       {/* Integrations */}

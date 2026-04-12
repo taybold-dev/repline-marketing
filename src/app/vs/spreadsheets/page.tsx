@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Section, SectionHeader } from "@/components/section";
 import { ComparisonTable, PersonaQuote } from "@/components/comparison-table";
 import { CTASection } from "@/components/cta-section";
@@ -83,6 +84,21 @@ export default function VsSpreadsheets() {
           <p className="mt-4 text-lg text-muted max-w-2xl mx-auto">
             Spreadsheets were never designed to manage player rosters, family relationships, compliance deadlines, and agency operations. Here&apos;s what you&apos;re giving up.
           </p>
+        </div>
+      </section>
+
+      {/* Product screenshot */}
+      <section className="pb-8">
+        <div className="mx-auto max-w-4xl px-6">
+          <div className="rounded-xl border border-border/60 overflow-hidden shadow-lg">
+            <Image
+              src="/screenshots/players-list.png"
+              alt="Repline player pipeline board — a visual alternative to managing hockey rosters in spreadsheets, with players organized by playing level"
+              width={2880}
+              height={1800}
+              className="w-full h-auto"
+            />
+          </div>
         </div>
       </section>
 

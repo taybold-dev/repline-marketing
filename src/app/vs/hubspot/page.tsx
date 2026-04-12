@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Section, SectionHeader } from "@/components/section";
 import { ComparisonTable, PersonaQuote, CalloutBox } from "@/components/comparison-table";
 import { CTASection } from "@/components/cta-section";
@@ -93,6 +94,21 @@ export default function VsHubspot() {
           <p className="mt-4 text-lg text-muted max-w-2xl mx-auto">
             HubSpot is built for sales teams selling software. Repline is built for agents representing players. The difference shows up in every feature.
           </p>
+        </div>
+      </section>
+
+      {/* Product screenshot */}
+      <section className="pb-8">
+        <div className="mx-auto max-w-4xl px-6">
+          <div className="rounded-xl border border-border/60 overflow-hidden shadow-lg">
+            <Image
+              src="/screenshots/players-list.png"
+              alt="Repline hockey-native pipeline board — unlike HubSpot's generic sales pipeline, players are organized by playing level with hockey-specific stages"
+              width={2880}
+              height={1800}
+              className="w-full h-auto"
+            />
+          </div>
         </div>
       </section>
 

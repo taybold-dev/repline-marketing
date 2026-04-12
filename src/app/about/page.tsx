@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Section } from "@/components/section";
 import { CTASection } from "@/components/cta-section";
 import { Breadcrumbs } from "@/components/breadcrumbs";
@@ -45,6 +46,16 @@ export default function AboutPage() {
           <p>
             So we built Repline &mdash; a purpose-built operating system for player representation. Not a generic CRM with a sports skin. Not a project management tool with hockey vocabulary pasted on top. A platform designed from the ground up for the way agents and advisors actually work.
           </p>
+
+          <div className="rounded-xl border border-border/60 overflow-hidden shadow-lg">
+            <Image
+              src="/screenshots/dashboard.png"
+              alt="Repline CRM dashboard — a purpose-built operating system for hockey player representation showing roster overview, cadence health, and upcoming actions"
+              width={2880}
+              height={1800}
+              className="w-full h-auto"
+            />
+          </div>
 
           <h2 className="text-xl font-semibold text-foreground pt-4">
             Why hockey first

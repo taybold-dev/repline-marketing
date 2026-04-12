@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Section, SectionHeader } from "@/components/section";
 import { FeatureGrid } from "@/components/feature-grid";
@@ -60,6 +61,22 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Hero screenshot */}
+      <section className="pb-16 md:pb-24">
+        <div className="mx-auto max-w-5xl px-6">
+          <div className="rounded-xl border border-border/60 overflow-hidden shadow-2xl">
+            <Image
+              src="/screenshots/dashboard.png"
+              alt="Repline hockey agent CRM dashboard showing 18 players, 12 contacts, open tasks, cadence health tracking, and upcoming contract actions"
+              width={2880}
+              height={1800}
+              priority
+              className="w-full h-auto"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Built for hockey */}
       <Section className="bg-muted-bg">
         <SectionHeader
@@ -89,6 +106,18 @@ export default function Home() {
             },
           ]}
         />
+
+        <div className="mt-12 mx-auto max-w-4xl">
+          <div className="rounded-xl border border-border/60 overflow-hidden shadow-lg">
+            <Image
+              src="/screenshots/players-list.png"
+              alt="Hockey agent player pipeline board with columns for U.S. Junior A, CHL Major Junior, NCAA, and ECHL — showing players organized by playing level"
+              width={2880}
+              height={1800}
+              className="w-full h-auto"
+            />
+          </div>
+        </div>
         <div className="mt-8 text-center">
           <Link href="/features" className="text-sm font-medium text-muted hover:text-foreground transition-colors underline underline-offset-4">
             See all features &rarr;
@@ -125,6 +154,17 @@ export default function Home() {
             },
           ]}
         />
+        <div className="mt-12 mx-auto max-w-4xl">
+          <div className="rounded-xl border border-border/60 overflow-hidden shadow-lg">
+            <Image
+              src="/screenshots/player-detail.png"
+              alt="Repline player profile for a hockey client showing personal info, position, playing level, current team, and scouting blurb"
+              width={2880}
+              height={1800}
+              className="w-full h-auto"
+            />
+          </div>
+        </div>
       </Section>
 
       {/* For agencies that grow */}
