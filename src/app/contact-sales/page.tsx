@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Section } from "@/components/section";
 import { defaultOgImage } from "@/lib/seo";
+import { WebPageSchema } from "@/components/schema-org";
 
 export const metadata: Metadata = {
   title: "Talk to Us | Hockey Agent CRM Demo — Repline",
@@ -20,6 +21,12 @@ export const metadata: Metadata = {
 export default function ContactSalesPage() {
   return (
     <>
+      <WebPageSchema
+        type="ContactPage"
+        name="Talk to Us — Repline"
+        description="Book a call with the Repline team."
+        url="https://www.repline.io/contact-sales"
+      />
       <section className="pt-20 pb-4 md:pt-28">
         <div className="mx-auto max-w-6xl px-6 text-center">
           <span className="inline-block mb-4 text-xs font-semibold tracking-widest uppercase text-muted">

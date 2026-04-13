@@ -27,12 +27,12 @@ This checklist walks through what needs to happen at each stage, from 12 months 
 
 ### Eligibility Verification
 - Confirm draft eligibility for each relevant league:
-  - **NHL:** Birth year requirements (players born by September 15 of the draft year minus 18)
-  - **OHL Priority Selection:** Players aged 15 by December 31 of the draft year
-  - **WHL Bantam Draft:** Players aged 14 by December 31 of the draft year
-  - **QMJHL Entry Draft:** Players aged 15-17
-  - **USHL Phase I:** Players aged 15-16 in the draft year
-- Cross-check eligibility with NCAA requirements if the player is pursuing a dual pathway
+  - **[NHL](https://www.nhl.com/info/nhl-entry-draft-faq):** Birth year requirements (players born by September 15 of the draft year minus 18)
+  - **[OHL](https://ontariohockeyleague.com/) Priority Selection:** Players aged 15 by December 31 of the draft year
+  - **[WHL](https://whl.ca/) Bantam Draft:** Players aged 14 by December 31 of the draft year
+  - **[QMJHL](https://theqmjhl.ca/) Entry Draft:** Players aged 15-17
+  - **[USHL](https://www.ushl.com/) Phase I:** Players aged 15-16 in the draft year
+- Cross-check eligibility with [NCAA requirements](https://www.ncaa.org/sports/2013/11/27/eligibility-and-recruiting.aspx) if the player is pursuing a dual pathway
 - Document all eligibility dates and file them in the player's profile
 
 ### Family Communication
@@ -150,5 +150,9 @@ Draft season amplifies every operational challenge in your practice. You're mana
 The agents who navigate it smoothly are the ones with systems — not the ones relying on memory and text threads.
 
 [Repline](https://www.repline.io) tracks every player's eligibility dates, every team interaction, every family communication, and every compliance deadline in one place. When a scout calls about a prospect at 9 PM on draft night, you can pull up everything you need on your phone.
+
+![Repline calendar showing league key dates — AHL season end, NCAA transfer portal, NHL draft, and UFA free agency deadlines](/screenshots/calendar.png)
+
+![Repline player profile showing personal details, position, playing level, scouting blurb, and contract information](/screenshots/player-detail.png)
 
 See how it works for [player management](/features) or [start a free trial](https://app.repline.io/auth/sign-up).

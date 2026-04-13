@@ -4,6 +4,7 @@ import { Section } from "@/components/section";
 import { CTASection } from "@/components/cta-section";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { defaultOgImage } from "@/lib/seo";
+import { WebPageSchema } from "@/components/schema-org";
 
 export const metadata: Metadata = {
   title: "About Repline | Built for Hockey Agents and Advisors",
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
+      <WebPageSchema
+        type="AboutPage"
+        name="About Repline"
+        description="Repline is purpose-built CRM software for hockey player representation."
+        url="https://www.repline.io/about"
+      />
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "About" }]} />
       <section className="pt-12 pb-4 md:pt-16">
         <div className="mx-auto max-w-6xl px-6 text-center">

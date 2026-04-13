@@ -130,14 +130,18 @@ Spreadsheets work for tracking one player's offers. They fall apart when you're 
 
 This is where purpose-built tools make a measurable difference. [Repline](https://www.repline.io) tracks every contract — team deals and advisory agreements — with start dates, expiry dates, value, and status. When a GM calls, you pull up the player's full picture on your phone in seconds.
 
+![Repline contract management showing a team contract and advisory agreement with start dates, expiry, value, and term details](/screenshots/player-contracts.png)
+
+![Repline task management board with kanban columns showing contract negotiation tasks, compliance follow-ups, and player communication](/screenshots/tasks-board.png)
+
 ## Comparable Contract Research
 
 Building a case for your player's value requires data. You need to know what similar players signed for — same position, similar age, comparable statistics, equivalent league.
 
 Sources for comparable contract data:
-- **CapFriendly** (NHL/AHL contracts)
-- **PuckPedia** (contract details and cap analysis)
-- **Elite Prospects** (player statistics across leagues)
+- **[CapFriendly](https://www.capfriendly.com/)** (NHL/AHL contracts)
+- **[PuckPedia](https://puckpedia.com/)** (contract details and cap analysis)
+- **[Elite Prospects](https://www.eliteprospects.com/)** (player statistics across leagues)
 - **League transaction reports** (AHL, ECHL official announcements)
 - **Your own network** (other agents will share general market intelligence)
 

@@ -102,8 +102,6 @@ export default async function BlogPost({ params }: Props) {
               </time>
               <span>&middot;</span>
               <span>{post.readingTime}</span>
-              <span>&middot;</span>
-              <span>By Repline Team</span>
             </div>
             <h1 className="text-3xl md:text-4xl font-bold tracking-tight leading-tight">
               {post.title}
@@ -143,20 +141,44 @@ export default async function BlogPost({ params }: Props) {
             {/* Post content */}
             <div
               className="prose prose-neutral max-w-none flex-1
-                prose-headings:font-semibold prose-headings:tracking-tight
-                prose-h2:text-xl prose-h2:mt-10 prose-h2:mb-4
+                prose-headings:font-semibold prose-headings:tracking-tight prose-headings:text-[var(--color-foreground)]
+                prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4 prose-h2:pt-8 prose-h2:border-t prose-h2:border-[var(--color-border)]
                 prose-h3:text-lg prose-h3:mt-8 prose-h3:mb-3
-                prose-p:text-sm prose-p:leading-relaxed prose-p:text-[var(--color-muted)]
-                prose-li:text-sm prose-li:text-[var(--color-muted)]
-                prose-strong:text-[var(--color-foreground)]
-                prose-a:text-[var(--color-foreground)] prose-a:underline prose-a:underline-offset-4
-                prose-table:text-sm prose-th:text-left prose-th:px-3 prose-th:py-2
-                prose-td:px-3 prose-td:py-2 prose-tr:border-b prose-tr:border-[var(--color-border)]"
+                prose-p:text-base prose-p:leading-relaxed prose-p:text-[var(--color-muted)] prose-p:mb-4
+                prose-li:text-base prose-li:text-[var(--color-muted)] prose-li:leading-relaxed
+                prose-ul:my-4 prose-ol:my-4
+                prose-strong:text-[var(--color-foreground)] prose-strong:font-semibold
+                prose-a:text-[var(--color-accent)] prose-a:underline prose-a:underline-offset-4 hover:prose-a:text-[var(--color-foreground)]
+                prose-blockquote:border-l-4 prose-blockquote:border-[var(--color-accent)] prose-blockquote:pl-4 prose-blockquote:italic prose-blockquote:text-[var(--color-muted)]
+                prose-table:text-sm prose-th:text-left prose-th:px-3 prose-th:py-2 prose-th:font-semibold prose-th:text-[var(--color-foreground)] prose-th:bg-[var(--color-muted-bg)]
+                prose-td:px-3 prose-td:py-2 prose-tr:border-b prose-tr:border-[var(--color-border)]
+                prose-img:rounded-xl prose-img:border prose-img:border-[var(--color-border)] prose-img:shadow-lg
+                first:prose-h2:border-t-0 first:prose-h2:pt-0"
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
           </div>
         </div>
       </article>
+
+      {/* Author bio */}
+      <section className="py-8">
+        <div className="mx-auto max-w-4xl px-6">
+          <div className="flex items-start gap-4 rounded-lg border border-border/60 p-5">
+            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-lg">
+              R
+            </div>
+            <div>
+              <p className="text-sm font-semibold">Repline Team</p>
+              <p className="text-xs text-muted mt-1 leading-relaxed">
+                Built by people who understand the hockey agent and advisor workflow.
+                Repline is purpose-built CRM software for player representation &mdash;
+                designed in partnership with working agents across the OHL, WHL, QMJHL,
+                NCAA, AHL, and NHL.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <CTASection
         title="Ready to manage your practice like a pro?"

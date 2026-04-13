@@ -32,10 +32,10 @@ The most common way hockey agents lose families is silence. You get busy with co
 Spreadsheets don't remind you to call anyone. A purpose-built hockey agent CRM tracks your last interaction with every player and every contact, and alerts you when you're falling behind on your cadence — weekly, biweekly, monthly, or quarterly.
 
 ### Compliance and deadline alerts
-Hockey has unique compliance requirements:
-- NCAA eligibility windows for CHL players
+Hockey has unique compliance requirements that generic tools can't track:
+- [NCAA eligibility](https://www.ncaa.org/sports/2013/11/27/eligibility-and-recruiting.aspx) windows for CHL players
 - CHL import draft registration deadlines
-- Contract filing deadlines with leagues
+- Contract filing deadlines with [NHLPA](https://www.nhlpa.com/) and league offices
 - Player agreement expiration dates
 - Transfer and waiver period windows
 
@@ -69,17 +69,23 @@ Full player records with hockey-specific fields: position, handedness, playing l
 ### A pipeline that matches your workflow
 Pipeline stages that reflect how representation actually works: Prospect, Interested, Meeting Scheduled, Committed, Draft Eligible, Signed, Active. No configuration needed. Drag and drop players between stages.
 
+![Repline player pipeline board showing hockey players organized by playing level — from U.S. Junior A through CHL, NCAA, and professional leagues](/screenshots/players-list.png)
+
 ### Contact cadence that prevents going cold
 Set a cadence for every player: call this family weekly, check in with that parent monthly. The system tracks your last interaction (call, text, email, in-person meeting) and alerts you before you fall behind. The number one way to lose a family is silence — a CRM makes sure it doesn't happen.
 
 ### Contract tracking with dates that matter
 Team contracts and advisory agreements tracked separately, with start dates, expiry dates, value, and status. Auto-calculated expirations generate alerts. E-signatures for advisory agreements sent directly from the contract tab.
 
+![Repline contract management view showing an AHL team contract and advisory agreement with start dates, expiry, value, and term details](/screenshots/player-contracts.png)
+
 ### Compliance that's built in
 League key dates for the OHL, WHL, QMJHL, USHL, NCAA, AHL, and NHL auto-populate in your calendar. Contract expirations generate alerts. Eligibility windows are tracked per player. No more hoping someone remembers to check column M.
 
 ### Agency oversight for growing practices
 When you add a second advisor, you need visibility. A CRM built for hockey agencies gives the owner a bird's-eye view: which reps are active, which players need attention, which families haven't been contacted. Per-advisor rollups show you exactly where your business stands.
+
+![Repline dashboard showing player count, contacts, open tasks, cadence health, and upcoming contract actions for a hockey agency](/screenshots/dashboard.png)
 
 ### Mobile-first design
 A CRM that works at the rink isn't a nice-to-have — it's a requirement. Pull up player profiles, log interactions, check contract status, and review your task list from your phone. No app store download required — just a browser.

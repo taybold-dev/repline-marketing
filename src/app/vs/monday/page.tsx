@@ -118,7 +118,7 @@ export default function VsMonday() {
         <div className="max-w-3xl mx-auto space-y-4">
           {[
             { title: "No hockey-native pipeline", desc: "You'll spend hours configuring boards, statuses, and automations to approximate what Repline gives you out of the box. And you'll still be missing league-specific stages." },
-            { title: "No league calendar integration", desc: "OHL trade deadlines, NCAA transfer windows, CHL import draft dates — you'd need to manually add and maintain every date." },
+            { title: "No league calendar integration", desc: "[OHL](https://ontariohockeyleague.com/) trade deadlines, [NCAA](https://www.ncaa.org/) transfer windows, CHL import draft dates — you'd need to manually add and maintain every date." },
             { title: "No scouting reports", desc: "Monday.com can't generate a branded PDF player report. You'd need to export data and build it in another tool." },
             { title: "No compliance tracking", desc: "Eligibility windows and contract deadlines need purpose-built alerting, not generic due date reminders." },
           ].map((pain) => (

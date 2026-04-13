@@ -13,9 +13,9 @@ keywords:
 excerpt: "The November 2024 NCAA Division I Council vote changed everything for CHL players pursuing NCAA hockey. Here's what agents, advisors, and families need to know about the new eligibility landscape."
 ---
 
-The relationship between the Canadian Hockey League and NCAA hockey changed fundamentally in November 2024. For decades, playing in the CHL — the OHL, WHL, or QMJHL — meant forfeiting your NCAA eligibility. That's no longer the case.
+The relationship between the [Canadian Hockey League (CHL)](https://chl.ca/) and [NCAA](https://www.ncaa.org/) hockey changed fundamentally in November 2024. For decades, playing in the CHL — the [OHL](https://ontariohockeyleague.com/), [WHL](https://whl.ca/), or [QMJHL](https://theqmjhl.ca/) — meant forfeiting your NCAA eligibility. That's no longer the case.
 
-The NCAA Division I Council voted to allow CHL players to retain their NCAA eligibility under specific conditions. This is the most significant rule change in junior hockey pathways in a generation, and it has massive implications for agents, advisors, and families navigating player development.
+The [NCAA Division I Council](https://www.ncaa.org/sports/2013/11/27/eligibility-and-recruiting.aspx) voted to allow CHL players to retain their NCAA eligibility under specific conditions. This is the most significant rule change in junior hockey pathways in a generation, and it has massive implications for agents, advisors, and families navigating player development.
 
 This guide breaks down everything you need to know.
 

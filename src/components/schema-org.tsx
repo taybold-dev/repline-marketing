@@ -109,6 +109,38 @@ export function SoftwareApplicationSchema() {
   );
 }
 
+export function WebPageSchema({
+  type = "WebPage",
+  name,
+  description,
+  url,
+}: {
+  type?: "WebPage" | "AboutPage" | "ContactPage" | "CollectionPage";
+  name: string;
+  description: string;
+  url: string;
+}) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": type,
+    name,
+    description,
+    url,
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Repline",
+      url: "https://www.repline.io",
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
 export function FAQPageSchema({
   faqs,
 }: {

@@ -212,6 +212,33 @@ export default function Home() {
         </div>
       </Section>
 
+      {/* What you replace */}
+      <Section>
+        <SectionHeader
+          tag="Stop juggling tools"
+          title="Replace what isn&apos;t working"
+          description="Repline consolidates your roster, contacts, contracts, tasks, and compliance tracking into one platform designed for hockey representation."
+        />
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
+          {[
+            { tool: "Spreadsheets", problem: "Version conflicts, no alerts, unusable on mobile", href: "/vs/spreadsheets" },
+            { tool: "Monday.com", problem: "Generic project boards with no hockey context", href: "/vs/monday" },
+            { tool: "HubSpot", problem: "Sales pipelines that don\u2019t fit player representation", href: "/vs/hubspot" },
+            { tool: "Salesforce", problem: "Too expensive and too complex for a 3-person agency", href: "/vs/salesforce" },
+          ].map(({ tool, problem, href }) => (
+            <Link
+              key={tool}
+              href={href}
+              className="rounded-lg border border-border/60 p-4 hover:bg-muted-bg transition-colors group"
+            >
+              <h3 className="text-sm font-semibold mb-1 group-hover:text-accent transition-colors">{tool}</h3>
+              <p className="text-xs text-muted leading-relaxed">{problem}</p>
+              <span className="text-xs text-muted mt-2 block group-hover:text-foreground transition-colors">See comparison &rarr;</span>
+            </Link>
+          ))}
+        </div>
+      </Section>
+
       {/* CTA */}
       <CTASection
         title="Ready to run your practice like a business?"

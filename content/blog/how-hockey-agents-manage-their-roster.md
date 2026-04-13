@@ -20,6 +20,8 @@ This guide walks through the actual day-to-day workflow of running a hockey repr
 
 Every hockey agent manages a pipeline of players at different stages of development and representation:
 
+![Repline player pipeline board showing hockey players organized by playing level — from U.S. Junior A through CHL, NCAA, and professional leagues](/screenshots/players-list.png)
+
 ### Prospects
 Players you're tracking but haven't signed. These are typically 14-17 year olds in minor hockey, the USHL, or early in their CHL careers. You're attending their games, meeting their families, and building relationships long before any formal agreement.
 
@@ -85,9 +87,9 @@ Agents who track this manually eventually drop the ball. It's not a question of 
 ### Compliance Blind Spots
 Hockey has unique compliance requirements that generic tools don't understand:
 
-- **NCAA eligibility windows:** CHL players pursuing NCAA options have specific compliance deadlines
-- **CHL import draft rules:** International players face different eligibility timelines
-- **Contract filing deadlines:** League-specific deadlines for player agreements
+- **[NCAA eligibility](https://www.ncaa.org/sports/2013/11/27/eligibility-and-recruiting.aspx) windows:** CHL players pursuing NCAA options have specific compliance deadlines
+- **CHL import draft rules:** International players face different eligibility timelines per the [OHL](https://ontariohockeyleague.com/), [WHL](https://whl.ca/), and [QMJHL](https://theqmjhl.ca/)
+- **Contract filing deadlines:** League-specific deadlines for player agreements with the [NHLPA](https://www.nhlpa.com/) and league offices
 - **Transfer and waiver periods:** Missing a deadline can cost a player an entire season
 
 These aren't reminders you can set and forget. They're evolving rules that require purpose-built tracking.
@@ -95,6 +97,8 @@ These aren't reminders you can set and forget. They're evolving rules that requi
 ## How Agents Organize Their Contacts
 
 A hockey agent's network is the foundation of their business. Every player comes with a constellation of relationships:
+
+![Repline contact management list showing scouts, coaches, parents, and GMs with team affiliations — organized for hockey agent relationship tracking](/screenshots/contacts-list.png)
 
 - **Parents / Family:** The primary decision-makers for junior-age players
 - **Billets:** Host families for players away from home

@@ -11,13 +11,13 @@ keywords:
 excerpt: "Becoming an NHLPA certified agent is the first step to representing NHL players. Here's everything you need to know about the certification process, from eligibility to your first client."
 ---
 
-If you want to represent NHL players, you need to be certified by the National Hockey League Players' Association. There's no shortcut. Unlike some sports where advisors can operate in a gray area, the NHLPA requires formal certification before you can negotiate contracts on behalf of players.
+If you want to represent NHL players, you need to be certified by the [National Hockey League Players' Association (NHLPA)](https://www.nhlpa.com/). There's no shortcut. Unlike some sports where advisors can operate in a gray area, the NHLPA requires formal certification before you can negotiate contracts on behalf of players.
 
 This guide covers the full process — who's eligible, what the application involves, how to prepare for the exam, and what your first year as a certified agent actually looks like.
 
 ## What Is an NHLPA Certified Agent?
 
-An NHLPA certified agent is a person authorized by the National Hockey League Players' Association to represent players in contract negotiations with NHL teams. Certification is governed by the NHLPA's Regulations Governing Player Agents.
+An NHLPA certified agent is a person authorized by the [National Hockey League Players' Association](https://www.nhlpa.com/) to represent players in contract negotiations with NHL teams. Certification is governed by the NHLPA's [Regulations Governing Player Agents](https://www.nhlpa.com/the-pa/agent-certification).
 
 Without certification, you cannot negotiate, or even purport to negotiate, an NHL Standard Player Contract. You also cannot recruit players by holding yourself out as an agent who can handle NHL contract matters.
 
@@ -110,6 +110,8 @@ Many professionals start as advisors — guiding players through junior hockey, 
 Managing your first clients with spreadsheets and text threads works temporarily. But as your roster grows, you'll need systems for tracking player profiles, contract deadlines, compliance dates, family communications, and career timelines.
 
 Purpose-built hockey agent CRM software like [Repline](https://www.repline.io) is designed for exactly this workflow — player pipelines, contact cadence tracking, scouting reports, and agency oversight in one platform. Most agents find they need dedicated tools within their first year of active practice.
+
+![Repline dashboard showing player count, contacts, open tasks, cadence health, and upcoming actions for a hockey agency](/screenshots/dashboard.png)
 
 ## Key Takeaways
 
