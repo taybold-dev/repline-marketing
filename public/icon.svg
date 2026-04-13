@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#0a0a0a"/>
+  <!-- R letterform — clean geometric sans-serif -->
+  <path d="
+    M 160 112
+    L 160 400
+    L 200 400
+    L 200 288
+    L 280 288
+    L 340 400
+    L 386 400
+    L 322 282
+    C 358 268 380 238 380 200
+    C 380 148 340 112 280 112
+    Z
+    M 200 152
+    L 274 152
+    C 316 152 340 172 340 200
+    C 340 228 316 248 274 248
+    L 200 248
+    Z
+  " fill="#fafafa"/>
+  <!-- Subtle accent line under the R -->
+  <rect x="160" y="416" width="226" height="4" rx="2" fill="#2563eb"/>
+</svg>
