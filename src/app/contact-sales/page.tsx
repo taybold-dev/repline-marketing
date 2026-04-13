@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Section } from "@/components/section";
-import { defaultOgImage } from "@/lib/seo";
+import { ogImage } from "@/lib/seo";
 import { WebPageSchema } from "@/components/schema-org";
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Book a call with the Repline team. Solo reps, agencies, and enterprise — we'd love to chat.",
     url: "https://www.repline.io/contact-sales",
-    images: [defaultOgImage],
+    images: [ogImage({ title: "Talk to Us", subtitle: "Book a 30-minute walkthrough with the Repline team", tag: "Hockey Agent CRM Demo" })],
   },
 };
 

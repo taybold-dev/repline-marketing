@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getPostBySlug, getAllSlugs } from "@/lib/blog";
-import { defaultOgImage } from "@/lib/seo";
+import { ogImage, defaultOgImage } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { CTASection } from "@/components/cta-section";
 
@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: `https://www.repline.io/blog/${slug}`,
       publishedTime: post.date,
       authors: ["Repline Team"],
-      images: [post.ogImage ?? defaultOgImage],
+      images: [post.ogImage ?? ogImage({ title: post.title, subtitle: post.description, tag: "Repline Blog" })],
     },
     twitter: {
       card: "summary_large_image",

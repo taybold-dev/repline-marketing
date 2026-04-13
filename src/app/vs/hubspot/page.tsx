@@ -6,7 +6,7 @@ import { ComparisonTable, PersonaQuote, CalloutBox } from "@/components/comparis
 import { CTASection } from "@/components/cta-section";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { VsCrossLinks } from "@/components/vs-cross-links";
-import { defaultOgImage } from "@/lib/seo";
+import { ogImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Repline vs. HubSpot for Hockey Agents — Why Generic CRMs Don't Work",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description:
       "HubSpot wasn't built for hockey agents. Compare pipeline stages, player management, scouting reports, and agency oversight.",
     url: "https://www.repline.io/vs/hubspot",
-    images: [defaultOgImage],
+    images: [ogImage({ title: "Repline vs. HubSpot", subtitle: "HubSpot speaks sales. Repline speaks hockey.", tag: "Comparison" })],
   },
 };
 

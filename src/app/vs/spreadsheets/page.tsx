@@ -6,7 +6,7 @@ import { ComparisonTable, PersonaQuote } from "@/components/comparison-table";
 import { CTASection } from "@/components/cta-section";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { VsCrossLinks } from "@/components/vs-cross-links";
-import { defaultOgImage } from "@/lib/seo";
+import { ogImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Repline vs. Spreadsheets for Hockey Agents",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description:
       "Stop managing your hockey practice in spreadsheets. See why hockey agents switch from Excel to Repline.",
     url: "https://www.repline.io/vs/spreadsheets",
-    images: [defaultOgImage],
+    images: [ogImage({ title: "Repline vs. Spreadsheets", subtitle: "Stop managing your hockey practice in Excel", tag: "Comparison" })],
   },
 };
 

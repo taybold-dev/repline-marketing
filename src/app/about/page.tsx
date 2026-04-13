@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Section } from "@/components/section";
 import { CTASection } from "@/components/cta-section";
 import { Breadcrumbs } from "@/components/breadcrumbs";
-import { defaultOgImage } from "@/lib/seo";
+import { ogImage } from "@/lib/seo";
 import { WebPageSchema } from "@/components/schema-org";
 
 export const metadata: Metadata = {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description:
       "Repline is purpose-built CRM software for hockey player representation — by people who understand the agent and advisor workflow.",
     url: "https://www.repline.io/about",
-    images: [defaultOgImage],
+    images: [ogImage({ title: "About Repline", subtitle: "Purpose-built CRM software for hockey player representation", tag: "Our Story" })],
   },
 };
 
