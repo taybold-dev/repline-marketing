@@ -32,6 +32,23 @@ const tiers: Tier[] = [
     ],
     cta: "Start free trial",
     href: "https://app.repline.io/auth/sign-up?plan=pro",
+  },
+  {
+    name: "Team",
+    monthlyPrice: 249,
+    annualPrice: 212,
+    description: "For small agencies with 2\u20135 advisors.",
+    features: [
+      "75 players",
+      "5 users",
+      "5 GB document storage",
+      "Everything in Pro",
+      "Multi-rep assignment",
+      "Visibility controls",
+      "Priority support",
+    ],
+    cta: "Start free trial",
+    href: "https://app.repline.io/auth/sign-up?plan=team",
     highlighted: true,
     badge: "Most popular",
   },
@@ -39,16 +56,15 @@ const tiers: Tier[] = [
     name: "Agency",
     monthlyPrice: 695,
     annualPrice: 583,
-    description: "For multi-advisor agencies scaling up.",
+    description: "For large advisory firms scaling up.",
     features: [
       "200 players",
       "15 users",
       "10 GB document storage",
-      "Everything in Pro",
-      "Multi-rep assignment",
+      "Everything in Team",
       "Owner oversight dashboard",
       "Advisor rollups",
-      "Visibility controls",
+      "Advanced analytics",
     ],
     cta: "Start free trial",
     href: "https://app.repline.io/auth/sign-up?plan=agency",
@@ -57,7 +73,7 @@ const tiers: Tier[] = [
     name: "Enterprise",
     monthlyPrice: null,
     annualPrice: null,
-    description: "For large agencies with custom needs.",
+    description: "For organizations with custom needs.",
     features: [
       "Unlimited players",
       "Unlimited users",
@@ -108,7 +124,7 @@ export function PricingCards() {
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {tiers.map((tier) => {
             const price = annual ? tier.annualPrice : tier.monthlyPrice;
             return (

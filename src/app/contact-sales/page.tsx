@@ -77,10 +77,13 @@ export default function ContactSalesPage() {
               <h2 className="text-lg font-semibold mb-3">Plans for every practice</h2>
               <ul className="space-y-2 text-sm text-muted">
                 <li>
-                  <span className="text-foreground font-medium">Pro</span> &mdash; $75/mo for solo advisors (up to 50 players)
+                  <span className="text-foreground font-medium">Pro</span> &mdash; $75/mo for solo advisors (up to 30 players)
                 </li>
                 <li>
-                  <span className="text-foreground font-medium">Agency</span> &mdash; $695/mo for multi-user agencies (unlimited players)
+                  <span className="text-foreground font-medium">Team</span> &mdash; $249/mo for small agencies (75 players, 5 users)
+                </li>
+                <li>
+                  <span className="text-foreground font-medium">Agency</span> &mdash; $695/mo for large agencies (200 players, 15 users)
                 </li>
                 <li>
                   <span className="text-foreground font-medium">Free trial</span> &mdash; 30 days, no credit card required

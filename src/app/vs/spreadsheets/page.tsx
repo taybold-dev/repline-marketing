@@ -207,7 +207,7 @@ export default function VsSpreadsheets() {
           <div className="rounded-lg border border-border/60 p-4">
             <h3 className="font-semibold mb-1">Pricing comparison</h3>
             <p className="text-sm text-muted leading-relaxed">
-              Spreadsheets are &ldquo;free&rdquo; &mdash; but the hidden cost is your time. Repline Pro starts at <strong>$75/month</strong> for solo advisors (up to 50 players). Agency plans are <strong>$695/month</strong> for up to 15 users with unlimited players. Both include a free 30-day trial.
+              Spreadsheets are &ldquo;free&rdquo; &mdash; but the hidden cost is your time. Repline Pro starts at <strong>$75/month</strong> for solo advisors (up to 30 players). Team is <strong>$249/month</strong> for small agencies (up to 5 users). Agency is <strong>$695/month</strong> for up to 15 users. All plans include a free 30-day trial.
             </p>
           </div>
         </div>

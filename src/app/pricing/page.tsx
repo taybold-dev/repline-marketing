@@ -9,15 +9,15 @@ import { ogImage } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Pricing | Hockey Agent & Advisor CRM — Repline",
   description:
-    "Simple pricing for solo reps and agencies. Start free for 30 days. Plans from $75/mo for advisors to $695/mo for agencies.",
+    "Simple pricing for solo reps and agencies. Start free for 30 days. Plans from $75/mo for solo advisors to $695/mo for large agencies.",
   alternates: { canonical: "/pricing" },
   openGraph: {
     type: "website",
     title: "Pricing | Hockey Agent & Advisor CRM — Repline",
     description:
-      "Simple pricing for solo reps and agencies. Start free for 30 days. Plans from $75/mo for advisors to $695/mo for agencies.",
+      "Simple pricing for solo reps and agencies. Start free for 30 days. Plans from $75/mo for solo advisors to $695/mo for large agencies.",
     url: "https://www.repline.io/pricing",
-    images: [ogImage({ title: "Pricing", subtitle: "Pro $75/mo for solo reps. Agency $695/mo for teams. Free 30-day trial.", tag: "Repline" })],
+    images: [ogImage({ title: "Pricing", subtitle: "Pro $75/mo · Team $249/mo · Agency $695/mo. Free 30-day trial.", tag: "Repline" })],
   },
 };
 

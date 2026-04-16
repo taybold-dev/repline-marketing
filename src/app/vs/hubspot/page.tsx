@@ -72,7 +72,7 @@ const rows = [
   {
     feature: "Pricing",
     competitor: "Free tier limited, paid from $20/seat/mo \u2014 scales fast with add-ons",
-    repline: "Pro $75/mo (1 user), Agency $695/mo (15 users) \u2014 simple flat pricing",
+    repline: "Pro $75/mo (1 user), Team $249/mo (5 users), Agency $695/mo (15 users)",
   },
 ];
 
@@ -205,7 +205,7 @@ export default function VsHubspot() {
           <div className="rounded-lg border border-border/60 p-4">
             <h3 className="font-semibold mb-1">Pricing comparison</h3>
             <p className="text-sm text-muted leading-relaxed">
-              HubSpot&apos;s free CRM is limited (no automation, basic reporting). Starter is <strong>$20/seat/month</strong>. Professional jumps to <strong>$100/seat/month</strong> with required onboarding fees. A 5-person hockey agency on Professional costs over <strong>$500/month</strong> plus a one-time <strong>$1,500 onboarding fee</strong>. Repline Agency is <strong>$695/month flat</strong> for up to 15 users, no onboarding fee, every feature included.
+              HubSpot&apos;s free CRM is limited (no automation, basic reporting). Starter is <strong>$20/seat/month</strong>. Professional jumps to <strong>$100/seat/month</strong> with required onboarding fees. A 5-person hockey agency on Professional costs over <strong>$500/month</strong> plus a one-time <strong>$1,500 onboarding fee</strong>. Repline Team is <strong>$249/month</strong> for up to 5 users, Agency is <strong>$695/month flat</strong> for up to 15 users &mdash; no onboarding fee, every feature included.
             </p>
           </div>
         </div>
