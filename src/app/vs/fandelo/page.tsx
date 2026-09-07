@@ -8,17 +8,17 @@ import { VsCrossLinks } from "@/components/vs-cross-links";
 import { ogImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Repline vs. Dandelion for Hockey Agencies",
+  title: "Repline vs. Fandelo for Hockey Agencies",
   description:
-    "Comparing Dandelion to Repline for hockey agent CRM: dynamic e-signature fields, role-based signers, one-click PDF scouting profiles, and a clean, uncluttered interface.",
-  alternates: { canonical: "/vs/dandelion" },
+    "Comparing Fandelo to Repline for hockey agent CRM: dynamic e-signature fields, role-based signers, one-click PDF scouting profiles, and a clean, uncluttered interface.",
+  alternates: { canonical: "/vs/fandelo" },
   openGraph: {
     type: "website",
-    title: "Repline vs. Dandelion for Hockey Agencies",
+    title: "Repline vs. Fandelo for Hockey Agencies",
     description:
-      "Dynamic document fields, role-based signatures, one-click PDF scouting profiles, and a clean interface — see how Repline compares to Dandelion.",
-    url: "https://www.repline.io/vs/dandelion",
-    images: [ogImage({ title: "Repline vs. Dandelion", subtitle: "Built for how hockey agents actually work", tag: "Comparison" })],
+      "Dynamic document fields, role-based signatures, one-click PDF scouting profiles, and a clean interface — see how Repline compares to Fandelo.",
+    url: "https://www.repline.io/vs/fandelo",
+    images: [ogImage({ title: "Repline vs. Fandelo", subtitle: "Built for how hockey agents actually work", tag: "Comparison" })],
   },
 };
 
@@ -60,30 +60,30 @@ const rows = [
   },
   {
     feature: "Pricing",
-    competitor: "Contact Dandelion for current pricing",
+    competitor: "Contact Fandelo for current pricing",
     repline: "Pro $75/mo (1 user), Team $249/mo (5 users), Agency $695/mo (15 users)",
   },
 ];
 
-export default function VsDandelion() {
+export default function VsFandelo() {
   return (
     <>
       <Breadcrumbs
         items={[
           { label: "Home", href: "/" },
-          { label: "Repline vs. Dandelion" },
+          { label: "Repline vs. Fandelo" },
         ]}
       />
       <section className="pt-12 pb-4 md:pt-16">
         <div className="mx-auto max-w-6xl px-6 text-center">
           <span className="inline-block mb-4 text-xs font-semibold tracking-widest uppercase text-muted">
-            Repline vs. Dandelion
+            Repline vs. Fandelo
           </span>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight max-w-3xl mx-auto">
             Dynamic documents, real scouting reports, no clutter
           </h1>
           <p className="mt-4 text-lg text-muted max-w-2xl mx-auto">
-            If you&apos;re evaluating Dandelion against Repline, it usually comes down to three things: how documents get built and signed, how fast you can get a player profile in front of a GM, and how much noise stands between you and your roster.
+            If you&apos;re evaluating Fandelo against Repline, it usually comes down to three things: how documents get built and signed, how fast you can get a player profile in front of a GM, and how much noise stands between you and your roster.
           </p>
         </div>
       </section>
@@ -136,10 +136,10 @@ export default function VsDandelion() {
       <Section className="bg-muted-bg">
         <SectionHeader
           tag="Side by side"
-          title="Dandelion vs. Repline"
+          title="Fandelo vs. Repline"
         />
         <div className="max-w-4xl mx-auto">
-          <ComparisonTable competitorName="Dandelion" rows={rows} />
+          <ComparisonTable competitorName="Fandelo" rows={rows} />
         </div>
       </Section>
 
@@ -156,15 +156,15 @@ export default function VsDandelion() {
       <Section className="bg-muted-bg">
         <SectionHeader
           tag="Switching"
-          title="How to migrate from Dandelion"
+          title="How to migrate from Fandelo"
         />
         <div className="max-w-3xl mx-auto">
           <div className="space-y-4">
             {[
-              { step: "1", title: "Export your roster and contacts", desc: "Export your player and contact data from Dandelion as CSV or Excel — check its settings or export menu." },
+              { step: "1", title: "Export your roster and contacts", desc: "Export your player and contact data from Fandelo as CSV or Excel — check its settings or export menu." },
               { step: "2", title: "Import into Repline", desc: "Upload your export into Repline's bulk import tool. Map your columns to Repline's hockey-specific fields in a few minutes." },
               { step: "3", title: "Rebuild your document templates once", desc: "Set up your agreement templates in Repline's document builder with the dynamic fields and Agent / Player-Parent signature roles you need. From then on, it's dropdown-and-send." },
-              { step: "4", title: "Cancel Dandelion", desc: "Once your team is onboarded, cancel your Dandelion subscription. Most agencies are fully switched within a week." },
+              { step: "4", title: "Cancel Fandelo", desc: "Once your team is onboarded, cancel your Fandelo subscription. Most agencies are fully switched within a week." },
             ].map((s) => (
               <div key={s.step} className="flex gap-4 items-start">
                 <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground text-sm font-bold flex items-center justify-center">{s.step}</span>
@@ -182,11 +182,11 @@ export default function VsDandelion() {
       <Section>
         <SectionHeader
           tag="Decision guide"
-          title="Dandelion vs. Repline: which is right?"
+          title="Fandelo vs. Repline: which is right?"
         />
         <div className="max-w-3xl mx-auto space-y-4">
           <div className="rounded-lg border border-border/60 p-4">
-            <h3 className="font-semibold mb-1">Keep Dandelion if...</h3>
+            <h3 className="font-semibold mb-1">Keep Fandelo if...</h3>
             <p className="text-sm text-muted leading-relaxed">
               You&apos;re already deep into a contract with it, your documents rarely change, and you don&apos;t send scouting profiles often enough for the manual work to matter.
             </p>
@@ -200,13 +200,13 @@ export default function VsDandelion() {
           <div className="rounded-lg border border-border/60 p-4">
             <h3 className="font-semibold mb-1">Pricing comparison</h3>
             <p className="text-sm text-muted leading-relaxed">
-              Confirm Dandelion&apos;s current pricing with your rep before comparing. Repline Pro is <strong>$75/month</strong> for a solo advisor, Team is <strong>$249/month</strong> for up to 5 users, and Agency is <strong>$695/month</strong> for up to 15 users &mdash; flat pricing, no per-seat surprises, and every feature above included at every tier.
+              Confirm Fandelo&apos;s current pricing with your rep before comparing. Repline Pro is <strong>$75/month</strong> for a solo advisor, Team is <strong>$249/month</strong> for up to 5 users, and Agency is <strong>$695/month</strong> for up to 15 users &mdash; flat pricing, no per-seat surprises, and every feature above included at every tier.
             </p>
           </div>
         </div>
       </Section>
 
-      <VsCrossLinks current="/vs/dandelion" />
+      <VsCrossLinks current="/vs/fandelo" />
 
       <CTASection
         title="Documents that adapt. Profiles in one click."

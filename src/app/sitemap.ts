@@ -67,7 +67,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${BASE_URL}/vs/dandelion`,
+      url: `${BASE_URL}/vs/fandelo`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,

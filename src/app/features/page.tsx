@@ -286,7 +286,7 @@ export default function FeaturesPage() {
             { href: "/vs/monday", label: "vs. Monday.com" },
             { href: "/vs/hubspot", label: "vs. HubSpot" },
             { href: "/vs/salesforce", label: "vs. Salesforce" },
-            { href: "/vs/dandelion", label: "vs. Dandelion" },
+            { href: "/vs/fandelo", label: "vs. Fandelo" },
           ].map(({ href, label }) => (
             <Link
               key={href}

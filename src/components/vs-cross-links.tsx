@@ -5,7 +5,7 @@ const VS_PAGES = [
   { href: "/vs/monday", label: "Monday.com", short: "Monday.com" },
   { href: "/vs/hubspot", label: "HubSpot", short: "HubSpot" },
   { href: "/vs/salesforce", label: "Salesforce", short: "Salesforce" },
-  { href: "/vs/dandelion", label: "Dandelion", short: "Dandelion" },
+  { href: "/vs/fandelo", label: "Fandelo", short: "Fandelo" },
 ];
 
 export function VsCrossLinks({ current }: { current: string }) {
