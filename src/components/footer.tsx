@@ -12,6 +12,7 @@ const compareLinks = [
   { href: "/vs/monday", label: "vs. Monday.com" },
   { href: "/vs/hubspot", label: "vs. HubSpot" },
   { href: "/vs/salesforce", label: "vs. Salesforce" },
+  { href: "/vs/fandelo", label: "vs. Fandelo" },
 ];
 
 const legalLinks = [
