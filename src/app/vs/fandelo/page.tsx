@@ -10,13 +10,13 @@ import { ogImage } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Repline vs. Fandelo for Hockey Agencies",
   description:
-    "Comparing Fandelo to Repline for hockey agent CRM: dynamic e-signature fields, role-based signers, one-click PDF scouting profiles, and a clean, uncluttered interface.",
+    "Fandelo is a fan-engagement platform with a talent-management app bolted on — not built for hockey representation. Compare it to Repline's e-signatures, PDF scouting profiles, and hockey-native workflow.",
   alternates: { canonical: "/vs/fandelo" },
   openGraph: {
     type: "website",
     title: "Repline vs. Fandelo for Hockey Agencies",
     description:
-      "Dynamic document fields, role-based signatures, one-click PDF scouting profiles, and a clean interface — see how Repline compares to Fandelo.",
+      "Fandelo wasn't built for hockey representation. See how it compares to Repline's dynamic documents, PDF scouting profiles, and clean interface.",
     url: "https://www.repline.io/vs/fandelo",
     images: [ogImage({ title: "Repline vs. Fandelo", subtitle: "Built for how hockey agents actually work", tag: "Comparison" })],
   },
@@ -24,38 +24,38 @@ export const metadata: Metadata = {
 
 const rows = [
   {
-    feature: "Document builder",
-    competitor: "Static templates — no dynamic fields",
-    repline: "Dynamic fields (e.g., pricing package dropdowns) that populate directly into the document",
+    feature: "What it's built for",
+    competitor: "General talent-agent companion app across sports, music, and entertainment",
+    repline: "Purpose-built for hockey representation from the ground up",
   },
   {
-    feature: "Signature roles",
-    competitor: "Signers added ad hoc, no defined roles",
-    repline: "Role-based signature fields — Agent vs. Player/Parent assigned per document",
+    feature: "Contracts & e-signatures",
+    competitor: "Not part of the published feature set — profiles, schedules, tasks, and contacts only",
+    repline: "Built-in e-signatures with dynamic fields (e.g., pricing package dropdowns) and role-based Agent vs. Player/Parent signature areas",
   },
   {
     feature: "Scouting profiles",
-    competitor: "Manual export or copy-paste into another tool",
+    competitor: "Basic talent/scout profile records — no PDF export",
     repline: "One-click, branded PDF profile generated straight from CRM data — ready to send to a GM",
   },
   {
     feature: "Interface",
-    competitor: "Feature-heavy, cluttered layout",
-    repline: "Clean, focused workspace — no non-essential features to dig through",
+    competitor: "Cluttered, dated layout inherited from a broader fan-engagement app",
+    repline: "Clean, focused workspace built for one job — no non-essential features to dig through",
   },
   {
     feature: "Player pipeline",
-    competitor: "Generic statuses you configure yourself",
+    competitor: "Generic talent profiles — no hockey-specific stages",
     repline: "Hockey-native: Prospect, Draft Eligible, Signed, Active",
   },
   {
     feature: "League calendars",
-    competitor: "Manual date tracking",
+    competitor: "Not part of the platform",
     repline: "OHL, WHL, QMJHL, NCAA dates auto-populated",
   },
   {
     feature: "Contact cadence",
-    competitor: "Basic reminders, no relationship tracking",
+    competitor: "Key contacts list — no relationship or cadence tracking",
     repline: "Per-player cadence with auto-reset on interaction",
   },
   {
@@ -80,10 +80,10 @@ export default function VsFandelo() {
             Repline vs. Fandelo
           </span>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight max-w-3xl mx-auto">
-            Dynamic documents, real scouting reports, no clutter
+            A fan-engagement app isn&apos;t a hockey agent CRM
           </h1>
           <p className="mt-4 text-lg text-muted max-w-2xl mx-auto">
-            If you&apos;re evaluating Fandelo against Repline, it usually comes down to three things: how documents get built and signed, how fast you can get a player profile in front of a GM, and how much noise stands between you and your roster.
+            Fandelo started as a fan-engagement platform for sports, music, and entertainment, with a talent-management app added on top. Hockey representation needs more: documents that adapt, scouting profiles a GM will actually open, and an interface that isn&apos;t inherited from a completely different product.
           </p>
         </div>
       </section>
@@ -112,16 +112,16 @@ export default function VsFandelo() {
         <div className="max-w-3xl mx-auto space-y-4">
           {[
             {
-              title: "Documents that adapt, not just templates",
-              desc: "A static agreement template means editing the file by hand every time your pricing changes. Repline's document builder supports dynamic fields — like a dropdown to select a pricing package — that populate directly into the document, and signature areas are assigned by role, so it's always clear which block is for the Agent and which is for the Player/Parent.",
+              title: "No contract or e-signature tooling",
+              desc: "Fandelo's published feature set covers talent profiles, scout profiles, schedules, tasks, and contacts — not contracts or signatures. Repline's document builder supports dynamic fields, like a dropdown to select a pricing package that populates directly into the agreement, with signature areas assigned by role so it's always clear which block is for the Agent and which is for the Player/Parent.",
             },
             {
               title: "A scouting profile a GM will actually open",
-              desc: "Copying player data into a separate doc or deck to send to a GM is slow and easy to get wrong. Repline generates a one-click, branded PDF profile straight from the player's CRM record — contract history, stats, notes — ready to send without leaving the platform.",
+              desc: "A basic talent or scout record isn't something you can hand to a GM. Repline generates a one-click, branded PDF profile straight from the player's CRM record — contract history, stats, notes — ready to send without leaving the platform.",
             },
             {
-              title: "An interface that gets out of the way",
-              desc: "Tools that try to do everything end up cluttered and dated. Repline is deliberately scoped to what a hockey agent actually needs day to day, so the workflow you use most — pipeline, contracts, contacts — is never buried under features you don't.",
+              title: "An interface built for one job",
+              desc: "Fandelo's management app carries the weight of a broader fan-engagement platform, and it shows. Repline is deliberately scoped to what a hockey agent actually needs day to day, so the workflow you use most — pipeline, contracts, contacts — is never buried under features you don't.",
             },
           ].map((pain) => (
             <div key={pain.title} className="rounded-lg border border-border/60 p-4">
@@ -188,13 +188,13 @@ export default function VsFandelo() {
           <div className="rounded-lg border border-border/60 p-4">
             <h3 className="font-semibold mb-1">Keep Fandelo if...</h3>
             <p className="text-sm text-muted leading-relaxed">
-              You&apos;re already deep into a contract with it, your documents rarely change, and you don&apos;t send scouting profiles often enough for the manual work to matter.
+              You&apos;re already deep into a contract with it, you represent talent across multiple sports or industries where a general fan-engagement platform adds value, and you handle contracts and e-signatures entirely outside the tool anyway.
             </p>
           </div>
           <div className="rounded-lg border border-border/60 p-4">
             <h3 className="font-semibold mb-1">Switch to Repline if...</h3>
             <p className="text-sm text-muted leading-relaxed">
-              You want documents that adapt to your pricing without manual edits, clear Agent vs. Player/Parent signature roles, a scouting profile you can generate and send in one click, and an interface that only shows you what you actually use.
+              Your primary job is representing hockey players. You need built-in e-signatures with dynamic pricing fields and clear Agent vs. Player/Parent signature roles, a scouting profile you can generate and send in one click, and an interface that only shows you what you actually use — not features carried over from a fan-engagement app.
             </p>
           </div>
           <div className="rounded-lg border border-border/60 p-4">
