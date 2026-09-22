@@ -22,9 +22,17 @@ Repline is purpose-built CRM software for hockey player representation. It repla
 
 ## Pricing
 
-- Pro: $75/month or $765/year (solo advisors, up to 50 players)
-- Agency: $695/month or $7,000/year (multi-user, unlimited players)
-- Free 30-day trial, no credit card required
+All plans include a free 30-day trial with no credit card required. Annual
+billing is shown as the per-month equivalent.
+
+- Pro: $75/month, or $64/month billed annually. 30 players, 1 user, 2 GB
+  document storage. For solo reps.
+- Team: $249/month, or $212/month billed annually. 75 players, 5 users, 5 GB
+  document storage. For small agencies with 2-5 advisors.
+- Agency: $695/month, or $583/month billed annually. 200 players, 15 users,
+  10 GB document storage. For large advisory firms.
+- Enterprise: custom pricing. Unlimited players, users, and storage, with
+  dedicated onboarding. Contact https://www.repline.io/contact-sales
 
 ## Key pages
 
@@ -41,6 +49,7 @@ Repline is purpose-built CRM software for hockey player representation. It repla
 - vs. Monday.com: https://www.repline.io/vs/monday
 - vs. HubSpot: https://www.repline.io/vs/hubspot
 - vs. Salesforce: https://www.repline.io/vs/salesforce
+- vs. Fandelo: https://www.repline.io/vs/fandelo
 
 ## Contact
 

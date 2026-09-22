@@ -11,7 +11,7 @@ import { ogImage } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Repline vs. Monday.com for Hockey Agencies",
   description:
-    "Monday.com is a great project management tool — but it wasn't built for hockey representation. Compare Monday.com to Repline for managing players, contracts, and agency operations.",
+    "Monday.com is a strong project tool, but it wasn't built for hockey representation. Compare it to Repline for players, contracts, and agency operations.",
   alternates: { canonical: "/vs/monday" },
   openGraph: {
     type: "website",

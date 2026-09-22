@@ -10,7 +10,7 @@ import { ogImage } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Repline vs. Fandelo for Hockey Agencies",
   description:
-    "Fandelo is a fan-engagement platform with a talent-management app bolted on — not built for hockey representation. Compare it to Repline's e-signatures, PDF scouting profiles, and hockey-native workflow.",
+    "Fandelo is a fan-engagement platform with talent management bolted on. Compare it to Repline's e-signatures, PDF scouting reports, and hockey-native workflow.",
   alternates: { canonical: "/vs/fandelo" },
   openGraph: {
     type: "website",

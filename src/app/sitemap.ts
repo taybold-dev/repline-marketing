@@ -3,6 +3,10 @@ import { getAllPosts } from "@/lib/blog";
 
 const BASE_URL = "https://www.repline.io";
 
+// /privacy and /terms are intentionally omitted: both pages serve
+// `noindex, follow`, so submitting them here would contradict that and
+// surface as "Submitted URL marked 'noindex'" in Search Console. They stay
+// reachable through the footer.
 export default function sitemap(): MetadataRoute.Sitemap {
   const blogPosts = getAllPosts().map((post) => ({
     url: `${BASE_URL}/blog/${post.slug}`,
@@ -71,18 +75,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
-    },
-    {
-      url: `${BASE_URL}/privacy`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.3,
-    },
-    {
-      url: `${BASE_URL}/terms`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.3,
     },
     {
       url: `${BASE_URL}/blog`,

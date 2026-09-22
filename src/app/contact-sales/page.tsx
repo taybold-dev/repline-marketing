@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Section } from "@/components/section";
 import { ogImage } from "@/lib/seo";
 import { WebPageSchema } from "@/components/schema-org";
+import { Breadcrumbs } from "@/components/breadcrumbs";
+import { TestimonialHighlight } from "@/components/testimonials";
 
 export const metadata: Metadata = {
   title: "Talk to Us | Hockey Agent CRM Demo — Repline",
@@ -27,7 +29,8 @@ export default function ContactSalesPage() {
         description="Book a call with the Repline team."
         url="https://www.repline.io/contact-sales"
       />
-      <section className="pt-20 pb-4 md:pt-28">
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Talk to Us" }]} />
+      <section className="pt-12 pb-4 md:pt-16">
         <div className="mx-auto max-w-6xl px-6 text-center">
           <span className="inline-block mb-4 text-xs font-semibold tracking-widest uppercase text-muted">
             Talk to us
@@ -62,6 +65,8 @@ export default function ContactSalesPage() {
                 </li>
               </ul>
             </div>
+
+            <TestimonialHighlight />
 
             <div>
               <h2 className="text-lg font-semibold mb-3">Built for hockey reps</h2>

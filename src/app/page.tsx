@@ -4,19 +4,20 @@ import Link from "next/link";
 import { Section, SectionHeader } from "@/components/section";
 import { FeatureGrid } from "@/components/feature-grid";
 import { CTASection } from "@/components/cta-section";
+import { TestimonialGrid } from "@/components/testimonials";
 import { SoftwareApplicationSchema } from "@/components/schema-org";
 import { defaultOgImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Repline | Hockey Agent & Advisor CRM — Manage Players, Contracts & Pipelines",
+  title: "Hockey Agent & Advisor CRM — Players & Contracts | Repline",
   description:
-    "The CRM built for hockey agents and advisors. Track players, contracts, scouting reports, and compliance deadlines in one place. Replace your spreadsheets. Free 30-day trial.",
+    "The CRM built for hockey agents and advisors. Track players, contracts, scouting reports, and compliance deadlines in one place. Free 30-day trial.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
-    title: "Repline | Hockey Agent & Advisor CRM — Manage Players, Contracts & Pipelines",
+    title: "Hockey Agent & Advisor CRM — Players & Contracts | Repline",
     description:
-      "The CRM built for hockey agents and advisors. Track players, contracts, scouting reports, and compliance deadlines in one place. Replace your spreadsheets. Free 30-day trial.",
+      "The CRM built for hockey agents and advisors. Track players, contracts, scouting reports, and compliance deadlines in one place. Free 30-day trial.",
     url: "https://www.repline.io",
     images: [defaultOgImage],
   },
@@ -239,6 +240,9 @@ export default function Home() {
           ))}
         </div>
       </Section>
+
+      {/* Social proof */}
+      <TestimonialGrid />
 
       {/* CTA */}
       <CTASection
