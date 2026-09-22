@@ -28,6 +28,9 @@ export interface Testimonial {
   detail?: string;
   /** Optional agency logo at /public/testimonials/<file>. */
   logo?: string;
+  /** Intrinsic pixel size of `logo`, so next/image keeps the aspect ratio. */
+  logoWidth?: number;
+  logoHeight?: number;
   /** Optional headshot at /public/testimonials/<file>. Falls back to initials. */
   image?: string;
   /** Optional 1-5 star rating — set only if the customer actually gave one. */
@@ -44,15 +47,14 @@ export interface Testimonial {
 const allTestimonials: Testimonial[] = [
   {
     // Approved by Andrew Yarema for publication, wording as written below.
-    // To show the Yarema Hockey shield next to the quote, add the file at
-    // public/testimonials/yarema-hockey.png and uncomment the `logo` line.
-    // Until then the card falls back to an "AY" initials mark.
     quote:
       "My roster used to live across three spreadsheets and whatever I could keep in my head. Now every player, contract, and conversation sits in one place, and I walk into every week knowing exactly which families I owe a call. It's built the way hockey advisory actually works.",
     name: "Andrew Yarema",
     title: "Owner",
     agency: "Yarema Hockey",
-    // logo: "/testimonials/yarema-hockey.png",
+    logo: "/testimonials/yarema-hockey.png",
+    logoWidth: 246,
+    logoHeight: 239,
     featured: true,
     approved: true,
   },

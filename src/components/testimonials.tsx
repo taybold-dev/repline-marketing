@@ -15,7 +15,9 @@ function initials(name: string) {
     .join("");
 }
 
-function Avatar({ name, image }: Pick<Testimonial, "name" | "image">) {
+function Avatar({ name, image, logo }: Pick<Testimonial, "name" | "image" | "logo">) {
+  if (!image && logo) return null;
+
   if (image) {
     return (
       <Image
@@ -38,16 +40,24 @@ function Avatar({ name, image }: Pick<Testimonial, "name" | "image">) {
   );
 }
 
-function AgencyLogo({ logo, agency }: Pick<Testimonial, "logo" | "agency">) {
+function AgencyLogo({
+  logo,
+  logoWidth,
+  logoHeight,
+  agency,
+  className = "",
+}: Pick<Testimonial, "logo" | "logoWidth" | "logoHeight" | "agency"> & {
+  className?: string;
+}) {
   if (!logo) return null;
 
   return (
     <Image
       src={logo}
       alt={`${agency} logo`}
-      width={160}
-      height={160}
-      className="mb-5 h-12 w-auto object-contain"
+      width={logoWidth ?? 160}
+      height={logoHeight ?? 160}
+      className={`mb-5 h-20 w-auto object-contain ${className}`}
     />
   );
 }
@@ -61,10 +71,10 @@ function Stars({ rating }: { rating: number }) {
   );
 }
 
-function Attribution({ name, title, agency, detail, image }: Testimonial) {
+function Attribution({ name, title, agency, detail, image, logo }: Testimonial) {
   return (
-    <footer className="mt-5 flex items-center gap-3">
-      <Avatar name={name} image={image} />
+    <footer className="mt-5 flex items-center gap-3 empty:mt-0">
+      <Avatar name={name} image={image} logo={logo} />
       <div className="text-sm leading-snug">
         <cite className="not-italic font-semibold text-foreground">{name}</cite>
         <p className="text-muted">
@@ -79,7 +89,13 @@ function Attribution({ name, title, agency, detail, image }: Testimonial) {
 export function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
   return (
     <blockquote className="flex h-full flex-col rounded-xl border border-border/60 bg-background p-6">
-      <AgencyLogo logo={testimonial.logo} agency={testimonial.agency} />
+      <AgencyLogo
+        logo={testimonial.logo}
+        logoWidth={testimonial.logoWidth}
+        logoHeight={testimonial.logoHeight}
+        agency={testimonial.agency}
+        className="self-start"
+      />
       {testimonial.rating !== undefined && <Stars rating={testimonial.rating} />}
       <p className="flex-1 text-base leading-relaxed">&ldquo;{testimonial.quote}&rdquo;</p>
       <Attribution {...testimonial} />
@@ -139,7 +155,12 @@ export function TestimonialHighlight({ className = "" }: { className?: string })
     <div className={`mx-auto max-w-2xl ${className}`}>
       <blockquote className="rounded-xl border border-border/60 bg-muted-bg p-6 text-center">
         <div className="flex justify-center">
-          <AgencyLogo logo={testimonial.logo} agency={testimonial.agency} />
+          <AgencyLogo
+            logo={testimonial.logo}
+            logoWidth={testimonial.logoWidth}
+            logoHeight={testimonial.logoHeight}
+            agency={testimonial.agency}
+          />
         </div>
         {testimonial.rating !== undefined && <Stars rating={testimonial.rating} />}
         <p className="text-base leading-relaxed">&ldquo;{testimonial.quote}&rdquo;</p>
