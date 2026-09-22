@@ -118,7 +118,7 @@ interface TestimonialGridProps {
 export function TestimonialGrid({
   tag = "From our customers",
   title = "Advisors who made the switch",
-  description = "Hockey agents and advisors running their practice on Repline.",
+  description = "Hockey advisors running their practice on Repline.",
   className = "bg-muted-bg",
 }: TestimonialGridProps) {
   if (testimonials.length === 0) return null;
