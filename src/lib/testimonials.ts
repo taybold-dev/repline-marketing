@@ -43,20 +43,18 @@ export interface Testimonial {
 
 const allTestimonials: Testimonial[] = [
   {
-    // DRAFT — written by Repline, not yet approved by Andrew Yarema.
-    // Before setting approved: true —
-    //   1. Andrew signs off on this exact wording.
-    //   2. Confirm his title ("Founder" is an assumption).
-    //   3. Add the Yarema Hockey logo at public/testimonials/yarema-hockey.png
-    //      (or drop the `logo` field to fall back to initials).
+    // Approved by Andrew Yarema for publication, wording as written below.
+    // To show the Yarema Hockey shield next to the quote, add the file at
+    // public/testimonials/yarema-hockey.png and uncomment the `logo` line.
+    // Until then the card falls back to an "AY" initials mark.
     quote:
-      "My roster used to live across three spreadsheets and whatever I could keep in my head. Now every player, contract, and conversation sits in one place, and I walk into every week knowing exactly which families I owe a call. It's built the way hockey actually works.",
+      "My roster used to live across three spreadsheets and whatever I could keep in my head. Now every player, contract, and conversation sits in one place, and I walk into every week knowing exactly which families I owe a call. It's built the way hockey advisory actually works.",
     name: "Andrew Yarema",
-    title: "Founder",
+    title: "Owner",
     agency: "Yarema Hockey",
-    logo: "/testimonials/yarema-hockey.png",
+    // logo: "/testimonials/yarema-hockey.png",
     featured: true,
-    approved: false,
+    approved: true,
   },
 ];
 
