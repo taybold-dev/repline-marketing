@@ -9,13 +9,13 @@ import { VsCrossLinks } from "@/components/vs-cross-links";
 import { ogImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Repline vs. HubSpot for Hockey Agents — Why Generic CRMs Don't Work",
+  title: "Repline vs. HubSpot for Hockey Agents — CRM Comparison",
   description:
     "HubSpot wasn't built for hockey agents. Compare pipeline stages, player management, scouting reports, and agency oversight. See why advisors switch to Repline.",
   alternates: { canonical: "/vs/hubspot" },
   openGraph: {
     type: "website",
-    title: "Repline vs. HubSpot for Hockey Agents — Why Generic CRMs Don't Work",
+    title: "Repline vs. HubSpot for Hockey Agents — CRM Comparison",
     description:
       "HubSpot wasn't built for hockey agents. Compare pipeline stages, player management, scouting reports, and agency oversight.",
     url: "https://www.repline.io/vs/hubspot",

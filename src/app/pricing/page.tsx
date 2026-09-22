@@ -69,6 +69,7 @@ export default function PricingPage() {
         </div>
       </section>
 
+      <h2 className="sr-only">Plans</h2>
       <PricingCards />
 
       {/* Social proof at the point of price evaluation */}

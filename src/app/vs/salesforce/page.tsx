@@ -9,13 +9,13 @@ import { VsCrossLinks } from "@/components/vs-cross-links";
 import { ogImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Repline vs. Salesforce for Hockey Agencies — Purpose-Built Beats Enterprise",
+  title: "Repline vs. Salesforce for Hockey Agencies — CRM Comparison",
   description:
     "Salesforce is too expensive and too complex for hockey advisory firms. Compare pricing, setup, and hockey-specific features. See why agencies choose Repline.",
   alternates: { canonical: "/vs/salesforce" },
   openGraph: {
     type: "website",
-    title: "Repline vs. Salesforce for Hockey Agencies — Purpose-Built Beats Enterprise",
+    title: "Repline vs. Salesforce for Hockey Agencies — CRM Comparison",
     description:
       "Salesforce is too expensive and too complex for hockey advisory firms. Compare pricing, setup, and hockey-specific features.",
     url: "https://www.repline.io/vs/salesforce",
