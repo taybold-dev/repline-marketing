@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Section, SectionHeader } from "@/components/section";
 import { PricingCards } from "@/components/pricing-cards";
 import { CTASection } from "@/components/cta-section";
+import { TestimonialHighlightSection } from "@/components/testimonials";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { SoftwareApplicationSchema, FAQPageSchema } from "@/components/schema-org";
 import { ogImage } from "@/lib/seo";
@@ -69,6 +70,9 @@ export default function PricingPage() {
       </section>
 
       <PricingCards />
+
+      {/* Social proof at the point of price evaluation */}
+      <TestimonialHighlightSection />
 
       {/* FAQ */}
       <Section>

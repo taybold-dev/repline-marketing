@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Section } from "@/components/section";
 import { ogImage } from "@/lib/seo";
 import { WebPageSchema } from "@/components/schema-org";
+import { TestimonialHighlight } from "@/components/testimonials";
 
 export const metadata: Metadata = {
   title: "Talk to Us | Hockey Agent CRM Demo — Repline",
@@ -62,6 +63,8 @@ export default function ContactSalesPage() {
                 </li>
               </ul>
             </div>
+
+            <TestimonialHighlight />
 
             <div>
               <h2 className="text-lg font-semibold mb-3">Built for hockey reps</h2>

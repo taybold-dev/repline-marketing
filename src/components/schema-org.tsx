@@ -4,6 +4,17 @@
  * SoftwareApplication goes on homepage + pricing.
  */
 
+import { testimonials, getAggregateRating } from "@/lib/testimonials";
+
+/**
+ * JSON.stringify does not escape `<`, so a stray "</script>" in any embedded
+ * string would break out of the script tag. Per the Next.js JSON-LD guide,
+ * escape it to its unicode equivalent.
+ */
+function jsonLd(data: unknown) {
+  return JSON.stringify(data).replace(/</g, "\\u003c");
+}
+
 export function OrganizationSchema() {
   const data = {
     "@context": "https://schema.org",
@@ -24,7 +35,7 @@ export function OrganizationSchema() {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: jsonLd(data) }}
     />
   );
 }
@@ -42,9 +53,48 @@ export function WebSiteSchema() {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: jsonLd(data) }}
     />
   );
+}
+
+/**
+ * Review / aggregateRating fields, built only from approved testimonials.
+ * Returns nothing when there are none — never emit a rating the site cannot
+ * substantiate, which Google treats as spam and readers treat as a lie.
+ */
+function buildReviewFields() {
+  if (testimonials.length === 0) return {};
+
+  const aggregate = getAggregateRating();
+
+  return {
+    review: testimonials.map((t) => ({
+      "@type": "Review",
+      reviewBody: t.quote,
+      author: {
+        "@type": "Person",
+        name: t.name,
+        jobTitle: t.title,
+        worksFor: { "@type": "Organization", name: t.agency },
+      },
+      ...(t.rating !== undefined && {
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: String(t.rating),
+          bestRating: "5",
+        },
+      }),
+    })),
+    ...(aggregate && {
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: String(aggregate.value),
+        reviewCount: String(aggregate.count),
+        bestRating: "5",
+      },
+    }),
+  };
 }
 
 export function SoftwareApplicationSchema() {
@@ -99,12 +149,13 @@ export function SoftwareApplicationSchema() {
       "Mobile-first PWA — works at the rink",
       "Stripe payments and QuickBooks sync",
     ],
+    ...buildReviewFields(),
   };
 
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: jsonLd(data) }}
     />
   );
 }
@@ -136,7 +187,7 @@ export function WebPageSchema({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: jsonLd(data) }}
     />
   );
 }
@@ -162,7 +213,7 @@ export function FAQPageSchema({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: jsonLd(data) }}
     />
   );
 }

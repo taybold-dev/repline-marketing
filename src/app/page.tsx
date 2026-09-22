@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Section, SectionHeader } from "@/components/section";
 import { FeatureGrid } from "@/components/feature-grid";
 import { CTASection } from "@/components/cta-section";
+import { TestimonialGrid } from "@/components/testimonials";
 import { SoftwareApplicationSchema } from "@/components/schema-org";
 import { defaultOgImage } from "@/lib/seo";
 
@@ -239,6 +240,9 @@ export default function Home() {
           ))}
         </div>
       </Section>
+
+      {/* Social proof */}
+      <TestimonialGrid />
 
       {/* CTA */}
       <CTASection
