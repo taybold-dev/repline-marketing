@@ -154,29 +154,49 @@ No new page. The homepage and `why-hockey-agents-need-a-crm` already rank.
   can be emitted. This is the one remaining structured-data gap on the page
   that competes for this term.
 
-### 2. `/vs/agent-live-360` — new page, existing pattern
+### 2. `/vs/agent-live-360` — **shipped 2026-09-25**
 
-The cheapest new page available. Follow `src/app/vs/fandelo/page.tsx` exactly;
-it is the most recent of the five and the closest analogue (a competitor whose
-details need verifying rather than assuming).
+Built at `src/app/vs/agent-live-360/page.tsx`, following
+`src/app/vs/fandelo/page.tsx`. All six touchpoints updated:
+`vs-cross-links.tsx`, `footer.tsx`, the homepage tool-replacement grid, the
+`/features` comparison list, `src/app/sitemap.ts` and `public/llms.txt`. The
+homepage grid moved from five columns to three so six cards fill two even rows.
 
-- **Route:** `src/app/vs/agent-live-360/page.tsx`
-- **Title:** `Repline vs. Agent Live 360 for Hockey Agents` (44 chars)
-- **Components, in the established order:** `Breadcrumbs` → hero →
-  `SectionHeader` + `ComparisonTable competitorName="Agent Live 360"` →
-  `PersonaQuote` → migration steps → decision guide → `VsCrossLinks` →
-  `CTASection`
-- **Also update:** add the route to `VS_PAGES` in
-  `src/components/vs-cross-links.tsx`, to `compareLinks` in
-  `src/components/footer.tsx`, to the tool-replacement grid on the homepage,
-  to the comparison list on `/features`, to `src/app/sitemap.ts`, and to the
-  Comparisons section of `public/llms.txt`. Five of those six were updated
-  when Fandelo shipped; `llms.txt` was missed, which is exactly the drift the
-  2026-09-22 audit caught. Update all six.
-- **Accuracy constraint:** Agent Live 360 is a live competitor. Verify every
-  claim in the comparison table against their site before publishing, the way
-  the Fandelo page was grounded. Do not assert pricing or feature gaps that
-  cannot be sourced.
+#### Verified competitor facts — use these, not press coverage
+
+`agentlive360.com` is **unreachable from the build environment** (the egress
+proxy denies it), and so is `sportsagentblog.com`, the main secondary source.
+The first draft of the page therefore fell back on 2020 press coverage quoting
+a "$75–$345/month" range. **That was wrong by a wide margin.** Working from
+their own site copy instead:
+
+| | Agent Live 360 |
+|---|---|
+| Annual billing | $38/mo (1 agent) → $150/mo (5 agents) |
+| Monthly billing | $49/mo (1 agent) → $190/mo (5 agents) |
+| Additional users | $25/mo each annually, $35/mo each monthly, beyond 5 |
+| Sign-up | One-time $25 fee for the first license |
+
+**Agent Live 360 is cheaper than Repline at every seat count**, and the page
+says so outright rather than implying otherwise. Its genuine strengths, also
+recorded on the page: invoicing, accounting, expense and commission tracking,
+ROI per client, multi-currency, Agent Live Pay, and **both QuickBooks and
+Xero**. Repline has no Xero integration and no multi-currency support today.
+
+The lesson generalises to the next comparison page: when a competitor's own
+site can't be reached from this environment, **ask for the page source rather
+than settling for search-engine summaries**. Six-year-old coverage of a live
+SaaS product's pricing is not a usable source.
+
+#### Incidental find
+
+Building this surfaced a rendering bug already live on four pages — the space
+after `</strong>` was being dropped in the pricing paragraph of `/vs/fandelo`,
+`/vs/hubspot`, `/vs/monday` and `/vs/salesforce`, producing
+"$695/monthfor up to 15 users". Fixed with an explicit `{" "}` across all
+five. Root cause not established; the markup is identical in shape to
+instances that render correctly, so it appears to be a quirk of how this
+Next.js version serialises adjacent text nodes. Watch for it on new pages.
 
 ### 3 + 4. One page for `CRM for sports agents` and `sports agency management software`
 
@@ -204,10 +224,9 @@ These two share an intent and a competitive set. One page serves both.
 
 ### Sequencing
 
-`/vs/agent-live-360` first — it is small, self-contained, follows a proven
-pattern, and its cross-links feed the category page that follows. Then the
-category page. The `hockey agent CRM` work is a Search Console check plus a
-rating request, and can run in parallel with both.
+`/vs/agent-live-360` is done. The sports-agent category page is next, and can
+now cross-link to it. The `hockey agent CRM` work is a Search Console check
+plus a rating request from Andrew Yarema, and runs in parallel with both.
 
 ## Tier 2 — Authority and freshness
 
