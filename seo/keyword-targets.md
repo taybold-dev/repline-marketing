@@ -27,15 +27,22 @@ To upgrade this list with real numbers, set `SEMRUSH_API_KEY` or
 
 ## Findings that shaped this list
 
-### 1. No hockey-native competitor holds the software keywords
+### 1. No hockey-native competitor holds the *agent-tool* keywords
 
 The SERP for sports-agency software is entirely football/soccer —
 [ScoutDecision](https://www.scoutdecision.com/software/agents),
 [ScoutHub](https://www.scouthub.se/guides/best-football-agent-software),
 [ATHLIVO](https://athlivo.co/) — plus sport-agnostic
 [Agent Live 360](https://agentlive360.com/) and
-[Opendorse](https://biz.opendorse.com/solutions/sports-agents/). Every
-"hockey + software" variant is effectively unclaimed.
+[Opendorse](https://biz.opendorse.com/solutions/sports-agents/). No hockey
+specialist competes there.
+
+**Important qualification added on the second pass:** this holds for the
+*"sports agent / agency"* phrasings only. It does **not** mean every
+"hockey + software" phrase is open — those are owned by youth and club team
+management platforms, and one is hijacked by a mobile game. See
+[Tier 1](#tier-1--buyer-intent-verified-against-live-serps) for the tested
+breakdown.
 
 ### 2. "Family advisor" is the industry's own term and is barely used on site
 
@@ -62,22 +69,145 @@ mentions **NIL zero times**. The story has moved considerably:
 Sapling and Quora rank for agent commission and salary queries. Beatable on
 quality, but see the caveat on Tier 3 below.
 
-## Tier 1 — Buyer intent, weak competition
+## Tier 1 — Buyer intent, verified against live SERPs
 
-These reach people who can actually buy the product.
+**Updated 2026-09-25 (second pass).** The first pass ranked these on
+competitor presence and coverage gaps without checking what each SERP
+actually returns. A follow-up pass searched them directly, and **five of the
+ten turned out to be wrong-intent** — the phrasing pulls a different meaning
+of the words. The table below reflects the verified position; the original
+rationales are preserved in the "superseded" column so the change is
+traceable.
 
-| # | Keyword | Current coverage | Rationale |
-|---|---------|------------------|-----------|
-| 1 | hockey agent CRM | Homepage + `why-hockey-agents-need-a-crm` | Already ranks **#2**, and Google's AI summary quotes the homepage brand-definition paragraph near-verbatim. Defend this. |
-| 2 | hockey agent software | Post keyword only | Second-strongest commercial term with no dedicated page. |
-| 3 | hockey advisor software | **None** | Mirror of #2 for the advisor half of the positioning. |
-| 4 | hockey agency management software | **None** | Exact match to the Agency tier. No hockey competition. |
-| 5 | CRM for sports agents | Post keyword only | Broader net; Repline would be the only hockey-native answer. |
-| 6 | player representation software | Post keyword only | Repline's own tagline language, uncontested. |
-| 7 | sports agency management software | **None** | Football tools own it; ranking as "the hockey one" is a wedge. |
-| 8 | best software for hockey agents | **None** | Listicle intent with no incumbent listicle. |
-| 9 | hockey agent spreadsheet template | `/vs/spreadsheets` exists | The query that feeds that page — searchers actively in the pain the product solves. |
-| 10 | Agent Live 360 alternative | **None** | The only sport-agnostic incumbent. Fits the existing `/vs/` page pattern. |
+### The pattern that explains it
+
+**"Hockey + software" belongs to youth/club/league team management.**
+Searching *hockey advisor software* returns
+[TeamSnap](https://www.teamsnap.com/teams/sports/ice-hockey),
+[360Player](https://en-us.360player.com/sports-software/hockey),
+[TeamLinkt](https://teamlinkt.com/sports/hockey),
+[LeagueApps](https://leagueapps.com/sport/hockey/),
+[Upper Hand](https://upperhand.com/hockey-scheduling-software/) and
+[eSoft Planner](https://www.esoftplanner.com/hockey-team-management-software/)
+— a crowded, well-funded category that owns that phrasing and has nothing to
+do with representing clients.
+
+**"Hockey agent software" is worse.** There is a mobile management sim
+literally called [Hockey Agent](https://apps.apple.com/us/app/hockey-agent/id6451391619),
+with [a Google Play version](https://play.google.com/store/apps/details?id=com.hockeyagent61&hl=en_US)
+and [a GitHub repo](https://github.com/jacobb260/hockey-agent) alongside it.
+Google reads the phrase as a game.
+
+**The disambiguating tokens are "CRM" and "agency"** — they are what steer the
+SERP away from team-management apps and games. *Sports agency management
+software* was the only phrase tested that returned genuine agent business
+tools, and *hockey agent CRM* returns Repline.
+
+### Pursue
+
+| Priority | Keyword | Coverage | Why it is the cheap win |
+|----------|---------|----------|--------------------------|
+| 1 | hockey agent CRM | Homepage + `why-hockey-agents-need-a-crm` | Already ranking, and "CRM" keeps the SERP clean. **No new page needed** — defend and extend. |
+| 2 | Agent Live 360 alternative | **None** | Near-zero competition, correct intent, and `/vs/` is a pattern already built five times. Cheapest new page available. |
+| 3 | CRM for sports agents | Post keyword only | "CRM" + "sports agent" lands on real agent tools. Every competitor is football-only. |
+| 4 | sports agency management software | **None** | Verified correct intent — ScoutDecision, ScoutHub, ATHLIVO, Agent Live 360, Opendorse. Real competition, all wrong-sport. |
+
+### Do not pursue
+
+| Keyword | What the SERP actually returns | Superseded rationale |
+|---------|-------------------------------|----------------------|
+| hockey agent software | The "Hockey Agent" mobile game, plus club-management software | "Second-strongest commercial term with no dedicated page" |
+| hockey advisor software | TeamSnap, 360Player, LeagueApps — club and league admin | "Mirror for the advisor half of the positioning" |
+| player representation software | **USPTO patents and arXiv papers** on software agents. Repline's own tagline is a computer-science phrase | "Repline's own tagline language, uncontested" |
+| best software for hockey agents | Inherits the game/club contamination above; a vendor writing its own "best" listicle is weak regardless | "Listicle intent with no incumbent listicle" |
+| hockey agent spreadsheet template | [Etsy stats trackers](https://www.etsy.com/listing/1902439035/hockey-stats-spreadsheet-template-hockey) for coaches and hockey parents — people logging goals and assists, not managing client rosters | "The query that feeds `/vs/spreadsheets`" |
+| hockey agency management software | *Not directly tested.* Expected to collide with the same club-admin category as *hockey advisor software* — treat as inference, not evidence | "Exact match to the Agency tier. No hockey competition" |
+
+### Correction on the "#2" ranking claim
+
+An earlier note recorded Repline as ranking **#2** for *hockey agent CRM*.
+That came from the ordering returned by the search tool, which is US-only and
+is not a verified Google organic position. Repline is clearly ranking and
+visible for the term, and Google's AI summary is built largely from the
+homepage brand-definition paragraph — but confirm the actual position in
+Search Console before treating it as a number.
+
+## Execution plan for the Tier 1 four
+
+Four keywords, **two new pages plus one optimisation pass** — not four pages.
+Priorities 1, 3 and 4 are a single buyer intent expressed three ways;
+building a page for each would cannibalise the others and split the internal
+link equity three ways.
+
+### 1. `hockey agent CRM` — optimise, do not build
+
+No new page. The homepage and `why-hockey-agents-need-a-crm` already rank.
+
+- Confirm the real position in Search Console before doing anything, per the
+  correction above.
+- Leave the homepage brand-definition paragraph alone. It is what Google's AI
+  summary quotes, and it is doing the GEO job it was written for.
+- The Yarema testimonial and its `Review` schema are new relevance signals on
+  this page; they were not present when the term was first ranking. Give them
+  a few weeks before judging movement.
+- Obtain a rating from Andrew Yarema so `reviewRating` and `aggregateRating`
+  can be emitted. This is the one remaining structured-data gap on the page
+  that competes for this term.
+
+### 2. `/vs/agent-live-360` — new page, existing pattern
+
+The cheapest new page available. Follow `src/app/vs/fandelo/page.tsx` exactly;
+it is the most recent of the five and the closest analogue (a competitor whose
+details need verifying rather than assuming).
+
+- **Route:** `src/app/vs/agent-live-360/page.tsx`
+- **Title:** `Repline vs. Agent Live 360 for Hockey Agents` (44 chars)
+- **Components, in the established order:** `Breadcrumbs` → hero →
+  `SectionHeader` + `ComparisonTable competitorName="Agent Live 360"` →
+  `PersonaQuote` → migration steps → decision guide → `VsCrossLinks` →
+  `CTASection`
+- **Also update:** add the route to `VS_PAGES` in
+  `src/components/vs-cross-links.tsx`, to `compareLinks` in
+  `src/components/footer.tsx`, to the tool-replacement grid on the homepage,
+  to the comparison list on `/features`, to `src/app/sitemap.ts`, and to the
+  Comparisons section of `public/llms.txt`. Five of those six were updated
+  when Fandelo shipped; `llms.txt` was missed, which is exactly the drift the
+  2026-09-22 audit caught. Update all six.
+- **Accuracy constraint:** Agent Live 360 is a live competitor. Verify every
+  claim in the comparison table against their site before publishing, the way
+  the Fandelo page was grounded. Do not assert pricing or feature gaps that
+  cannot be sourced.
+
+### 3 + 4. One page for `CRM for sports agents` and `sports agency management software`
+
+These two share an intent and a competitive set. One page serves both.
+
+- **Route:** `src/app/sports-agent-crm/page.tsx` — deliberately *not* under
+  `/vs/`, since it is a category page rather than a comparison.
+- **Positioning:** the competitors here are football tools. The page should
+  not argue that Repline is a better general sports-agent CRM; it should argue
+  that a general sports-agent CRM cannot model hockey — CHL/NCAA eligibility,
+  OHL import drafts, junior-to-college pathways, family-advisor fee structures
+  — and that the hockey-native one exists.
+- **Outline:** what a sports agent CRM has to do → why sport-agnostic tools
+  break on hockey → the hockey-specific requirements (eligibility, league
+  calendars, advisory agreements) → `ComparisonTable` against the category
+  rather than one vendor → `TestimonialHighlight` → `CTASection`
+- **Schema:** `WebPageSchema` plus `FAQPageSchema` if the page answers
+  "what is a sports agent CRM" and "do hockey agents need different software".
+- **Internal links:** from `/features`, from `why-hockey-agents-need-a-crm`,
+  and from the new `/vs/agent-live-360` page. Link out to the five `/vs/`
+  pages.
+- **Cannibalisation guard:** this page targets *sports agent / agency*
+  phrasing. The homepage keeps *hockey agent CRM*. Do not let the new page's
+  title or H1 lead with "hockey agent CRM" or the two will compete.
+
+### Sequencing
+
+`/vs/agent-live-360` first — it is small, self-contained, follows a proven
+pattern, and its cross-links feed the category page that follows. Then the
+category page. The `hockey agent CRM` work is a Search Console check plus a
+rating request, and can run in parallel with both.
 
 ## Tier 2 — Authority and freshness
 
@@ -112,9 +242,17 @@ Treat Tier 3 as brand-building and topical authority, not pipeline.
 
 ## Recommended starting point
 
-**#11 and #12.** The CHL/NCAA refresh is fast, the site already ranks for the
-parent topic, and the NIL gap is the difference between a current guide and a
-stale one in a story that moved a great deal this year.
+Two tracks, both worth running:
+
+- **Commercial:** `/vs/agent-live-360`, then the sports-agent category page.
+  See the execution plan above.
+- **Authority:** Tier 2 items **#11 and #12**. The CHL/NCAA refresh is fast,
+  the site already ranks for the parent topic, and the NIL gap is the
+  difference between a current guide and a stale one in a story that moved a
+  great deal this year.
+
+If only one can be done, start with #11 and #12 — refreshing a page that
+already ranks beats building a page that does not.
 
 ## Sources
 
