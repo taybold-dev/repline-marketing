@@ -220,13 +220,14 @@ export default function Home() {
           title="Replace what isn&apos;t working"
           description="Repline consolidates your roster, contacts, contracts, tasks, and compliance tracking into one platform designed for hockey representation."
         />
-        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 max-w-5xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
           {[
             { tool: "Spreadsheets", problem: "Version conflicts, no alerts, unusable on mobile", href: "/vs/spreadsheets" },
             { tool: "Monday.com", problem: "Generic project boards with no hockey context", href: "/vs/monday" },
             { tool: "HubSpot", problem: "Sales pipelines that don\u2019t fit player representation", href: "/vs/hubspot" },
             { tool: "Salesforce", problem: "Too expensive and too complex for a 3-person agency", href: "/vs/salesforce" },
             { tool: "Fandelo", problem: "Fan-engagement app with no built-in contracts or e-signatures", href: "/vs/fandelo" },
+            { tool: "Agent Live 360", problem: "Sport-agnostic agent software with no hockey league calendars", href: "/vs/agent-live-360" },
           ].map(({ tool, problem, href }) => (
             <Link
               key={tool}

@@ -50,6 +50,7 @@ billing is shown as the per-month equivalent.
 - vs. HubSpot: https://www.repline.io/vs/hubspot
 - vs. Salesforce: https://www.repline.io/vs/salesforce
 - vs. Fandelo: https://www.repline.io/vs/fandelo
+- vs. Agent Live 360: https://www.repline.io/vs/agent-live-360
 
 ## Contact
 
