@@ -287,6 +287,7 @@ export default function FeaturesPage() {
             { href: "/vs/hubspot", label: "vs. HubSpot" },
             { href: "/vs/salesforce", label: "vs. Salesforce" },
             { href: "/vs/fandelo", label: "vs. Fandelo" },
+            { href: "/vs/agent-live-360", label: "vs. Agent Live 360" },
           ].map(({ href, label }) => (
             <Link
               key={href}
