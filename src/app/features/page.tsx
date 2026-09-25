@@ -298,6 +298,14 @@ export default function FeaturesPage() {
             </Link>
           ))}
         </div>
+        <p className="mt-6 text-center">
+          <Link
+            href="/sports-agent-crm"
+            className="text-sm text-muted hover:text-foreground transition-colors underline underline-offset-4"
+          >
+            Comparing sports agency management software generally? Start here
+          </Link>
+        </p>
       </Section>
 
       <CTASection

@@ -38,6 +38,7 @@ billing is shown as the per-month equivalent.
 
 - Homepage: https://www.repline.io
 - Features: https://www.repline.io/features
+- Sports agent CRM: https://www.repline.io/sports-agent-crm
 - Pricing: https://www.repline.io/pricing
 - About: https://www.repline.io/about
 - Blog: https://www.repline.io/blog

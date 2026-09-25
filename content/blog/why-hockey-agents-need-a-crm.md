@@ -115,7 +115,7 @@ You don't need a CRM when you have 3 players and work solo. You do need one when
 
 ## Getting Started
 
-[Repline](https://www.repline.io) is purpose-built CRM software for hockey agents and advisors. Hockey-native pipeline stages, contact cadence tracking, contract management, scouting reports, and agency oversight — all in one platform. It's what we wished existed when we talked to agents struggling with spreadsheets and generic CRMs.
+[Repline](https://www.repline.io) is purpose-built CRM software for hockey agents and advisors. Hockey-native pipeline stages, contact cadence tracking, contract management, scouting reports, and agency oversight — all in one platform. It's what we wished existed when we talked to agents struggling with spreadsheets and generic CRMs. If you're weighing it against [general sports agency management software](https://www.repline.io/sports-agent-crm), that comparison is worth reading first.
 
 - **Pro:** $75/month for solo advisors (up to 50 players)
 - **Agency:** $695/month for multi-user agencies (up to 15 users, unlimited players)
