@@ -200,7 +200,7 @@ export default function VsFandelo() {
           <div className="rounded-lg border border-border/60 p-4">
             <h3 className="font-semibold mb-1">Pricing comparison</h3>
             <p className="text-sm text-muted leading-relaxed">
-              Confirm Fandelo&apos;s current pricing with your rep before comparing. Repline Pro is <strong>$75/month</strong> for a solo advisor, Team is <strong>$249/month</strong> for up to 5 users, and Agency is <strong>$695/month</strong> for up to 15 users &mdash; flat pricing, no per-seat surprises, and every feature above included at every tier.
+              Confirm Fandelo&apos;s current pricing with your rep before comparing. Repline Pro is <strong>$75/month</strong> for a solo advisor, Team is <strong>$249/month</strong> for up to 5 users, and Agency is <strong>$695/month</strong>{" "}for up to 15 users &mdash; flat pricing, no per-seat surprises, and every feature above included at every tier.
             </p>
           </div>
         </div>

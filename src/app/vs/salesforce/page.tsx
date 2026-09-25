@@ -205,7 +205,7 @@ export default function VsSalesforce() {
           <div className="rounded-lg border border-border/60 p-4">
             <h3 className="font-semibold mb-1">Pricing comparison</h3>
             <p className="text-sm text-muted leading-relaxed">
-              Salesforce Essentials starts at <strong>$25/user/month</strong> but most agencies need Professional (<strong>$75/user/month</strong>) or Enterprise (<strong>$150/user/month</strong>) for workflows and API access. A 5-person agency on Professional costs <strong>$375/month</strong> before add-ons. Repline Team is <strong>$249/month</strong> for up to 5 users, Agency is <strong>$695/month flat</strong> for up to 15 users &mdash; every feature included (scouting reports, e-signatures, league calendars, compliance tracking) without add-ons.
+              Salesforce Essentials starts at <strong>$25/user/month</strong> but most agencies need Professional (<strong>$75/user/month</strong>) or Enterprise (<strong>$150/user/month</strong>) for workflows and API access. A 5-person agency on Professional costs <strong>$375/month</strong> before add-ons. Repline Team is <strong>$249/month</strong> for up to 5 users, Agency is <strong>$695/month flat</strong>{" "}for up to 15 users &mdash; every feature included (scouting reports, e-signatures, league calendars, compliance tracking) without add-ons.
             </p>
           </div>
         </div>
