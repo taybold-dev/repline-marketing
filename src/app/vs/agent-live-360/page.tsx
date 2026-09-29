@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { Section, SectionHeader } from "@/components/section";
 import { ComparisonTable, PersonaQuote } from "@/components/comparison-table";
 import { CTASection } from "@/components/cta-section";
@@ -215,6 +216,18 @@ export default function VsAgentLive360() {
           </div>
         </div>
       </Section>
+
+      <section className="pb-4">
+        <p className="mx-auto max-w-3xl px-6 text-center text-sm text-muted">
+          Weighing the wider category rather than one vendor?{" "}
+          <Link
+            href="/sports-agent-crm"
+            className="text-foreground underline underline-offset-4"
+          >
+            How sports agency management software compares for hockey
+          </Link>
+        </p>
+      </section>
 
       <VsCrossLinks current="/vs/agent-live-360" />
 
