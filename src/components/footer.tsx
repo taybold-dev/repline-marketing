@@ -2,6 +2,7 @@ import Link from "next/link";
 
 const productLinks = [
   { href: "/features", label: "Features" },
+  { href: "/hockey-crm", label: "Hockey CRM" },
   { href: "/sports-agent-crm", label: "Sports Agent CRM" },
   { href: "/hockey-agency-management-software", label: "For Agencies" },
   { href: "/pricing", label: "Pricing" },
