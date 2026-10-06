@@ -15,7 +15,7 @@ excerpt: "Most hockey agents run their practice on spreadsheets and text threads
 
 Every hockey agent starts the same way: a spreadsheet with player names, a phone full of text threads, and a head full of things they need to remember. It works when you have 5 players. It starts breaking when you have 15. By 30, you're losing track of conversations, missing follow-ups, and spending your Sunday nights manually updating a roster spreadsheet that's already outdated.
 
-The question isn't whether you need better tools. It's when you'll admit that the current system is costing you relationships and clients.
+The question isn't whether you need better tools. It's when you'll admit that the current system is costing you relationships and clients — and [the reasons families actually leave an agent](/blog/why-hockey-players-leave-their-agent) are mostly reasons a better system would have caught.
 
 ## What a Spreadsheet Can't Do
 

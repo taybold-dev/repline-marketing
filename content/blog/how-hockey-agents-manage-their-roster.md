@@ -35,7 +35,7 @@ This is where contact cadence matters most. Families expect regular communicatio
 ### Draft-Eligible
 Players approaching the NHL, OHL, WHL, QMJHL, or USHL drafts. These clients require intensive attention — coordinating showcase appearances, managing interview prep, fielding calls from team scouts and GMs, and keeping families informed through a high-anxiety period.
 
-The operational complexity spikes here. You might be coordinating with 5-10 teams for a single player, while managing the same process for multiple draft-eligible clients simultaneously.
+The operational complexity spikes here. You might be coordinating with 5-10 teams for a single player, while managing the same process for multiple draft-eligible clients simultaneously. It's the stage where [how many clients one agent can realistically carry](/blog/how-many-clients-does-a-hockey-agent-have) stops being a theoretical question.
 
 ### Signed / Active
 Players under contract with professional or junior teams. Ongoing management includes contract tracking, performance monitoring, trade deadline awareness, and planning for the next contract cycle.
