@@ -55,6 +55,10 @@ const allTestimonials: Testimonial[] = [
     logo: "/testimonials/yarema-hockey.png",
     logoWidth: 246,
     logoHeight: 239,
+    // 5/5 given on three dimensions: the product, customer service, and
+    // speed of product improvement. Averaged to a single reviewRating,
+    // which is the only rating a schema.org Review carries.
+    rating: 5,
     featured: true,
     approved: true,
   },
@@ -70,12 +74,21 @@ export function getFeaturedTestimonial(): Testimonial | undefined {
   return testimonials.find((t) => t.featured) ?? testimonials[0];
 }
 
+/**
+ * A sitewide average needs more than one voice behind it. A 5.0 built from a
+ * single review is accurate but reads as inflated, so aggregateRating is held
+ * back until there are enough ratings to mean something. Individual
+ * reviewRating values are unaffected and emit as soon as they exist.
+ */
+const MIN_RATINGS_FOR_AGGREGATE = 3;
+
 /** Ratings are only shown when every published testimonial carries a real one. */
 export function getAggregateRating(): { value: number; count: number } | null {
   const rated = testimonials.filter(
     (t): t is Testimonial & { rating: number } => typeof t.rating === "number"
   );
-  if (rated.length === 0 || rated.length !== testimonials.length) return null;
+  if (rated.length < MIN_RATINGS_FOR_AGGREGATE) return null;
+  if (rated.length !== testimonials.length) return null;
   const total = rated.reduce((sum, t) => sum + t.rating, 0);
   return { value: Number((total / rated.length).toFixed(1)), count: rated.length };
 }
