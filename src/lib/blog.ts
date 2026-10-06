@@ -20,6 +20,12 @@ export interface BlogPost {
   authorTitle?: string;
   /** Credentials worth stating for E-E-A-T, e.g. "NHLPA-certified agent". */
   authorCredentials?: string;
+  /**
+   * Optional FAQ pairs for FAQPage structured data. These must mirror an FAQ
+   * section already visible in the post body — schema that isn't on the page
+   * is a guidelines violation, not an optimisation.
+   */
+  faqs?: { q: string; a: string }[];
   keywords?: string[];
   ogImage?: string;
   excerpt: string;
@@ -121,6 +127,7 @@ export async function getPostBySlug(
     author: data.author || undefined,
     authorTitle: data.authorTitle || undefined,
     authorCredentials: data.authorCredentials || undefined,
+    faqs: data.faqs || undefined,
     keywords: data.keywords || [],
     ogImage: data.ogImage || null,
     excerpt:

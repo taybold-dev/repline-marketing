@@ -260,6 +260,13 @@ export default function SportsAgentCrmPage() {
           >
             What &ldquo;hockey CRM&rdquo; means &rarr;
           </Link>
+          <span className="mx-3 text-muted">&middot;</span>
+          <Link
+            href="/blog/best-crm-for-hockey-agents"
+            className="text-sm font-medium text-muted hover:text-foreground transition-colors underline underline-offset-4"
+          >
+            Best CRM for hockey agents (2026) &rarr;
+          </Link>
         </div>
       </Section>
 
