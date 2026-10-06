@@ -82,6 +82,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${BASE_URL}/vs/the-hockey-crm`,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${BASE_URL}/blog`,
       changeFrequency: "weekly",
       priority: 0.8,

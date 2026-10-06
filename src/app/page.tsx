@@ -228,6 +228,7 @@ export default function Home() {
             { tool: "Salesforce", problem: "Too expensive and too complex for a 3-person agency", href: "/vs/salesforce" },
             { tool: "Fandelo", problem: "Fan-engagement app with no built-in contracts or e-signatures", href: "/vs/fandelo" },
             { tool: "Agent Live 360", problem: "Sport-agnostic agent software with no hockey league calendars", href: "/vs/agent-live-360" },
+            { tool: "The Hockey CRM", problem: "Hockey-native rival that publishes no features or pricing", href: "/vs/the-hockey-crm" },
           ].map(({ tool, problem, href }) => (
             <Link
               key={tool}

@@ -41,6 +41,8 @@ There is no minimum age requirement beyond holding a four-year degree. There is 
 
 ### Step 1: Submit the Application
 
+> **On sourcing.** The NHLPA does not publish a detailed public breakdown of its certification process. The steps below reflect publicly available accounts and should be treated as a guide to what to expect, not as the official requirements. Confirm every detail — fees, exam format, timelines — with the NHLPA before relying on it. Their [certified agent listing](https://www.nhlpa.com/certified-agents/) is the authoritative starting point.
+
 Contact the NHLPA directly to request the application package. The application requires:
 
 - Personal and professional background information
@@ -72,7 +74,11 @@ If you pass all three steps, the NHLPA issues your certification. You're now aut
 
 ## Fees and Costs
 
-The NHLPA charges an application fee and an annual certification fee. Agent fees charged to players are capped — typically at 3-5% of the contract value, depending on the terms. The NHLPA regulations set maximum fee schedules that agents cannot exceed.
+The NHLPA charges an application fee and an annual certification fee. Confirm the current amounts with the NHLPA directly — figures circulating online are several years old and we have not been able to verify them against a primary source.
+
+On commission, the range most often quoted publicly is **3-5% of contract value**. Treat that as market convention rather than a published rule: the figure appears mainly in commercial training material, and we could not locate a primary NHLPA source stating a maximum fee schedule. If you need to know what you may charge, ask the NHLPA before you quote a number to a client.
+
+Be especially careful with figures you may find attributed to the NHLPA that in fact come from other players' associations — a widely repeated $2,500 application fee and 3% commission cap are **NFLPA** figures, not NHLPA ones.
 
 Beyond NHLPA fees, the real costs of starting as an agent include:
 
@@ -120,7 +126,7 @@ Purpose-built hockey agent CRM software like [Repline](https://www.repline.io) i
 
 ## Key Takeaways
 
-- NHLPA certification requires a four-year degree, background check, written exam, and interview
+- NHLPA certification is widely reported to involve a four-year degree, background check, written exam, and interview — confirm the current requirements with the NHLPA
 - The exam focuses heavily on the CBA, standard player contract, and agent regulations
 - Certification authorizes you to negotiate NHL contracts — nothing else substitutes for it
 - Most agents spend months building relationships before signing their first client

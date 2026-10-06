@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "Do you offer discounts for annual billing?",
-    a: "Yes \u2014 annual plans save you 15% compared to monthly billing.",
+    a: "Yes \u2014 annual billing saves 15% on Pro and Team, and 16% on Agency, compared to paying monthly.",
   },
   {
     q: "What if I need more than 200 players?",

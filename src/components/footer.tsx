@@ -15,6 +15,7 @@ const compareLinks = [
   { href: "/vs/salesforce", label: "vs. Salesforce" },
   { href: "/vs/fandelo", label: "vs. Fandelo" },
   { href: "/vs/agent-live-360", label: "vs. Agent Live 360" },
+  { href: "/vs/the-hockey-crm", label: "vs. The Hockey CRM" },
 ];
 
 const legalLinks = [
