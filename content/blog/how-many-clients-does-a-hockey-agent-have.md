@@ -100,7 +100,7 @@ A few practical warning signs tend to show up before a roster becomes an actual 
 - On July 1 or draft day, you're triaging which calls happen first instead of having already planned the sequence.
 - You're relying on memory, not a system, to know who's eligible for what and when — which contracts are up, which RFAs need qualifying offers, which junior clients have an NCAA commitment deadline approaching.
 
-None of these on their own means you're over capacity. All of them together, more than once a year, usually does.
+None of these on their own means you're over capacity. All of them together, more than once a year, usually does. At that point the useful question stops being how many clients you can hold and becomes [how you actually manage the ones you have](/blog/how-hockey-agents-manage-their-roster).
 
 ## FAQ
 

@@ -107,6 +107,8 @@ Many professionals start as advisors — guiding players through junior hockey, 
 
 ## Tools for New Agents
 
+Certification gets you the right to represent players; it doesn't get you players. That's a separate discipline — see [how hockey agents and advisors actually find and sign new clients](/blog/how-hockey-agents-advisors-find-sign-new-clients).
+
 Managing your first clients with spreadsheets and text threads works temporarily. But as your roster grows, you'll need systems for tracking player profiles, contract deadlines, compliance dates, family communications, and career timelines.
 
 Purpose-built hockey agent CRM software like [Repline](https://www.repline.io) is designed for exactly this workflow — player pipelines, contact cadence tracking, scouting reports, and agency oversight in one platform. Most agents find they need dedicated tools within their first year of active practice.
