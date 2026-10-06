@@ -29,7 +29,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: post.description,
       url: `https://www.repline.io/blog/${slug}`,
       publishedTime: post.date,
-      authors: ["Repline Team"],
+      ...(post.updated ? { modifiedTime: post.updated } : {}),
+      authors: [post.author ?? "Repline Team"],
       images: [post.ogImage ?? ogImage({ title: post.title, subtitle: post.description, tag: "Repline Blog" })],
     },
     twitter: {
@@ -52,11 +53,26 @@ export default async function BlogPost({ params }: Props) {
     description: post.description,
     datePublished: post.date,
     dateModified: post.date,
-    author: {
-      "@type": "Organization",
-      name: "Repline Team",
-      url: "https://www.repline.io",
-    },
+    ...(post.updated ? { dateModified: post.updated } : {}),
+    author: post.author
+      ? {
+          "@type": "Person",
+          name: post.author,
+          ...(post.authorTitle ? { jobTitle: post.authorTitle } : {}),
+          ...(post.authorCredentials
+            ? { description: post.authorCredentials }
+            : {}),
+          worksFor: {
+            "@type": "Organization",
+            name: "Repline",
+            url: "https://www.repline.io",
+          },
+        }
+      : {
+          "@type": "Organization",
+          name: "Repline Team",
+          url: "https://www.repline.io",
+        },
     publisher: {
       "@type": "Organization",
       name: "Repline",
@@ -92,7 +108,15 @@ export default async function BlogPost({ params }: Props) {
         <div className="mx-auto max-w-4xl px-6">
           {/* Header */}
           <header className="mb-10">
-            <div className="flex items-center gap-3 text-xs text-muted mb-3">
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted mb-3">
+              <span>
+                By{" "}
+                <span className="font-medium text-foreground">
+                  {post.author ?? "Repline Team"}
+                </span>
+                {post.authorTitle && <>, {post.authorTitle}</>}
+              </span>
+              <span>&middot;</span>
               <time dateTime={post.date}>
                 {new Date(post.date).toLocaleDateString("en-US", {
                   year: "numeric",
@@ -100,6 +124,21 @@ export default async function BlogPost({ params }: Props) {
                   day: "numeric",
                 })}
               </time>
+              {post.updated && (
+                <>
+                  <span>&middot;</span>
+                  <span>
+                    Updated{" "}
+                    <time dateTime={post.updated}>
+                      {new Date(post.updated).toLocaleDateString("en-US", {
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric",
+                      })}
+                    </time>
+                  </span>
+                </>
+              )}
               <span>&middot;</span>
               <span>{post.readingTime}</span>
             </div>

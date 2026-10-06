@@ -98,6 +98,8 @@ This checklist walks through what needs to happen at each stage, from 12 months 
 
 ## Draft Week
 
+Draft week is the clearest stress test of how many clients a practice can actually carry — if you are triaging calls rather than working a plan, that is usually [a capacity signal rather than a scheduling one](/blog/how-many-clients-does-a-hockey-agent-have).
+
 ### 3-5 Days Before
 - Confirm all travel arrangements
 - Touch base with key team contacts — any last-minute intelligence on where your client stands

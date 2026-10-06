@@ -1,7 +1,8 @@
 ---
-title: "The Complete Guide to CHL-NCAA Eligibility Rules (2025-26)"
-description: "Everything hockey agents, advisors, and families need to know about the new CHL-NCAA eligibility rules — what changed, which leagues are affected, key dates, and how to track compliance."
+title: "The Complete Guide to CHL-NCAA Eligibility Rules (2026-27)"
+description: "CHL-NCAA eligibility in 2026-27: what changed, how NIL and revenue sharing reshaped the decision, the new age-based model, and how to track compliance."
 date: "2026-04-12"
+updated: "2026-10-06"
 keywords:
   - CHL NCAA eligibility rules 2025
   - CHL NCAA eligibility
@@ -10,14 +11,20 @@ keywords:
   - QMJHL NCAA eligibility
   - hockey agent compliance
   - hockey advisor eligibility tracking
-excerpt: "The November 2024 NCAA Division I Council vote changed everything for CHL players pursuing NCAA hockey. Here's what agents, advisors, and families need to know about the new eligibility landscape."
+  - NCAA hockey NIL
+  - CHL NCAA 2026-27
+  - NCAA age-based eligibility model
+  - NCAA hockey revenue sharing
+excerpt: "The November 2024 vote opened the door. NIL money, revenue sharing, and a new age-based eligibility model have since changed what walking through it is worth. Here's the 2026-27 picture."
 ---
 
 The relationship between the [Canadian Hockey League (CHL)](https://chl.ca/) and [NCAA](https://www.ncaa.org/) hockey changed fundamentally in November 2024. For decades, playing in the CHL — the [OHL](https://ontariohockeyleague.com/), [WHL](https://whl.ca/), or [QMJHL](https://theqmjhl.ca/) — meant forfeiting your NCAA eligibility. That's no longer the case.
 
 The [NCAA Division I Council](https://www.ncaa.org/sports/2013/11/27/eligibility-and-recruiting.aspx) voted to allow CHL players to retain their NCAA eligibility under specific conditions. This is the most significant rule change in junior hockey pathways in a generation, and it has massive implications for agents, advisors, and families navigating player development.
 
-This guide breaks down everything you need to know.
+Two seasons on, the rule itself is settled — but almost everything around it has moved. NIL deals and direct revenue sharing have changed what an NCAA commitment is worth in dollars, and a new age-based eligibility model takes effect for the 2026-27 academic year.
+
+This guide breaks down everything you need to know, updated for 2026-27.
 
 ## What Changed in November 2024
 
@@ -86,6 +93,16 @@ This is where documentation matters. Players and families should keep records of
 | August 2025 | New rules take effect for the 2025-26 academic year |
 | October 2025 | First CHL-to-NCAA transfers under new rules begin competing |
 
+### For the 2026-27 Season
+
+| Date | Event |
+|------|-------|
+| June 2025 | House v. NCAA settlement approved; direct revenue sharing begins 1 July |
+| April 2026 | 297 CHL players committed to D-I — 38% of all commitments |
+| June 2026 | NCAA proposal to adjust the hockey eligibility clock introduced |
+| August 1, 2026 | Age-Based Eligibility Model takes effect for all D-I sports |
+| 2026-27 | Revenue-sharing cap ~$21.3M per school; 26-player roster cap and up to 26 scholarships for opted-in hockey programs |
+
 ### Ongoing Compliance Windows
 
 - **CHL regular season** — September through March (compliance tracking active)
@@ -98,6 +115,30 @@ This is where documentation matters. Players and families should keep records of
 Players who are drafted by an NHL team but do not sign a professional contract retain their amateur status. The CHL-NCAA eligibility change does not affect NHL draft eligibility — a player can be drafted, play in the CHL, and still transfer to the NCAA, provided they haven't signed an NHL entry-level contract.
 
 However, signing an NHL contract — even a conditional one — would constitute professional compensation and void NCAA eligibility regardless of the CHL rule change.
+
+## What Changed Since: NIL, Revenue Sharing, and the Age-Based Model
+
+The November 2024 vote removed the barrier. Three developments since have changed what crossing it is actually worth.
+
+### NIL and direct revenue sharing
+
+[Judge Claudia Wilken approved the $2.8 billion House v. NCAA settlement on 6 June 2025](https://www.collegehockeyinc.com/2025/06/chi-house-settlement-qa/), and from 1 July 2025 schools began paying athletes directly. The revenue-sharing cap sits at roughly **$21.3 million per school for 2026-27** and rises by at least 4% a year across the ten-year agreement.
+
+For hockey specifically, Division I programs that opt in to the settlement operate under a **26-player roster cap** and may grant **up to 26 full scholarships** — a substantial increase over the previous scholarship limit, and on top of revenue-sharing payments and any third-party NIL deals.
+
+The practical effect is that the CHL-versus-NCAA conversation is no longer development pathway versus development pathway. It is now a pathway decision with real money attached to one side. [Gavin McKenna, the consensus first overall pick for the 2026 NHL Draft, left the WHL's Medicine Hat Tigers for Penn State on an NIL deal reported in the region of $700,000](https://frontofficesports.com/ncaa-hockey-rule-change-chl-ushl/) — a figure no CHL team can match under "actual and necessary expenses" rules.
+
+### The adoption numbers
+
+This is not a marginal pathway any more. As of 9 April 2026, **297 players across the WHL, OHL and QMJHL had committed to Division I programs — 38% of all D-I commitments**. Two seasons ago that number was zero by rule.
+
+### The age-based eligibility model
+
+A new **Age-Based Eligibility Model applies to all NCAA Division I sports from 1 August 2026**. Players enrolling full-time for the first time in the 2026-27 academic year get whichever is more favourable to them — the existing rules or the new age-based model. The NCAA has also [floated a further proposal adjusting the eligibility clock](https://www.uscho.com/2026/06/24/ncaa-proposal-changes-eligibility-clock-for-hockey-players), so this is still moving.
+
+For a sport where players routinely arrive at college at 20 or 21 after three or four junior seasons, how the clock is counted is not a technicality. Confirm the applicable model per player with the NCAA Eligibility Center rather than assuming.
+
+> **This section describes a landscape that is still changing.** NIL, revenue-sharing and eligibility-clock rules have all moved within the past eighteen months. Verify current figures and the model applying to each player before advising a family.
 
 ## What This Means for Agents and Advisors
 
@@ -124,7 +165,7 @@ For an advisor managing 30+ prospects at various stages of development, tracking
 
 Families used to ask: "Should my son play in the CHL or go the NCAA route?" Now they ask: "Can he do both? What are the risks? What documentation do we need? What happens if the team offers something that crosses the line?"
 
-Agents and advisors who can clearly explain the new rules, track compliance proactively, and give families confidence that their son's eligibility is being protected will have a significant competitive advantage.
+Agents and advisors who can clearly explain the new rules, track compliance proactively, and give families confidence that their son's eligibility is being protected will have a significant competitive advantage. It is also, in practice, where a lot of client relationships are won — [the CHL-versus-NCAA conversation is one of the clearest places trust gets established or lost](/blog/how-hockey-agents-advisors-find-sign-new-clients).
 
 ## How to Track Eligibility and Deadlines
 
