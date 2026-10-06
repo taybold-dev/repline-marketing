@@ -256,6 +256,13 @@ export default function HockeyAgencyManagementSoftwarePage() {
           >
             Comparing against general sports agency software? &rarr;
           </Link>
+          <span className="mx-3 text-muted">&middot;</span>
+          <Link
+            href="/hockey-crm"
+            className="text-sm font-medium text-muted hover:text-foreground transition-colors underline underline-offset-4"
+          >
+            What &ldquo;hockey CRM&rdquo; actually means &rarr;
+          </Link>
         </div>
       </Section>
 
