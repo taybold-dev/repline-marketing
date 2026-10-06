@@ -204,15 +204,24 @@ export default async function BlogPost({ params }: Props) {
         <div className="mx-auto max-w-4xl px-6">
           <div className="flex items-start gap-4 rounded-lg border border-border/60 p-5">
             <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-lg">
-              R
+              {post.author
+                ? post.author
+                    .split(/\s+/)
+                    .slice(0, 2)
+                    .map((part) => part.charAt(0).toUpperCase())
+                    .join("")
+                : "R"}
             </div>
             <div>
-              <p className="text-sm font-semibold">Repline Team</p>
+              <p className="text-sm font-semibold">
+                {post.author ?? "Repline Team"}
+                {post.authorTitle && (
+                  <span className="font-normal text-muted">, {post.authorTitle}</span>
+                )}
+              </p>
               <p className="text-xs text-muted mt-1 leading-relaxed">
-                Built by people who understand the hockey agent and advisor workflow.
-                Repline is purpose-built CRM software for player representation &mdash;
-                designed in partnership with working agents across the OHL, WHL, QMJHL,
-                NCAA, AHL, and NHL.
+                {post.authorCredentials ??
+                  "Built by people who understand the hockey agent and advisor workflow. Repline is purpose-built CRM software for player representation \u2014 designed in partnership with working agents across the OHL, WHL, QMJHL, NCAA, AHL, and NHL."}
               </p>
             </div>
           </div>

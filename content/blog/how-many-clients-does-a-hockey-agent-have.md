@@ -4,6 +4,7 @@ description: "NFL and MLB agents have published roster benchmarks — hockey doe
 date: "2026-09-09"
 author: "Taylor Bold"
 authorTitle: "Founder"
+authorCredentials: "Taylor Bold is the founder of Repline, the CRM built for hockey agents and advisors. He started it in 2025 after watching representatives miss contract deadlines buried in email and lose track of which families they'd called that month, and builds it alongside working agents and advisors."
 keywords:
   - how many clients does a hockey agent have
   - hockey agent roster size
