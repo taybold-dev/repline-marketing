@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "What is hockey agency management software?",
-    a: "Hockey agency management software is the system a multi-advisor representation firm runs on: every player and contact in one record set, assignment of clients to specific reps, visibility rules so advisors see their own book while owners see everything, and rollups that show contracts, advisory agreements and player counts per advisor. It differs from a general agency CRM in that it has to model hockey's own rules — league calendars, CHL-NCAA eligibility, and the flat-fee family-advisor relationship NCAA rules require.",
+    a: "Hockey agency management software \u2014 also called an agency management platform, or simply a hockey agency CRM \u2014 is the system a multi-advisor representation firm runs on: every player and contact in one record set, assignment of clients to specific reps, visibility rules so advisors see their own book while owners see everything, and rollups that show contracts, advisory agreements and player counts per advisor. It differs from a general agency CRM in that it has to model hockey's own rules — league calendars, CHL-NCAA eligibility, and the flat-fee family-advisor relationship NCAA rules require.",
   },
   {
     q: "How is this different from a general agency CRM?",
@@ -74,6 +74,9 @@ export default function HockeyAgencyManagementSoftwarePage() {
           </h1>
           <p className="mt-4 text-lg text-muted max-w-2xl mx-auto">
             Hockey agency management software has to do two jobs at once: run the agency &mdash; who owns which client, what every advisor has signed, where the business actually stands &mdash; and know hockey, down to the eligibility window closing on a sixteen-year-old in the OHL. Repline does both, because it only does one sport.
+          </p>
+          <p className="mt-3 text-sm text-muted max-w-2xl mx-auto">
+            Agency management platform, hockey agency CRM, hockey agency software &mdash; the vocabulary varies and the job doesn&apos;t. This page covers all of it.
           </p>
         </div>
       </section>
