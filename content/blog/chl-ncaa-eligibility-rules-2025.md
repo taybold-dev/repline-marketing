@@ -3,6 +3,8 @@ title: "The Complete Guide to CHL-NCAA Eligibility Rules (2026-27)"
 description: "CHL-NCAA eligibility in 2026-27: what changed, how NIL and revenue sharing reshaped the decision, the new age-based model, and how to track compliance."
 date: "2026-04-12"
 updated: "2026-10-06"
+author: "Taylor Bold"
+authorTitle: "Founder"
 keywords:
   - CHL NCAA eligibility rules 2025
   - CHL NCAA eligibility

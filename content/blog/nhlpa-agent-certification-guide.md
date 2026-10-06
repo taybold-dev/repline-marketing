@@ -2,6 +2,8 @@
 title: "How to Become an NHLPA Certified Agent: Requirements, Process, and What to Expect"
 description: "A complete guide to NHLPA agent certification — eligibility requirements, the application process, exam preparation, fees, and what happens after you're certified. Updated for 2025-26."
 date: "2026-04-12"
+author: "Taylor Bold"
+authorTitle: "Founder"
 keywords:
   - nhlpa agent certification
   - nhlpa certified agent

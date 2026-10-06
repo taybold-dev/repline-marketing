@@ -2,6 +2,8 @@
 title: "Draft Day Prep Checklist for Hockey Advisors and Agents"
 description: "A step-by-step checklist for hockey agents and advisors preparing clients for the NHL, OHL, WHL, QMJHL, and USHL drafts — from 12 months out to draft day."
 date: "2026-04-10"
+author: "Taylor Bold"
+authorTitle: "Founder"
 keywords:
   - hockey draft preparation
   - hockey advisor draft day

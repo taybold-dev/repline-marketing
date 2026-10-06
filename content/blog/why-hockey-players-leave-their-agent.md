@@ -2,6 +2,8 @@
 title: "Why Hockey Players Leave Their Agent (and How to Prevent It)"
 description: "The real reasons hockey players and their families switch agents or advisors — accessibility, poaching, broken promises — and a practical way to prevent it before it happens."
 date: "2026-09-09"
+author: "Taylor Bold"
+authorTitle: "Founder"
 keywords:
   - hockey agent client retention
   - why hockey players leave their agent

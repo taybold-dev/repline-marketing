@@ -2,6 +2,8 @@
 title: "How Hockey Agents and Advisors Find and Sign New Clients"
 description: "How hockey agents and advisors identify prospects, build trust with families, and win clients in a small, relationship-driven market — and where NHLPA rules do (and don't) apply."
 date: "2026-09-09"
+author: "Taylor Bold"
+authorTitle: "Founder"
 keywords:
   - how hockey agents find clients
   - hockey agent client acquisition

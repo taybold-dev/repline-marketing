@@ -2,6 +2,8 @@
 title: "AHL and ECHL Contract Negotiation: What Hockey Agents Need to Know"
 description: "A practical guide to AHL and ECHL contract structures, negotiation strategies, and workflow management for hockey agents and advisors representing minor professional players."
 date: "2026-04-09"
+author: "Taylor Bold"
+authorTitle: "Founder"
 keywords:
   - AHL contract negotiation
   - ECHL contract

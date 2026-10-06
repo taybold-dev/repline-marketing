@@ -2,6 +2,8 @@
 title: "Why Hockey Agents Need a CRM (Not a Spreadsheet)"
 description: "Spreadsheets, text threads, and memory aren't enough to run a hockey practice. Here's why purpose-built CRM software separates growth from stalling."
 date: "2026-04-08"
+author: "Taylor Bold"
+authorTitle: "Founder"
 keywords:
   - hockey agent CRM
   - hockey agent software
