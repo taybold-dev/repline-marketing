@@ -246,6 +246,13 @@ export default function SportsAgentCrmPage() {
           >
             See everything Repline does &rarr;
           </Link>
+          <span className="mx-3 text-muted">&middot;</span>
+          <Link
+            href="/hockey-agency-management-software"
+            className="text-sm font-medium text-muted hover:text-foreground transition-colors underline underline-offset-4"
+          >
+            Running a multi-rep agency? &rarr;
+          </Link>
         </div>
       </Section>
 

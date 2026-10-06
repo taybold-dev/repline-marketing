@@ -233,6 +233,14 @@ export default function FeaturesPage() {
             />
           </div>
         </div>
+              <div className="mt-8 text-center">
+          <Link
+            href="/hockey-agency-management-software"
+            className="text-sm font-medium text-muted hover:text-foreground transition-colors underline underline-offset-4"
+          >
+            See the full agency breakdown &rarr;
+          </Link>
+        </div>
       </Section>
 
       {/* Integrations */}
