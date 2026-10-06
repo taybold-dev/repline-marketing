@@ -65,7 +65,7 @@ function AgencyLogo({
 function Stars({ rating }: { rating: number }) {
   const rounded = Math.round(rating);
   return (
-    <span className="mb-3 block text-sm text-accent" aria-label={`${rating} out of 5 stars`}>
+    <span className="mb-3 block text-lg leading-none tracking-[0.15em] text-accent" aria-label={`${rating} out of 5 stars`}>
       <span aria-hidden="true">{"★".repeat(rounded)}{"☆".repeat(5 - rounded)}</span>
     </span>
   );
