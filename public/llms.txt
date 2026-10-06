@@ -52,6 +52,7 @@ billing is shown as the per-month equivalent.
 - vs. Salesforce: https://www.repline.io/vs/salesforce
 - vs. Fandelo: https://www.repline.io/vs/fandelo
 - vs. Agent Live 360: https://www.repline.io/vs/agent-live-360
+- vs. The Hockey CRM: https://www.repline.io/vs/the-hockey-crm
 
 ## Contact
 

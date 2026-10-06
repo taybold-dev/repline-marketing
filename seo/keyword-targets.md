@@ -8,6 +8,12 @@ by volume. Unlike the dated audits in [`reports/`](reports/), this file is
 meant to be **updated in place** as coverage changes — tick items off, move
 them between tiers, add new ones as the SERP shifts.
 
+> **Superseded in part, 2026-10-06.** Owner-side rank tracking shows Repline
+> at #1 on four terms this file originally advised against pursuing. See
+> [Superseded by rank-tracking data](#superseded-by-rank-tracking-data-2026-10-06).
+> The build order below also predates the discovery of The Hockey CRM, a
+> hockey-native competitor holding #1 on two category terms.
+
 ## Data limitations — read before acting on the ordering
 
 No SERP API credentials were available for this run (`SEMRUSH_API_KEY`,
@@ -27,7 +33,15 @@ To upgrade this list with real numbers, set `SEMRUSH_API_KEY` or
 
 ## Findings that shaped this list
 
-### 1. No hockey-native competitor holds the *agent-tool* keywords
+### 1. ~~No hockey-native competitor holds the agent-tool keywords~~ — wrong
+
+**Corrected 2026-10-06.** A hockey-native competitor does exist:
+**The Hockey CRM** (thehockeycrm.com), which rank tracking puts at **#1** for
+*hockey crm* and *hockey agency management platform*, with a title tag of
+"Agency Management & Scouting Platform". This file missed it entirely, and no
+`/vs/` page answers it. It is the closest rival Repline has.
+
+The original finding, which holds only for the sport-agnostic terms:
 
 The SERP for sports-agency software is entirely football/soccer —
 [ScoutDecision](https://www.scoutdecision.com/software/agents),
@@ -112,25 +126,59 @@ tools, and *hockey agent CRM* returns Repline.
 | 3 | CRM for sports agents | Post keyword only | "CRM" + "sports agent" lands on real agent tools. Every competitor is football-only. |
 | 4 | sports agency management software | **None** | Verified correct intent — ScoutDecision, ScoutHub, ATHLIVO, Agent Live 360, Opendorse. Real competition, all wrong-sport. |
 
-### Do not pursue
+### Superseded by rank-tracking data (2026-10-06)
 
-| Keyword | What the SERP actually returns | Superseded rationale |
-|---------|-------------------------------|----------------------|
-| hockey agent software | The "Hockey Agent" mobile game, plus club-management software | "Second-strongest commercial term with no dedicated page" |
-| hockey advisor software | TeamSnap, 360Player, LeagueApps — club and league admin | "Mirror for the advisor half of the positioning" |
-| player representation software | **USPTO patents and arXiv papers** on software agents. Repline's own tagline is a computer-science phrase | "Repline's own tagline language, uncontested" |
-| best software for hockey agents | Inherits the game/club contamination above; a vendor writing its own "best" listicle is weak regardless | "Listicle intent with no incumbent listicle" |
-| hockey agent spreadsheet template | [Etsy stats trackers](https://www.etsy.com/listing/1902439035/hockey-stats-spreadsheet-template-hockey) for coaches and hockey parents — people logging goals and assists, not managing client rosters | "The query that feeds `/vs/spreadsheets`" |
-| hockey agency management software | *Not directly tested.* Expected to collide with the same club-admin category as *hockey advisor software* — treat as inference, not evidence | "Exact match to the Agency tier. No hockey competition" |
+**This section previously told readers not to pursue six terms. For four of
+them that was wrong.** Owner-side Google rank tracking, supplied in the
+`Repline_high_intent_search_terms` research, shows Repline holding **#1** on
+terms this file had written off:
 
-### Correction on the "#2" ranking claim
+| Keyword | This file said | Rank tracking says | Correct action |
+|---------|----------------|--------------------|----------------|
+| hockey agent crm | Pursue (defend) | **Repline #1** | Defend — unchanged |
+| crm for hockey agents | *(not listed separately)* | **Repline #1** | Defend |
+| hockey agent software | Do not pursue | **Repline #1** | **Defend** |
+| hockey advisor software | Do not pursue | **Repline #1** | **Defend, and extend to variants** |
 
-An earlier note recorded Repline as ranking **#2** for *hockey agent CRM*.
-That came from the ordering returned by the search tool, which is US-only and
-is not a verified Google organic position. Repline is clearly ranking and
-visible for the term, and Google's AI summary is built largely from the
-homepage brand-definition paragraph — but confirm the actual position in
-Search Console before treating it as a number.
+#### Why this file got it wrong
+
+The "do not pursue" calls came from reading SERP *composition* through a
+web-search tool: those pages return a mobile game named "Hockey Agent" and
+club-management platforms, so the terms looked like wrong-intent traps.
+
+Both things are true at once — Repline ranks #1 **and** the rest of the page
+is noise. The error was in the inference, not the observation. A junk SERP
+around a #1 position is a moat, not a reason to walk away.
+
+The tool used here could not see Repline's actual positions, which is the
+same limitation the research names about its own SERP observations: they
+"did not reproduce Repline's known #1 positions." **Rank tracking and Search
+Console outrank any SERP-composition reading, including this file's.**
+
+### Still not worth pursuing
+
+These two stand, for reasons unrelated to ranking:
+
+| Keyword | Why |
+|---------|-----|
+| player representation software | Returns USPTO patents and arXiv papers on software agents. The phrase reads as computer science, not representation. No rank-tracking data contradicts this |
+| hockey agent spreadsheet template | [Etsy stats trackers](https://www.etsy.com/listing/1902439035/hockey-stats-spreadsheet-template-hockey) for coaches and hockey parents logging goals and assists — the wrong buyer. Note the research reaches a different conclusion on the *adjacent* term "hockey agent client tracker", which it rates P1 as a free-template play; that is a different asset with a different intent |
+
+Two further terms this file had dismissed are now **open questions** rather
+than closed ones. The research rates *best crm for hockey agents* as **P1**
+(no editorial answer exists) and *hockey agency management software* as **P1
+attack** (The Hockey CRM holds #1). Both were written off here on untested
+inference. Treat the research's call as better evidence.
+
+### Correction on the "#2" ranking claim — now superseded
+
+This file previously recorded Repline at **#2** for *hockey agent CRM*, taken
+from search-tool result ordering, and warned that it was not a verified Google
+position. That warning was right, and the number was wrong in the pessimistic
+direction: owner-side rank tracking puts Repline at **#1**.
+
+The standing lesson is unchanged and now twice demonstrated: **do not infer
+rank from search-tool output.** Confirm in Search Console or rank tracking.
 
 ## Execution plan for the Tier 1 four
 

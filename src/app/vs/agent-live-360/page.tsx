@@ -71,7 +71,7 @@ const rows = [
   },
   {
     feature: "Pricing",
-    competitor: "$38/mo (1 agent) to $150/mo (5 agents) billed annually, or $49\u2013$190/mo billed monthly, plus $25 per extra user and a one-time $25 sign-up fee",
+    competitor: "$38/mo (1 agent) to $150/mo (5 agents) billed annually, or $49\u2013$190/mo billed monthly. Extra users beyond five are $25/mo on annual billing and $35/mo on monthly, plus a one-time $25 sign-up fee",
     repline: "Pro $75/mo (1 user), Team $249/mo (5 users), Agency $695/mo (15 users) \u2014 flat, no per-seat add-ons",
   },
 ];
@@ -211,7 +211,7 @@ export default function VsAgentLive360() {
           <div className="rounded-lg border border-border/60 p-4">
             <h3 className="font-semibold mb-1">Pricing comparison</h3>
             <p className="text-sm text-muted leading-relaxed">
-              Agent Live 360 is the cheaper tool, and it isn&apos;t close. Billed annually it runs <strong>$38/month</strong> for one agent and <strong>$150/month</strong> for five, plus $25 per user beyond that and a one-time $25 sign-up fee. Repline Pro is <strong>$75/month</strong> for a solo advisor, Team is <strong>$249/month</strong> for up to 5 users, and Agency is <strong>$695/month</strong>{" "}for up to 15 &mdash; flat, with no per-seat add-ons. If cost per seat is the deciding factor, Agent Live 360 wins it. The question worth asking is what the difference buys: league calendars, eligibility tracking, scouting PDFs, and e-signatures you would otherwise be running outside the tool.
+              Agent Live 360 is the cheaper tool, and it isn&apos;t close. Billed annually it runs <strong>$38/month</strong> for one agent and <strong>$150/month</strong> for five, with extra users beyond five at $25/month on annual billing or $35/month on monthly, plus a one-time $25 sign-up fee. Repline Pro is <strong>$75/month</strong> for a solo advisor, Team is <strong>$249/month</strong> for up to 5 users, and Agency is <strong>$695/month</strong>{" "}for up to 15 &mdash; flat, with no per-seat add-ons. If cost per seat is the deciding factor, Agent Live 360 wins it. The question worth asking is what the difference buys: league calendars, eligibility tracking, scouting PDFs, and e-signatures you would otherwise be running outside the tool.
             </p>
           </div>
         </div>

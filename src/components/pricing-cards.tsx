@@ -55,6 +55,11 @@ const tiers: Tier[] = [
   {
     name: "Agency",
     monthlyPrice: 695,
+    // 583 is a 16.1% discount, not the 15% the other two tiers use.
+    // 15% of 695 would be 591. Left as-is because the list price is a
+    // business decision, not a typo to assume — but the /pricing FAQ now
+    // states 15% on Pro/Team and 16% on Agency so the claim matches the
+    // numbers. If 591 was intended, change this and the FAQ together.
     annualPrice: 583,
     description: "For large advisory firms scaling up.",
     features: [

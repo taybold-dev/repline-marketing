@@ -7,6 +7,7 @@ const VS_PAGES = [
   { href: "/vs/salesforce", label: "Salesforce", short: "Salesforce" },
   { href: "/vs/fandelo", label: "Fandelo", short: "Fandelo" },
   { href: "/vs/agent-live-360", label: "Agent Live 360", short: "Agent Live 360" },
+  { href: "/vs/the-hockey-crm", label: "The Hockey CRM", short: "The Hockey CRM" },
 ];
 
 export function VsCrossLinks({ current }: { current: string }) {
