@@ -2,6 +2,9 @@
 title: "Draft Day Prep Checklist for Hockey Advisors and Agents"
 description: "A step-by-step checklist for hockey agents and advisors preparing clients for the NHL, OHL, WHL, QMJHL, and USHL drafts — from 12 months out to draft day."
 date: "2026-04-10"
+author: "Taylor Bold"
+authorTitle: "Founder"
+authorCredentials: "Taylor Bold is the founder of Repline, the CRM built for hockey agents and advisors. He started it in 2025 after watching representatives miss contract deadlines buried in email and lose track of which families they'd called that month, and builds it alongside working agents and advisors."
 keywords:
   - hockey draft preparation
   - hockey advisor draft day
@@ -97,6 +100,8 @@ This checklist walks through what needs to happen at each stage, from 12 months 
 - Set expectations for the post-draft period regardless of outcome
 
 ## Draft Week
+
+Draft week is the clearest stress test of how many clients a practice can actually carry — if you are triaging calls rather than working a plan, that is usually [a capacity signal rather than a scheduling one](/blog/how-many-clients-does-a-hockey-agent-have).
 
 ### 3-5 Days Before
 - Confirm all travel arrangements

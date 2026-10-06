@@ -2,6 +2,9 @@
 title: "How Hockey Agents Manage Their Roster: A Workflow Guide"
 description: "Inside the day-to-day workflow of hockey agents and advisors — from prospect tracking to contract management, family communication, and compliance deadlines."
 date: "2026-04-11"
+author: "Taylor Bold"
+authorTitle: "Founder"
+authorCredentials: "Taylor Bold is the founder of Repline, the CRM built for hockey agents and advisors. He started it in 2025 after watching representatives miss contract deadlines buried in email and lose track of which families they'd called that month, and builds it alongside working agents and advisors."
 keywords:
   - hockey agent manage players
   - hockey agent workflow

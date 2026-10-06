@@ -2,6 +2,9 @@
 title: "How to Become an NHLPA Certified Agent: Requirements, Process, and What to Expect"
 description: "A complete guide to NHLPA agent certification — eligibility requirements, the application process, exam preparation, fees, and what happens after you're certified. Updated for 2025-26."
 date: "2026-04-12"
+author: "Taylor Bold"
+authorTitle: "Founder"
+authorCredentials: "Taylor Bold is the founder of Repline, the CRM built for hockey agents and advisors. He started it in 2025 after watching representatives miss contract deadlines buried in email and lose track of which families they'd called that month, and builds it alongside working agents and advisors."
 keywords:
   - nhlpa agent certification
   - nhlpa certified agent

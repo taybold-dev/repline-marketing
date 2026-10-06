@@ -2,6 +2,9 @@
 title: "How Hockey Agents and Advisors Network With Scouts, Coaches, and Team Staff"
 description: "Most hockey networking content is written for players trying to get scouted. This guide is written for the agent or advisor — how to build the relationships with scouts, coaches, and team staff that generate real referrals."
 date: "2026-09-09"
+author: "Taylor Bold"
+authorTitle: "Founder"
+authorCredentials: "Taylor Bold is the founder of Repline, the CRM built for hockey agents and advisors. He started it in 2025 after watching representatives miss contract deadlines buried in email and lose track of which families they'd called that month, and builds it alongside working agents and advisors."
 keywords:
   - how to network as a hockey agent
   - hockey agent scouting network

@@ -12,6 +12,14 @@ export interface BlogPost {
   title: string;
   description: string;
   date: string;
+  /** Last substantive revision, if the post has been updated since publication. */
+  updated?: string;
+  /** Named author. Falls back to the organisation byline when absent. */
+  author?: string;
+  /** The author's role, shown alongside their name. */
+  authorTitle?: string;
+  /** Credentials worth stating for E-E-A-T, e.g. "NHLPA-certified agent". */
+  authorCredentials?: string;
   keywords?: string[];
   ogImage?: string;
   excerpt: string;
@@ -25,6 +33,7 @@ export interface BlogPostMeta {
   title: string;
   description: string;
   date: string;
+  updated?: string;
   excerpt: string;
   readingTime: string;
 }
@@ -77,6 +86,7 @@ export function getAllPosts(): BlogPostMeta[] {
       title: data.title || slug,
       description: data.description || "",
       date: data.date || "",
+      updated: data.updated || undefined,
       excerpt: data.excerpt || content.slice(0, 200).replace(/[#*_\n]/g, "").trim() + "...",
       readingTime: stats.text,
     };
@@ -107,6 +117,10 @@ export async function getPostBySlug(
     title: data.title || slug,
     description: data.description || "",
     date: data.date || "",
+    updated: data.updated || undefined,
+    author: data.author || undefined,
+    authorTitle: data.authorTitle || undefined,
+    authorCredentials: data.authorCredentials || undefined,
     keywords: data.keywords || [],
     ogImage: data.ogImage || null,
     excerpt:
