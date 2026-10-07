@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getPostBySlug, getAllSlugs } from "@/lib/blog";
 import { ogImage, defaultOgImage } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { FAQPageSchema } from "@/components/schema-org";
 import { CTASection } from "@/components/cta-section";
 
 interface Props {
@@ -96,6 +97,7 @@ export default async function BlogPost({ params }: Props) {
           __html: JSON.stringify(blogPostingSchema),
         }}
       />
+      {post.faqs && post.faqs.length > 0 && <FAQPageSchema faqs={post.faqs} />}
       <Breadcrumbs
         items={[
           { label: "Home", href: "/" },

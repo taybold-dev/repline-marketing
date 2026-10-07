@@ -66,7 +66,7 @@ const rows = [
   },
   {
     feature: "Pricing",
-    competitor: "From $9/seat/mo, scales with users + features",
+    competitor: "From about $12/seat/mo billed annually ($18 monthly), 3-seat minimum \u2014 verify current pricing",
     repline: "Pro $75/mo (1 user), Team $249/mo (5 users), Agency $695/mo (15 users)",
   },
 ];
@@ -198,7 +198,7 @@ export default function VsMonday() {
           <div className="rounded-lg border border-border/60 p-4">
             <h3 className="font-semibold mb-1">Pricing comparison</h3>
             <p className="text-sm text-muted leading-relaxed">
-              Monday.com starts at <strong>$9/seat/month</strong> but scales quickly with users and feature tiers. A 5-person agency on Pro plan costs ~$80/month. Repline Pro is <strong>$75/month</strong> for a solo advisor, Team is <strong>$249/month</strong> for up to 5 users, and Agency is <strong>$695/month</strong>{" "}for up to 15 users &mdash; flat pricing, no per-seat surprises, and every hockey-specific feature included.
+              Monday.com starts at roughly <strong>$12/seat/month</strong>{" "}billed annually (about $18 month-to-month), with a three-seat minimum and seats sold in multiples of five above that \u2014 so a small agency pays for more seats than it has. Figures move; check their pricing page before comparing. Repline Pro is <strong>$75/month</strong> for a solo advisor, Team is <strong>$249/month</strong> for up to 5 users, and Agency is <strong>$695/month</strong>{" "}for up to 15 users &mdash; flat pricing, no per-seat surprises, and every hockey-specific feature included.
             </p>
           </div>
         </div>

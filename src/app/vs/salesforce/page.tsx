@@ -169,7 +169,7 @@ export default function VsSalesforce() {
               { step: "1", title: "Export your data", desc: "Use Salesforce Data Export or Report Export to pull contacts, accounts, and opportunities as CSV. No need to export your custom objects — Repline has its own hockey-native model." },
               { step: "2", title: "Map your objects", desc: "Salesforce 'Opportunities' become players. 'Accounts' map to teams or organizations. 'Contacts' stay as contacts with hockey relationship types. The mapping is simpler than you'd expect." },
               { step: "3", title: "Import and go", desc: "Upload your CSVs into Repline. Pipeline stages auto-assign based on player status. No admin configuration, no custom objects to build, no formula fields to maintain." },
-              { step: "4", title: "Save immediately", desc: "Most agencies reduce their CRM spend by 60-80% switching from Salesforce to Repline. A 5-user Salesforce setup at $75/user/month ($375/mo) becomes one Repline Team plan at $249/month for up to 5 users." },
+              { step: "4", title: "Save immediately", desc: "Most agencies cut their CRM spend substantially switching from Salesforce to Repline. A 5-user setup on Salesforce\u2019s mid tier runs roughly $500/month at list before add-ons; one Repline Team plan is $249/month for up to 5 users." },
             ].map((s) => (
               <div key={s.step} className="flex gap-4 items-start">
                 <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground text-sm font-bold flex items-center justify-center">{s.step}</span>
@@ -205,7 +205,7 @@ export default function VsSalesforce() {
           <div className="rounded-lg border border-border/60 p-4">
             <h3 className="font-semibold mb-1">Pricing comparison</h3>
             <p className="text-sm text-muted leading-relaxed">
-              Salesforce Essentials starts at <strong>$25/user/month</strong> but most agencies need Professional (<strong>$75/user/month</strong>) or Enterprise (<strong>$150/user/month</strong>) for workflows and API access. A 5-person agency on Professional costs <strong>$375/month</strong> before add-ons. Repline Team is <strong>$249/month</strong> for up to 5 users, Agency is <strong>$695/month flat</strong>{" "}for up to 15 users &mdash; every feature included (scouting reports, e-signatures, league calendars, compliance tracking) without add-ons.
+              Salesforce Starter Suite begins at <strong>$25/user/month</strong>, but most agencies need Pro Suite (around <strong>$100/user/month</strong>) or Enterprise (around <strong>$175/user/month</strong>, after an increase in August 2025) for workflows and API access. A 5-person agency on Pro Suite is roughly <strong>$500/month</strong>{" "}at list before add-ons, and list is where most small buyers land. Verify current pricing directly. Repline Team is <strong>$249/month</strong> for up to 5 users, Agency is <strong>$695/month flat</strong>{" "}for up to 15 users &mdash; every feature included (scouting reports, e-signatures, league calendars, compliance tracking) without add-ons.
             </p>
           </div>
         </div>

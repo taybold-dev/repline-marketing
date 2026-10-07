@@ -17,7 +17,7 @@ excerpt: "What does a hockey agent actually do all day? This workflow guide brea
 
 Hockey agents and advisors don't spend their days negotiating contracts. That's the glamorous 5%. The other 95% is relationship management, compliance tracking, communication, and operational grind.
 
-This guide walks through the actual day-to-day workflow of running a hockey representation practice — from scouting prospects to managing active clients, and everything in between.
+This guide walks through the actual day-to-day workflow of running a hockey representation practice — from scouting prospects to managing active clients, and everything in between. If you're still choosing a system to run it on, start with [the best CRM options for hockey agents](/blog/best-crm-for-hockey-agents).
 
 ## The Player Pipeline
 
