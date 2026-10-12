@@ -60,6 +60,7 @@ export default function AboutPage() {
               alt="Repline CRM dashboard — a purpose-built operating system for hockey player representation showing roster overview, cadence health, and upcoming actions"
               width={2880}
               height={1800}
+              sizes="(max-width: 672px) 100vw, 672px"
               className="w-full h-auto"
             />
           </div>

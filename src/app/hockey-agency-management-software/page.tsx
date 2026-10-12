@@ -90,6 +90,7 @@ export default function HockeyAgencyManagementSoftwarePage() {
               alt="Repline dashboard giving an agency owner a single view of roster size, contact counts, open tasks, cadence health, and upcoming contract actions"
               width={2880}
               height={1800}
+              sizes="(max-width: 896px) 100vw, 896px"
               className="w-full h-auto"
             />
           </div>

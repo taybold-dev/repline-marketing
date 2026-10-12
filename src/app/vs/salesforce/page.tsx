@@ -109,6 +109,7 @@ export default function VsSalesforce() {
               alt="Repline dashboard — a simple, purpose-built hockey agent CRM that replaces Salesforce complexity with an intuitive overview of players, tasks, and contract deadlines"
               width={2880}
               height={1800}
+              sizes="(max-width: 896px) 100vw, 896px"
               className="w-full h-auto"
             />
           </div>

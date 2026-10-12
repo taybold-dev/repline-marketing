@@ -103,6 +103,7 @@ export default function VsMonday() {
               alt="Repline task management board — hockey-specific tasks like contract negotiations and compliance tracking, organized in a kanban view unlike generic Monday.com boards"
               width={2880}
               height={1800}
+              sizes="(max-width: 896px) 100vw, 896px"
               className="w-full h-auto"
             />
           </div>

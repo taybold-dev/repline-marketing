@@ -178,6 +178,7 @@ export default function VsTheHockeyCrm() {
               alt="Repline contract and e-signature view showing a team contract and advisory agreement with signer assignment by role"
               width={2880}
               height={1800}
+              sizes="(max-width: 896px) 100vw, 896px"
               className="w-full h-auto"
             />
           </div>

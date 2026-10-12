@@ -97,6 +97,7 @@ export default function VsFandelo() {
               alt="Repline contract and e-signature view showing team contract and advisory agreement details with signer assignment"
               width={2880}
               height={1800}
+              sizes="(max-width: 896px) 100vw, 896px"
               className="w-full h-auto"
             />
           </div>

@@ -98,6 +98,7 @@ export default function VsSpreadsheets() {
               alt="Repline player pipeline board — a visual alternative to managing hockey rosters in spreadsheets, with players organized by playing level"
               width={2880}
               height={1800}
+              sizes="(max-width: 896px) 100vw, 896px"
               className="w-full h-auto"
             />
           </div>

@@ -166,6 +166,7 @@ export default function HockeyCrmPage() {
               alt="Repline player pipeline organised by playing level — U.S. Junior A, CHL Major Junior, NCAA and ECHL — following clients across teams rather than within one roster"
               width={2880}
               height={1800}
+              sizes="(max-width: 896px) 100vw, 896px"
               className="w-full h-auto"
             />
           </div>
