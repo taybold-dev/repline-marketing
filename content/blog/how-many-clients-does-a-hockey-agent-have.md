@@ -1,5 +1,5 @@
 ---
-title: "How Many Clients Does a Hockey Agent Have? A Realistic Look at Roster Capacity"
+title: "How Many Clients Does a Hockey Agent Have?"
 description: "NFL and MLB agents have published roster benchmarks — hockey doesn't. Here's what NHL, PWHL, and junior agent data actually shows about realistic client capacity."
 date: "2026-09-09"
 author: "Taylor Bold"

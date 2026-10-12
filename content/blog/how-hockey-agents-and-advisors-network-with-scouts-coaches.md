@@ -1,5 +1,5 @@
 ---
-title: "How Hockey Agents and Advisors Network With Scouts, Coaches, and Team Staff"
+title: "How Hockey Agents Network With Scouts and Coaches"
 description: "Most hockey networking content is written for players trying to get scouted. This guide is written for the agent or advisor — how to build the relationships with scouts, coaches, and team staff that generate real referrals."
 date: "2026-09-09"
 author: "Taylor Bold"
