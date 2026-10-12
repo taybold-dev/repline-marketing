@@ -129,6 +129,9 @@ export default function SportsAgentCrmPage() {
           <p className="mt-4 text-lg text-muted max-w-2xl mx-auto">
             Every sports agent CRM handles the same business layer &mdash; clients, contracts, invoicing, commissions. The tools that cover every sport stop there, because the next layer down is different in each one. Repline is a sports agent CRM that only does hockey, and therefore knows its rules.
           </p>
+          <p className="mt-3 text-sm text-muted max-w-2xl mx-auto">
+            Sports agency CRM, sports management CRM, CRM for sports agents &mdash; the search terms vary and the need doesn&apos;t. This page covers all of them.
+          </p>
         </div>
       </section>
 
