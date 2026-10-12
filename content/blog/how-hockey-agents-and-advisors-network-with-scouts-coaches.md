@@ -1,6 +1,6 @@
 ---
 title: "How Hockey Agents Network With Scouts and Coaches"
-description: "Most hockey networking content is written for players trying to get scouted. This guide is written for the agent or advisor — how to build the relationships with scouts, coaches, and team staff that generate real referrals."
+description: "Networking advice for the agent, not the player: how to build the relationships with scouts, coaches and team staff that generate real referrals."
 date: "2026-09-09"
 author: "Taylor Bold"
 authorTitle: "Founder"
@@ -11,6 +11,21 @@ keywords:
   - hockey advisor networking
   - hockey agent referral network
   - hockey agent relationships with coaches
+faqs:
+  - q: "How do hockey agents and advisors actually find out about players before they're well known?"
+    a: "Mostly through the informal network described above — scouts, coaches, billet families, and other agents and advisors — rather than any database or public ranking. By the time a player shows up on a public list, people who are plugged into the right rinks and coaching staffs have usually known about him for a season or more."
+  - q: "What's the actual difference between a hockey \"advisor\" and an \"agent,\" and does it matter for networking?"
+    a: "Yes — it changes who you're eligible to work with and how you're compensated. Advisors work with NCAA-track and junior players under flat, upfront fees, aren't NHLPA-certified because certification isn't part of the role, and can't be tied to a player's future earnings without jeopardizing his college eligibility. Agents are NHLPA-certified, work on commission, and represent players once they're off the NCAA-eligible track. Misrepresenting which one you are to a coach or family is both a trust problem and a compliance one — see our CHL/NCAA eligibility guide for the specifics."
+  - q: "Is a bird dog the same thing as an advisor?"
+    a: "No, and conflating them is a common mistake. An advisor is a legitimate, disclosed, flat-fee professional relationship with a player already on the NCAA or junior track — accountable through reputation and a documented fee arrangement, even without NHLPA certification, because certification was never part of the role. A bird dog is an informal, uncertified recruiter with no fee agreement and no defined relationship at all, typically targeting players well before their teens. The accountability gap is the entire distinction."
+  - q: "Are hockey agents allowed to contact players and their families directly, and at what age?"
+    a: "There's currently no formal NHLPA rule setting a minimum age for certified agents, though the union has discussed restricting contact with players under 16. Sweden's players' association already enforces that restriction for agents. Advisors operate on a different track — their clients are, by design, already in their teens and on the NCAA or junior pipeline — but the same principle applies to both roles: staying well clear of contact with very young players who have no real need for representation yet is a voluntary standard worth holding regardless of what the rulebook requires. Our certification guide covers the current rules in more detail."
+  - q: "How do you build scout and coach relationships if you weren't a former pro player?"
+    a: "Playing background helps open a first conversation, but it doesn't sustain a relationship by itself, whether you're an agent or an advisor. Consistency does — showing up at the same rinks over multiple seasons, giving accurate information, and treating every player on your list the same way. Coaches remember reliability far longer than they remember a résumé."
+  - q: "Do junior and college coaches actually trust agents and advisors?"
+    a: "Unevenly, and for good reason — bird-dog recruiting of very young players, and representatives who only service their top prospects, have made plenty of coaches skeptical by default. That skepticism is aimed at the accountability problem bird dogs represent, not at legitimate advisors doing disclosed, flat-fee work within the rules. Consistent, in-person, evenly-applied conduct is exactly how an individual agent or advisor separates themselves from the reputation the more careless corners of the profession have earned."
+  - q: "How long does it realistically take to build a usable referral network as a new agent or advisor?"
+    a: "Multiple seasons, not one draft cycle. People who expect a showcase or two to produce a working network are almost always disappointed — coaches and scouts need to see you show up repeatedly, over years, before they treat you as someone worth vouching for."
 excerpt: "Most hockey scouting content is written for players trying to get noticed. This one is written for the agent or advisor — how the relationships with scouts, coaches, and team staff that actually generate referrals get built, and how to tell legitimate networking apart from bird-dogging."
 ---
 

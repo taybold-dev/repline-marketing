@@ -12,6 +12,17 @@ keywords:
   - hockey advisor CRM
   - hockey prospect tracking
   - hockey pipeline management
+faqs:
+  - q: "How do hockey agents keep track of all their players?"
+    a: "Through a pipeline with distinct stages — Prospects, Committed and advisory clients, Draft-Eligible, and Signed or Active — because each stage needs a different kind of attention. A prospect needs relationship-building and patience. A draft-eligible client needs intensive coordination with five to ten teams at once. Managing every stage the same way is how agents lose the clients in the middle."
+  - q: "How many prospects does a hockey agent track at once?"
+    a: "Thirty to fifty is common at the prospect stage alone, each with a different timeline, family dynamic and development trajectory — and that is before the committed, draft-eligible and signed clients who need active work. Losing track of where you stand with one family, who you called last and which programs they are considering, is what costs you the relationship."
+  - q: "What's the most common operational failure in hockey representation?"
+    a: "Contact cadence. The most common way to lose a family is not losing a contract negotiation, it is losing trust because you forgot to call. Agents who track this manually eventually drop the ball — it is not a question of if, but when."
+  - q: "Who is in a hockey agent's contact network?"
+    a: "Per player: parents and family, billets, head and assistant coaches at current and prospective teams, scouts across the NHL, AHL and junior leagues, general managers, academic advisors for NCAA-track players, and medical staff. One scout may be evaluating three of your clients; a coach at one program may be a reference at another. The relationship graph gets complex quickly, and most agents hold it in their heads until they can't."
+  - q: "Can you run a hockey representation practice on a spreadsheet?"
+    a: "For five to ten players, yes. Past that it breaks in three predictable places: no shared visibility across advisors, no cadence tracking, and no compliance alerts for NCAA eligibility windows, CHL import rules or contract filing deadlines."
 excerpt: "What does a hockey agent actually do all day? This workflow guide breaks down how agents and advisors manage players, families, contracts, and compliance — and where most practices break down."
 ---
 
@@ -87,6 +98,8 @@ The most common failure in hockey representation isn't losing a contract negotia
 
 Agents who track this manually eventually drop the ball. It's not a question of if, but when.
 
+When a family does leave, the reasons are usually about communication rather than outcomes — we went through [why hockey players leave their agent](/blog/why-hockey-players-leave-their-agent), and what actually prevents it.
+
 ### Compliance Blind Spots
 Hockey has unique compliance requirements that generic tools don't understand:
 
@@ -126,6 +139,23 @@ The hockey representation industry has historically been underserved by technolo
 Purpose-built hockey agent software fills the gap. Platforms like [Repline](https://www.repline.io) are designed from the ground up for the agent workflow — hockey-native pipeline stages, contact cadence tracking, compliance alerts, scouting reports, and agency oversight.
 
 The right tool doesn't just organize your data. It prevents the operational failures that cost agents families, clients, and reputation.
+
+## FAQ
+
+**How do hockey agents keep track of all their players?**
+Through a pipeline with distinct stages — Prospects, Committed and advisory clients, Draft-Eligible, and Signed or Active — because each stage needs a different kind of attention. A prospect needs relationship-building and patience. A draft-eligible client needs intensive coordination with five to ten teams at once. Managing every stage the same way is how agents lose the clients in the middle.
+
+**How many prospects does a hockey agent track at once?**
+Thirty to fifty is common at the prospect stage alone, each with a different timeline, family dynamic and development trajectory — and that is before the committed, draft-eligible and signed clients who need active work. Losing track of where you stand with one family, who you called last and which programs they are considering, is what costs you the relationship.
+
+**What's the most common operational failure in hockey representation?**
+Contact cadence. The most common way to lose a family is not losing a contract negotiation, it is losing trust because you forgot to call. Agents who track this manually eventually drop the ball — it is not a question of if, but when.
+
+**Who is in a hockey agent's contact network?**
+Per player: parents and family, billets, head and assistant coaches at current and prospective teams, scouts across the NHL, AHL and junior leagues, general managers, academic advisors for NCAA-track players, and medical staff. One scout may be evaluating three of your clients; a coach at one program may be a reference at another. The relationship graph gets complex quickly, and most agents hold it in their heads until they can't.
+
+**Can you run a hockey representation practice on a spreadsheet?**
+For five to ten players, yes. Past that it breaks in three predictable places: no shared visibility across advisors, no cadence tracking, and no compliance alerts for NCAA eligibility windows, CHL import rules or contract filing deadlines.
 
 ## Key Takeaways
 

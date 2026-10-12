@@ -1,6 +1,6 @@
 ---
 title: "Why Hockey Players Leave Their Agent (and How to Prevent It)"
-description: "The real reasons hockey players and their families switch agents or advisors — accessibility, poaching, broken promises — and a practical way to prevent it before it happens."
+description: "Why hockey players and their families switch agents or advisors — accessibility, poaching, broken promises — and a practical way to prevent it."
 date: "2026-09-09"
 author: "Taylor Bold"
 authorTitle: "Founder"
@@ -11,6 +11,19 @@ keywords:
   - hockey advisor retention
   - hockey agent communication cadence
   - how to keep hockey clients
+faqs:
+  - q: "How often should a hockey agent or advisor check in with a client's family?"
+    a: "There's no fixed number that works for everyone — what matters more is predictability. A family that knows roughly when to expect contact, and gets it on schedule, rarely describes an agent as unresponsive, even during quieter months. Tying check-ins to the season calendar (tryouts, in-season monthly touchpoints, trade deadline/draft windows, off-season, and an end-of-season review) tends to work better than a fixed weekly quota."
+  - q: "What's the difference between an advisor and an NHLPA-certified agent, and why does it matter for retention?"
+    a: "An advisor typically works with a player before he signs with a certified agent, often specifically to avoid jeopardizing NCAA eligibility. An NHLPA-certified agent is licensed to negotiate on a player's behalf with NHL clubs. The distinction matters for retention because a player moving from an advisor to a certified agent isn't necessarily a failed relationship — it's often the plan working as intended, as covered in the \"They Outgrew the Relationship\" section above."
+  - q: "Can a family switch hockey advisors mid-season, and is that common?"
+    a: "Yes, and it happens more often than most advisors would like to admit. Junior-level advisory relationships generally aren't bound by the kind of formal, exclusive contracts that govern certified agents, which means a family can move on with relatively little friction if trust breaks down."
+  - q: "Is the hockey advisor industry regulated?"
+    a: "No. Below the NHLPA-certified-agent level, there's no license, no mandatory background check, and no governing body overseeing who can call themselves an advisor. That absence of oversight is part of why reputation and word-of-mouth carry so much weight in this business."
+  - q: "How many clients is too many for one agent or advisor to properly serve?"
+    a: "There's no clean number — it depends on how spread out your roster is across age groups and levels. The real signal isn't a headcount, it's whether response times are slipping and families are starting to feel deprioritized. If you're noticing that pattern, it's worth a closer look at how you're managing your roster before it costs you a client."
+  - q: "What should an agent do if a client says they're leaving for another advisor?"
+    a: "Ask directly what happened, without getting defensive. Handle the exit professionally regardless of how you feel about it — this is a small enough world that how you handle the departure will get repeated, and a clean exit protects your reputation with everyone the family talks to next."
 excerpt: "Families who leave their hockey agent or advisor usually leave for a small, repeatable set of reasons — and most of them are preventable if you catch the signs early enough."
 ---
 
