@@ -34,6 +34,14 @@ const faqs = [
     a: "Because we could not verify The Hockey CRM's feature set or pricing from any public source. Our other comparison pages carry detailed tables because those competitors publish their details. Building a table of assumptions about a rival would be easy and would also be dishonest, so we have given you a list of questions to ask instead.",
   },
   {
+    q: "Where can I find The Hockey CRM pricing?",
+    a: "We don't know, and we won't guess. Their site renders through JavaScript and publishes no crawlable pricing, so we could not verify a single figure from any public source. Ask them directly for the monthly and annual rate, the per-seat cost above the included users, and any setup or onboarding fee — then hold the answer against ours, which is published below.",
+  },
+  {
+    q: "Looking for The Hockey CRM alternatives?",
+    a: "Repline is the closest hockey-native alternative, and it is ours, so weigh that accordingly. Past the two of us the field is sport-agnostic: Agent Live 360 for the lowest per-seat cost and the deepest back office, Fandelo if you represent across sports and entertainment, and a general CRM such as HubSpot if you would rather adapt a capable tool yourself. We compared all of them in our 2026 roundup, including the places we lose.",
+  },
+  {
     q: "What does Repline cost?",
     a: "Pro is $75/month for a solo advisor, Team is $249/month for up to 5 users, and Agency is $695/month for up to 15 users. Annual billing saves 15% on Pro and Team and 16% on Agency. Every hockey-specific feature is included at every tier, with no per-seat add-ons. All plans start with a free 30-day trial and no credit card.",
   },

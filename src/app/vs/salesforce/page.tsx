@@ -192,6 +192,12 @@ export default function VsSalesforce() {
         />
         <div className="max-w-3xl mx-auto space-y-4">
           <div className="rounded-lg border border-border/60 p-4">
+            <h3 className="font-semibold mb-1">Looking for a Salesforce alternative?</h3>
+            <p className="text-sm text-muted leading-relaxed">
+              Looking for a Salesforce alternative? Usually the realisation is that the configuration <em>is</em> the product &mdash; someone has to own it, and at a three-person agency that someone is you. If you have an admin and want every process modelled your way, Salesforce still wins on flexibility.
+            </p>
+          </div>
+          <div className="rounded-lg border border-border/60 p-4">
             <h3 className="font-semibold mb-1">Keep Salesforce if...</h3>
             <p className="text-sm text-muted leading-relaxed">
               You&apos;re a large multi-sport agency with 50+ employees, a dedicated IT team, and existing Salesforce integrations across departments (finance, marketing, operations). The switching cost outweighs the benefit.
@@ -204,7 +210,7 @@ export default function VsSalesforce() {
             </p>
           </div>
           <div className="rounded-lg border border-border/60 p-4">
-            <h3 className="font-semibold mb-1">Pricing comparison</h3>
+            <h3 className="font-semibold mb-1">Salesforce pricing vs. Repline</h3>
             <p className="text-sm text-muted leading-relaxed">
               Salesforce Starter Suite begins at <strong>$25/user/month</strong>, but most agencies need Pro Suite (around <strong>$100/user/month</strong>) or Enterprise (around <strong>$175/user/month</strong>, after an increase in August 2025) for workflows and API access. A 5-person agency on Pro Suite is roughly <strong>$500/month</strong>{" "}at list before add-ons, and list is where most small buyers land. Verify current pricing directly. Repline Team is <strong>$249/month</strong> for up to 5 users, Agency is <strong>$695/month flat</strong>{" "}for up to 15 users &mdash; every feature included (scouting reports, e-signatures, league calendars, compliance tracking) without add-ons.
             </p>
