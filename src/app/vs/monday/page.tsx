@@ -185,6 +185,12 @@ export default function VsMonday() {
         />
         <div className="max-w-3xl mx-auto space-y-4">
           <div className="rounded-lg border border-border/60 p-4">
+            <h3 className="font-semibold mb-1">Looking for a Monday.com alternative?</h3>
+            <p className="text-sm text-muted leading-relaxed">
+              Looking for a Monday.com alternative? If the reason is that you rebuild the same hockey logic every season &mdash; league dates, eligibility windows, draft deadlines &mdash; then what you want is a tool that ships with them rather than a better board to build them on. If Monday.com runs the rest of your business well, keep it, and stop trying to make hockey fit inside it.
+            </p>
+          </div>
+          <div className="rounded-lg border border-border/60 p-4">
             <h3 className="font-semibold mb-1">Keep Monday.com if...</h3>
             <p className="text-sm text-muted leading-relaxed">
               You use Monday.com across your business for non-hockey operations (marketing, HR, project management) and hockey is a small part of your workflow. Monday.com&apos;s strength is general-purpose project management.
@@ -197,7 +203,7 @@ export default function VsMonday() {
             </p>
           </div>
           <div className="rounded-lg border border-border/60 p-4">
-            <h3 className="font-semibold mb-1">Pricing comparison</h3>
+            <h3 className="font-semibold mb-1">Monday.com pricing vs. Repline</h3>
             <p className="text-sm text-muted leading-relaxed">
               Monday.com starts at roughly <strong>$12/seat/month</strong>{" "}billed annually (about $18 month-to-month), with a three-seat minimum and seats sold in multiples of five above that \u2014 so a small agency pays for more seats than it has. Figures move; check their pricing page before comparing. Repline Pro is <strong>$75/month</strong> for a solo advisor, Team is <strong>$249/month</strong> for up to 5 users, and Agency is <strong>$695/month</strong>{" "}for up to 15 users &mdash; flat pricing, no per-seat surprises, and every hockey-specific feature included.
             </p>

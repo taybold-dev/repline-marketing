@@ -198,6 +198,12 @@ export default function VsAgentLive360() {
         />
         <div className="max-w-3xl mx-auto space-y-4">
           <div className="rounded-lg border border-border/60 p-4">
+            <h3 className="font-semibold mb-1">Looking for an Agent Live 360 alternative?</h3>
+            <p className="text-sm text-muted leading-relaxed">
+              Looking for an Agent Live 360 alternative? Be clear why first, because on price and back-office depth they beat us &mdash; Xero, multi-currency and their own payments product. Switching makes sense when the hockey layer is what&apos;s missing: league calendars that populate themselves, eligibility tracked per player, and scouting PDFs you can send without rebuilding them.
+            </p>
+          </div>
+          <div className="rounded-lg border border-border/60 p-4">
             <h3 className="font-semibold mb-1">Keep Agent Live 360 if...</h3>
             <p className="text-sm text-muted leading-relaxed">
               You represent athletes across several sports and need one tool for all of them, your books run on Xero, you bill clients in more than one currency, or your main requirement is back office &mdash; invoicing, expenses, commissions, ROI per client &mdash; rather than hockey workflow. It is also meaningfully cheaper per seat. It does that job across any sport, and Repline deliberately doesn&apos;t.
@@ -210,7 +216,7 @@ export default function VsAgentLive360() {
             </p>
           </div>
           <div className="rounded-lg border border-border/60 p-4">
-            <h3 className="font-semibold mb-1">Pricing comparison</h3>
+            <h3 className="font-semibold mb-1">Agent Live 360 pricing vs. Repline</h3>
             <p className="text-sm text-muted leading-relaxed">
               Agent Live 360 is the cheaper tool, and it isn&apos;t close. Billed annually it runs <strong>$38/month</strong> for one agent and <strong>$150/month</strong> for five, with extra users beyond five at $25/month on annual billing or $35/month on monthly, plus a one-time $25 sign-up fee. Repline Pro is <strong>$75/month</strong> for a solo advisor, Team is <strong>$249/month</strong> for up to 5 users, and Agency is <strong>$695/month</strong>{" "}for up to 15 &mdash; flat, with no per-seat add-ons. If cost per seat is the deciding factor, Agent Live 360 wins it. The question worth asking is what the difference buys: league calendars, eligibility tracking, scouting PDFs, and e-signatures you would otherwise be running outside the tool.
             </p>

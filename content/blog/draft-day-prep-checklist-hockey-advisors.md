@@ -17,7 +17,7 @@ faqs:
   - q: "When should a hockey advisor start preparing a client for the draft?"
     a: "Twelve months out. The first year covers development planning, eligibility verification and setting family expectations. Six months out is scouting visibility, compliance documentation and logistics. Three months out is team engagement, media and mental preparation, and refreshed materials. Most of what happens in draft week is executing decisions made much earlier."
   - q: "What are the main junior and pro hockey draft dates?"
-    a: "The NHL Entry Draft is in late June, the OHL Priority Selection in early April, the WHL Bantam Draft in May, the QMJHL Entry Draft in June, and the USHL Phase I and II drafts in spring. Each carries its own eligibility and registration requirements, which is why they belong on a calendar rather than in your memory."
+    a: "The NHL Entry Draft is in late June, the OHL Priority Selection in June — preceded by a separate U18 Priority Selection, and by the lottery in early April — the WHL Bantam Draft in May, the QMJHL Entry Draft in June, and the USHL Phase I and II drafts in spring. Dates move, so confirm each against the league rather than working from last year's calendar."
   - q: "What are the age requirements for junior hockey drafts?"
     a: "They differ by league. The NHL requires players born by September 15 of the draft year minus 18. The OHL Priority Selection takes players aged 15 by December 31 of the draft year, the WHL Bantam Draft players aged 14 by the same date, the QMJHL Entry Draft players aged 15 to 17, and USHL Phase I players aged 15 to 16 in the draft year. Confirm each against the league directly, and cross-check NCAA requirements if the player is on a dual pathway."
   - q: "What should an advisor do in the 48 to 72 hours after the draft?"
@@ -27,7 +27,7 @@ faqs:
 excerpt: "Draft season is the highest-stakes period in a hockey advisor's year. This checklist covers everything from 12 months out to draft day — for the NHL, OHL, WHL, QMJHL, and USHL drafts."
 ---
 
-Draft season is when everything your practice has built toward comes together. Whether your clients are entering the OHL Priority Selection, the WHL Bantam Draft, the QMJHL Entry Draft, the USHL Phase I/II, or the NHL Entry Draft, the preparation follows a similar arc — and the margin for error is thin.
+Draft season is when everything your practice has built toward comes together. Whether your clients are entering the OHL Priority Selection or U18 Priority Selection, the WHL Bantam Draft, the QMJHL Entry Draft, the USHL Phase I/II, or the NHL Entry Draft, the preparation follows a similar arc — and the margin for error is thin.
 
 This checklist walks through what needs to happen at each stage, from 12 months out to draft day itself.
 
@@ -144,10 +144,13 @@ Draft week is the clearest stress test of how many clients a practice can actual
 - Draft: late June
 - Development camps: early July
 
-### OHL Priority Selection (Early April)
+### OHL Priority Selection (June) — two separate events
+- Draft lottery, setting the order for both selections: early April
 - Registration deadline: January (varies by year)
 - Combine: March
-- Draft: early April
+- **U18 Priority Selection:** a separate, online draft for players from Ontario U18 AAA programs. In 2026 it ran 8 June, two rounds, with every club required to select two players
+- **Main Priority Selection (U16):** in 2026, round 1 on 12 June and rounds 2-15 on 13 June
+- Don't merge the two on a calendar — they have different player pools and different dates
 
 ### WHL Bantam Draft (May)
 - Scouting window: September-March
@@ -167,7 +170,7 @@ Draft week is the clearest stress test of how many clients a practice can actual
 Twelve months out. The first year covers development planning, eligibility verification and setting family expectations. Six months out is scouting visibility, compliance documentation and logistics. Three months out is team engagement, media and mental preparation, and refreshed materials. Most of what happens in draft week is executing decisions made much earlier.
 
 **What are the main junior and pro hockey draft dates?**
-The NHL Entry Draft is in late June, the OHL Priority Selection in early April, the WHL Bantam Draft in May, the QMJHL Entry Draft in June, and the USHL Phase I and II drafts in spring. Each carries its own eligibility and registration requirements, which is why they belong on a calendar rather than in your memory.
+The NHL Entry Draft is in late June, the OHL Priority Selection in June — preceded by a separate U18 Priority Selection, and by the lottery in early April — the WHL Bantam Draft in May, the QMJHL Entry Draft in June, and the USHL Phase I and II drafts in spring. Dates move, so confirm each against the league rather than working from last year's calendar.
 
 **What are the age requirements for junior hockey drafts?**
 They differ by league. The NHL requires players born by September 15 of the draft year minus 18. The OHL Priority Selection takes players aged 15 by December 31 of the draft year, the WHL Bantam Draft players aged 14 by the same date, the QMJHL Entry Draft players aged 15 to 17, and USHL Phase I players aged 15 to 16 in the draft year. Confirm each against the league directly, and cross-check NCAA requirements if the player is on a dual pathway.

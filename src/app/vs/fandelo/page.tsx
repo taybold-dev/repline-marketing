@@ -187,6 +187,12 @@ export default function VsFandelo() {
         />
         <div className="max-w-3xl mx-auto space-y-4">
           <div className="rounded-lg border border-border/60 p-4">
+            <h3 className="font-semibold mb-1">Looking for a Fandelo alternative?</h3>
+            <p className="text-sm text-muted leading-relaxed">
+              Looking for a Fandelo alternative? The two reasons we hear are contracts and signatures: Fandelo&apos;s published feature set covers talent profiles, schedules, tasks and contacts, so agreements end up papered somewhere else. If you represent across sports and entertainment rather than hockey alone, Fandelo remains the broader fit and we&apos;d say so.
+            </p>
+          </div>
+          <div className="rounded-lg border border-border/60 p-4">
             <h3 className="font-semibold mb-1">Keep Fandelo if...</h3>
             <p className="text-sm text-muted leading-relaxed">
               You&apos;re already deep into a contract with it, you represent talent across multiple sports or industries where a general fan-engagement platform adds value, and you handle contracts and e-signatures entirely outside the tool anyway.
@@ -199,7 +205,7 @@ export default function VsFandelo() {
             </p>
           </div>
           <div className="rounded-lg border border-border/60 p-4">
-            <h3 className="font-semibold mb-1">Pricing comparison</h3>
+            <h3 className="font-semibold mb-1">Fandelo pricing vs. Repline</h3>
             <p className="text-sm text-muted leading-relaxed">
               Confirm Fandelo&apos;s current pricing with your rep before comparing. Repline Pro is <strong>$75/month</strong> for a solo advisor, Team is <strong>$249/month</strong> for up to 5 users, and Agency is <strong>$695/month</strong>{" "}for up to 15 users &mdash; flat pricing, no per-seat surprises, and every feature above included at every tier.
             </p>
