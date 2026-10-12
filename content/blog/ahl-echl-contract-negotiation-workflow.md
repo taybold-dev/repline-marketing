@@ -1,6 +1,6 @@
 ---
 title: "AHL and ECHL Contract Negotiation for Hockey Agents"
-description: "A practical guide to AHL and ECHL contract structures, negotiation strategies, and workflow management for hockey agents and advisors representing minor professional players."
+description: "AHL and ECHL contract structures, negotiation strategy and workflow for hockey agents and advisors representing minor professional players."
 date: "2026-04-09"
 author: "Taylor Bold"
 authorTitle: "Founder"
@@ -12,6 +12,17 @@ keywords:
   - hockey contract management
   - hockey player contract tracking
   - minor league hockey contract
+faqs:
+  - q: "What's the difference between an AHL-only contract and an NHL two-way deal?"
+    a: "A player on an NHL Standard Player Contract who is assigned to the AHL plays under that NHL contract, which specifies separate NHL and AHL salary figures. A player signed directly by an AHL club plays under an AHL Standard Player Contract — a simpler agreement, usually for a single season. In the first case the negotiation already happened at the NHL level, and your job in the AHL is monitoring performance, maintaining team relationships and positioning for a call-up."
+  - q: "What does an AHL-only contract pay?"
+    a: "Typically $52,000 to $100,000 or more for a single season, depending on experience and demand. Signing bonuses are rare but possible for in-demand veterans. Performance bonuses tied to goals, assists and games played are increasingly common, and housing stipends are worth negotiating explicitly rather than assuming."
+  - q: "What's actually negotiable in an ECHL contract?"
+    a: "Less than in the AHL, but not nothing. The minimum salary is set annually by the ECHL CBA at roughly $600 a week during the season, with a higher floor for players with professional experience, and housing and per diem are largely CBA-defined. The real levers are salary above the minimum for proven players, performance bonuses, and out clauses for AHL or European opportunities."
+  - q: "How long does a minor-pro contract negotiation take?"
+    a: "Four phases: preparation two to four weeks before the first conversation, initial contact and offers over one to two weeks, the negotiation itself in days to a week, then ongoing post-signing work. Preparation is the phase that determines the outcome — the comparables you gather before the first call matter more than anything you say during it."
+  - q: "Where do agents find comparable contracts for AHL and ECHL negotiations?"
+    a: "PuckPedia for contract details and cap analysis, Elite Prospects for player statistics across leagues, official AHL and ECHL league transaction reports, and your own network, since other agents will share general market intelligence. Track your comps in a structured format so you can pull them up mid-negotiation: a researched comp set turns \"I think my player deserves more\" into five similar players who signed above the offer on the table."
 excerpt: "AHL and ECHL contracts are the foundation of most hockey agents' practices. Here's how the contracts are structured, what's negotiable, and how to manage the process efficiently."
 ---
 
@@ -149,6 +160,23 @@ Sources for comparable contract data:
 - **Your own network** (other agents will share general market intelligence)
 
 Track your comparable contracts in a structured format so you can pull them up during negotiations. A well-researched comp set turns "I think my player deserves more" into "here are five similar players who signed for 20% above this offer."
+
+## FAQ
+
+**What's the difference between an AHL-only contract and an NHL two-way deal?**
+A player on an NHL Standard Player Contract who is assigned to the AHL plays under that NHL contract, which specifies separate NHL and AHL salary figures. A player signed directly by an AHL club plays under an AHL Standard Player Contract — a simpler agreement, usually for a single season. In the first case the negotiation already happened at the NHL level, and your job in the AHL is monitoring performance, maintaining team relationships and positioning for a call-up.
+
+**What does an AHL-only contract pay?**
+Typically $52,000 to $100,000 or more for a single season, depending on experience and demand. Signing bonuses are rare but possible for in-demand veterans. Performance bonuses tied to goals, assists and games played are increasingly common, and housing stipends are worth negotiating explicitly rather than assuming.
+
+**What's actually negotiable in an ECHL contract?**
+Less than in the AHL, but not nothing. The minimum salary is set annually by the ECHL CBA at roughly $600 a week during the season, with a higher floor for players with professional experience, and housing and per diem are largely CBA-defined. The real levers are salary above the minimum for proven players, performance bonuses, and out clauses for AHL or European opportunities.
+
+**How long does a minor-pro contract negotiation take?**
+Four phases: preparation two to four weeks before the first conversation, initial contact and offers over one to two weeks, the negotiation itself in days to a week, then ongoing post-signing work. Preparation is the phase that determines the outcome — the comparables you gather before the first call matter more than anything you say during it.
+
+**Where do agents find comparable contracts for AHL and ECHL negotiations?**
+PuckPedia for contract details and cap analysis, Elite Prospects for player statistics across leagues, official AHL and ECHL league transaction reports, and your own network, since other agents will share general market intelligence. Track your comps in a structured format so you can pull them up mid-negotiation: a researched comp set turns "I think my player deserves more" into five similar players who signed above the offer on the table.
 
 ## Key Takeaways
 

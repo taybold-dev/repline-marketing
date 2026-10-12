@@ -1,6 +1,6 @@
 ---
 title: "How to Become an NHLPA Certified Agent: Requirements"
-description: "A complete guide to NHLPA agent certification — eligibility requirements, the application process, exam preparation, fees, and what happens after you're certified. Updated for 2025-26."
+description: "A guide to NHLPA agent certification: eligibility requirements, the application process, exam preparation, fees, and what happens once you're certified."
 date: "2026-04-12"
 author: "Taylor Bold"
 authorTitle: "Founder"
@@ -11,6 +11,17 @@ keywords:
   - how to become a hockey agent
   - hockey agent certification
   - nhlpa agent requirements
+faqs:
+  - q: "Do you need a law degree to become an NHLPA certified agent?"
+    a: "No. A degree from an accredited four-year college or university is required; a law degree is not, though many agents have legal backgrounds. You also need to pass a background check, hold no financial interest in an NHL team or a conflicting business, and satisfy the NHLPA's character and fitness evaluation. There is no minimum age requirement beyond the degree, and no requirement to be based in North America."
+  - q: "How much does NHLPA agent certification cost?"
+    a: "The NHLPA charges an application fee and an annual certification fee, and we have not been able to verify the current amounts against a primary source — confirm them with the NHLPA directly before relying on any figure. Be especially careful with numbers circulating online: a widely repeated $2,500 application fee and 3% commission cap are NFLPA figures, not NHLPA ones."
+  - q: "What commission can an NHLPA certified agent charge?"
+    a: "The range most often quoted publicly is 3-5% of contract value, but treat that as market convention rather than a published rule. The figure appears mainly in commercial training material, and we could not locate a primary NHLPA source stating a maximum fee schedule. Ask the NHLPA before you quote a number to a client."
+  - q: "What's on the NHLPA agent exam?"
+    a: "Principally the Collective Bargaining Agreement — salary cap mechanics, free agency rules, arbitration procedures, entry-level contract structures and performance bonuses — along with the standard player contract and the NHLPA regulations governing agent conduct, fee structures, solicitation and conflicts of interest. The exam is open-book but time-limited, so knowing where to find an answer matters as much as memorizing it. Most successful candidates spend two to four weeks studying the CBA in detail."
+  - q: "Can you work as a hockey advisor without NHLPA certification?"
+    a: "Yes. An advisor can advise on career development, manage player relationships, and work with junior and college players without certification. What an advisor cannot do is negotiate an NHL contract — that requires certification, and nothing substitutes for it. Many professionals start as advisors and pursue certification when their clients approach NHL readiness."
 excerpt: "Becoming an NHLPA certified agent is the first step to representing NHL players. Here's everything you need to know about the certification process, from eligibility to your first client."
 ---
 
@@ -123,6 +134,23 @@ Managing your first clients with spreadsheets and text threads works temporarily
 Purpose-built hockey agent CRM software like [Repline](https://www.repline.io) is designed for exactly this workflow — player pipelines, contact cadence tracking, scouting reports, and agency oversight in one platform. Most agents find they need dedicated tools within their first year of active practice.
 
 ![Repline dashboard showing player count, contacts, open tasks, cadence health, and upcoming actions for a hockey agency](/screenshots/dashboard.png)
+
+## FAQ
+
+**Do you need a law degree to become an NHLPA certified agent?**
+No. A degree from an accredited four-year college or university is required; a law degree is not, though many agents have legal backgrounds. You also need to pass a background check, hold no financial interest in an NHL team or a conflicting business, and satisfy the NHLPA's character and fitness evaluation. There is no minimum age requirement beyond the degree, and no requirement to be based in North America.
+
+**How much does NHLPA agent certification cost?**
+The NHLPA charges an application fee and an annual certification fee, and we have not been able to verify the current amounts against a primary source — confirm them with the NHLPA directly before relying on any figure. Be especially careful with numbers circulating online: a widely repeated $2,500 application fee and 3% commission cap are NFLPA figures, not NHLPA ones.
+
+**What commission can an NHLPA certified agent charge?**
+The range most often quoted publicly is 3-5% of contract value, but treat that as market convention rather than a published rule. The figure appears mainly in commercial training material, and we could not locate a primary NHLPA source stating a maximum fee schedule. Ask the NHLPA before you quote a number to a client.
+
+**What's on the NHLPA agent exam?**
+Principally the Collective Bargaining Agreement — salary cap mechanics, free agency rules, arbitration procedures, entry-level contract structures and performance bonuses — along with the standard player contract and the NHLPA regulations governing agent conduct, fee structures, solicitation and conflicts of interest. The exam is open-book but time-limited, so knowing where to find an answer matters as much as memorizing it. Most successful candidates spend two to four weeks studying the CBA in detail.
+
+**Can you work as a hockey advisor without NHLPA certification?**
+Yes. An advisor can advise on career development, manage player relationships, and work with junior and college players without certification. What an advisor cannot do is negotiate an NHL contract — that requires certification, and nothing substitutes for it. Many professionals start as advisors and pursue certification when their clients approach NHL readiness.
 
 ## Key Takeaways
 

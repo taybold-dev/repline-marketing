@@ -18,6 +18,21 @@ keywords:
   - CHL NCAA 2026-27
   - NCAA age-based eligibility model
   - NCAA hockey revenue sharing
+faqs:
+  - q: "Can a player who already played in the CHL get NCAA eligibility retroactively?"
+    a: "It depends on when they played and the financial terms of their CHL participation. The new rules apply going forward, but the NCAA has indicated it will review cases on an individual basis. Players who received only actual and necessary expenses during their CHL tenure may be eligible. Consult with the NCAA eligibility center for case-specific guidance."
+  - q: "Does this affect players in the USHL, NAHL, or BCHL?"
+    a: "No. Those leagues were already considered amateur by the NCAA. Their players have always retained NCAA eligibility. The rule change applies specifically to the three CHL leagues: OHL, WHL, and QMJHL."
+  - q: "What about NCAA Division II or Division III?"
+    a: "The November 2024 vote was specifically by the NCAA Division I Council. Division II and Division III have their own eligibility rules. However, Division III has historically been more permissive about CHL participation, and Division II is expected to follow Division I's lead. Check with the specific division's eligibility center for current rules."
+  - q: "Can a player be drafted by the NHL and still play NCAA hockey?"
+    a: "Yes — being drafted does not affect amateur status. The player loses NCAA eligibility only if they sign a professional contract (NHL entry-level contract, AHL contract, or any contract that includes compensation beyond actual and necessary expenses)."
+  - q: "How long can a player stay in the CHL and still transfer to the NCAA?"
+    a: "There's no specific CHL tenure limit in the new rules, but NCAA eligibility has its own clock. NCAA Division I hockey players have five years to complete four seasons of competition from the date they first enroll full-time at any college or university. Time spent in the CHL before college enrollment doesn't count against this clock, but age and development considerations still apply."
+  - q: "What should families document right now?"
+    a: "If your player is currently in the CHL or considering the CHL pathway, start documenting everything: billet family arrangements, team-provided benefits, education support, travel and equipment provisions. Keep copies of all agreements signed with the CHL team. This documentation will be essential if the player later applies for NCAA eligibility certification."
+  - q: "Where can I learn more about the specific NCAA eligibility requirements?"
+    a: "The NCAA Eligibility Center (eligibilitycenter.org) is the authoritative source. For CHL-specific guidance, the league offices of the OHL, WHL, and QMJHL have published updated player agreements that reflect the new eligibility framework."
 excerpt: "The November 2024 vote opened the door. NIL money, revenue sharing, and a new age-based eligibility model have since changed what walking through it is worth. Here's the 2026-27 picture."
 ---
 

@@ -13,6 +13,17 @@ keywords:
   - qmjhl draft eligibility
   - hockey agent draft prep
   - hockey prospect tracking
+faqs:
+  - q: "When should a hockey advisor start preparing a client for the draft?"
+    a: "Twelve months out. The first year covers development planning, eligibility verification and setting family expectations. Six months out is scouting visibility, compliance documentation and logistics. Three months out is team engagement, media and mental preparation, and refreshed materials. Most of what happens in draft week is executing decisions made much earlier."
+  - q: "What are the main junior and pro hockey draft dates?"
+    a: "The NHL Entry Draft is in late June, the OHL Priority Selection in early April, the WHL Bantam Draft in May, the QMJHL Entry Draft in June, and the USHL Phase I and II drafts in spring. Each carries its own eligibility and registration requirements, which is why they belong on a calendar rather than in your memory."
+  - q: "What are the age requirements for junior hockey drafts?"
+    a: "They differ by league. The NHL requires players born by September 15 of the draft year minus 18. The OHL Priority Selection takes players aged 15 by December 31 of the draft year, the WHL Bantam Draft players aged 14 by the same date, the QMJHL Entry Draft players aged 15 to 17, and USHL Phase I players aged 15 to 16 in the draft year. Confirm each against the league directly, and cross-check NCAA requirements if the player is on a dual pathway."
+  - q: "What should an advisor do in the 48 to 72 hours after the draft?"
+    a: "Debrief with the player and family regardless of the outcome. For drafted players, open discussions with the team on development camp, contract timeline and assignment plans. For undrafted players, start conversations about free agent tryout contracts and development camp invitations. Then update every player record and pipeline stage, and thank the team staff who engaged during the process."
+  - q: "What happens if a client goes undrafted?"
+    a: "You should already have a plan before draft day, because the conversation starts within hours: undrafted free agency discussions, development options, and reassurance for a family that has just had a hard day. Setting the range of outcomes with the family twelve months earlier — including going undrafted — is what makes that conversation survivable."
 excerpt: "Draft season is the highest-stakes period in a hockey advisor's year. This checklist covers everything from 12 months out to draft day — for the NHL, OHL, WHL, QMJHL, and USHL drafts."
 ---
 
@@ -70,6 +81,8 @@ This checklist walks through what needs to happen at each stage, from 12 months 
 - Schedule informal meetings or calls between team staff and the player/family
 - Prepare the player for team interviews — practice common questions, discuss presentation
 - Track every team interaction in your CRM: who called, what was discussed, follow-up needed
+
+Three months out is late to be starting these relationships. The scouts and team staff who take your call in the spring are generally the ones you've been talking to all season — [building that network](/blog/how-hockey-agents-and-advisors-network-with-scouts-coaches) is its own piece of work, and it doesn't happen during draft season.
 
 ### Media and Mental Prep
 - Prepare the player for potential media attention (social media presence, interview prep)
@@ -147,6 +160,23 @@ Draft week is the clearest stress test of how many clients a practice can actual
 ### USHL Phase I & II Draft (Spring)
 - Phase I: early May
 - Phase II: late May / early June
+
+## FAQ
+
+**When should a hockey advisor start preparing a client for the draft?**
+Twelve months out. The first year covers development planning, eligibility verification and setting family expectations. Six months out is scouting visibility, compliance documentation and logistics. Three months out is team engagement, media and mental preparation, and refreshed materials. Most of what happens in draft week is executing decisions made much earlier.
+
+**What are the main junior and pro hockey draft dates?**
+The NHL Entry Draft is in late June, the OHL Priority Selection in early April, the WHL Bantam Draft in May, the QMJHL Entry Draft in June, and the USHL Phase I and II drafts in spring. Each carries its own eligibility and registration requirements, which is why they belong on a calendar rather than in your memory.
+
+**What are the age requirements for junior hockey drafts?**
+They differ by league. The NHL requires players born by September 15 of the draft year minus 18. The OHL Priority Selection takes players aged 15 by December 31 of the draft year, the WHL Bantam Draft players aged 14 by the same date, the QMJHL Entry Draft players aged 15 to 17, and USHL Phase I players aged 15 to 16 in the draft year. Confirm each against the league directly, and cross-check NCAA requirements if the player is on a dual pathway.
+
+**What should an advisor do in the 48 to 72 hours after the draft?**
+Debrief with the player and family regardless of the outcome. For drafted players, open discussions with the team on development camp, contract timeline and assignment plans. For undrafted players, start conversations about free agent tryout contracts and development camp invitations. Then update every player record and pipeline stage, and thank the team staff who engaged during the process.
+
+**What happens if a client goes undrafted?**
+You should already have a plan before draft day, because the conversation starts within hours: undrafted free agency discussions, development options, and reassurance for a family that has just had a hard day. Setting the range of outcomes with the family twelve months earlier — including going undrafted — is what makes that conversation survivable.
 
 ## Tools for Draft Season
 

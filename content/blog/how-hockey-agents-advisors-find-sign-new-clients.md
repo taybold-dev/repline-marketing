@@ -1,6 +1,6 @@
 ---
 title: "How Hockey Agents and Advisors Find and Sign New Clients"
-description: "How hockey agents and advisors identify prospects, build trust with families, and win clients in a small, relationship-driven market — and where NHLPA rules do (and don't) apply."
+description: "How hockey agents and advisors find prospects, build trust with families, and win clients in a small, relationship-driven market — and where NHLPA rules apply."
 date: "2026-09-09"
 author: "Taylor Bold"
 authorTitle: "Founder"
@@ -11,6 +11,21 @@ keywords:
   - how to grow a hockey agency
   - hockey advisor recruiting
   - hockey agent vs advisor
+faqs:
+  - q: "What's the difference between a hockey agent and a hockey advisor?"
+    a: "An agent is NHLPA-certified, works on commission, and represents players once they're off the NCAA-eligible track and into the draft or pro process, where NHLPA rules govern conduct and fees. An advisor is not NHLPA-certified — certification doesn't apply to the role — and works for a flat, pre-agreed fee with NCAA-track and junior players specifically because NCAA amateurism rules bar those players from having a commission agent. Both are legitimate professional categories; a bird dog, by contrast, is an uncertified, informal recruiter operating outside either framework."
+  - q: "How young are hockey players when advisors or agents first contact them?"
+    a: "Contact commonly starts around age 14, and per theScore's reporting, some prospects field pitches from multiple advisors and agencies as young as 12 or 13. At that age, the relationship is almost always with an advisor rather than a certified agent, since NCAA-track and junior players can't be signed to a commission agent. Uncertified bird dogs have reportedly gone even younger, building relationships with players as young as nine or ten. The NHLPA has discussed, but not implemented, a rule that would bar certified agents from contacting players under 16."
+  - q: "Is it legal or ethical for an agent or advisor to contact a player who's already represented?"
+    a: "There's no blanket rule against it, but there's a strong informal industry norm against poaching an already-signed player. Most veterans draw a clear line between prospecting an unrepresented player and approaching someone who's already committed elsewhere, and agents or advisors who ignore that line tend to develop a reputation for it."
+  - q: "Do hockey agents need to be NHLPA-certified to recruit players?"
+    a: "Certified agents operate under the NHLPA's conduct and disclosure rules (see our guide to NHLPA agent certification) once a player is draft- or pro-track. Advisors working with NCAA-track and junior players are not NHLPA-certified by design — certification doesn't apply to that role — and stay accountable instead through disclosed flat fees and a checkable track record. The real oversight gap is bird dogs: uncertified, informal recruiters who operate with no disclosed terms and no equivalent accountability at all."
+  - q: "How do hockey agents and advisors get access to top junior and college prospects?"
+    a: "Mostly through relationships with scouts, coaches, and GMs built over years, not through cold outreach. Those relationships are reciprocal — agents and advisors who share information and make themselves useful to scouts get more tips in return, and the ones who only show up looking for something tend to get cut off."
+  - q: "What makes a family choose one agent or advisor over another?"
+    a: "Usually not credentials or big promises — most families have already heard the NHL-dream pitch from several people by the time they talk to you. Communication cadence, honesty (including about odds and tradeoffs that don't favor you), and treating the relationship as long-term rather than transactional are what actually move families to commit."
+  - q: "Can the same person represent both CHL and NCAA-track players?"
+    a: "Not in the same capacity — a certified agent's commission relationship isn't available to NCAA-track players under amateurism rules, so that side of the business is handled by an advisor working on a flat fee, often at the same agency. Many agencies run both functions side by side, sometimes with the same person transitioning from advisor to agent for a client as that player turns pro. See our guide to CHL and NCAA eligibility rules for the specifics of how the two paths differ."
 excerpt: "There's no database or cold-calling script for finding hockey clients — it's a small, relationship-driven market. Here's how agents and advisors actually identify prospects, win family trust, and stay on the right side of NHLPA recruiting rules."
 ---
 

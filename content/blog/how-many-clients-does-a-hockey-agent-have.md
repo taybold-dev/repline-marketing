@@ -1,6 +1,6 @@
 ---
 title: "How Many Clients Does a Hockey Agent Have?"
-description: "NFL and MLB agents have published roster benchmarks — hockey doesn't. Here's what NHL, PWHL, and junior agent data actually shows about realistic client capacity."
+description: "NFL and MLB agents have published roster benchmarks — hockey doesn't. Here's what NHL, PWHL and junior agent data shows about realistic client capacity."
 date: "2026-09-09"
 author: "Taylor Bold"
 authorTitle: "Founder"
@@ -10,6 +10,19 @@ keywords:
   - hockey agent roster size
   - hockey agent client capacity
   - how many players can a hockey agent represent
+faqs:
+  - q: "How many players does the average NHL agent represent?"
+    a: "There's no single reliable average, because the range is too extreme to summarize with one number. A 2020 snapshot found agents representing anywhere from a single elite client to 76 individual contracts, with the top seven agencies controlling 46% of all NHL contracts. Any \"average\" would blend mega-agency totals — which are really many agents' books combined — with true solo counts, producing a number that doesn't describe anyone's actual day-to-day roster."
+  - q: "What's the difference between a hockey agent and a family advisor?"
+    a: "An agent works on commission and can only represent players who are no longer NCAA-eligible. A family advisor works for a fixed, pre-agreed fee and is the only legal option for a player who might still play NCAA hockey, since NCAA rules bar eligible players from signing with agents at all."
+  - q: "How many clients does Newport Sports, hockey's biggest agency, have?"
+    a: "More than 330 total clients across all levels, with active NHL clients estimated between roughly 125 and 150-plus depending on the source. That total is split across dozens of agents inside the firm — not the workload of any single person."
+  - q: "Is there a legal or NHLPA limit on how many clients an agent can represent?"
+    a: "No. NHLPA certification governs conduct, fee disclosure, and commission caps — not headcount. There's nothing stopping a certified agent from taking on an unlimited number of clients; the limiting factor is entirely practical capacity, not regulation. Our NHLPA agent certification guide covers what certification actually requires."
+  - q: "Why do junior hockey clients take up more time than pro clients?"
+    a: "Junior and NCAA-track clients are usually on the family-advisor side of the business, which means more frequent family contact, ongoing NCAA/CHL eligibility monitoring, and regular scouting and development conversations — a fundamentally more hands-on relationship than a pro client who mainly needs contract and deadline management."
+  - q: "How is the PWHL agent market different from the NHL's?"
+    a: "It's newer, smaller, and far less concentrated. With 67 certified PWHLPA agents and a \"Big Six\" group of agencies most carrying 20-plus players, the market is still forming rather than settled — a meaningfully different picture from the NHL's decades-old, heavily concentrated agent landscape."
 excerpt: "NFL and MLB agents have published roster benchmarks. Hockey doesn't — until now. Real numbers from the NHL, PWHL, and junior hockey, plus a framework for estimating your own realistic capacity."
 ---
 

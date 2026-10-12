@@ -13,6 +13,17 @@ keywords:
   - hockey agent spreadsheet
   - hockey agent tools
   - player representation software
+faqs:
+  - q: "Do hockey agents really need a CRM, or is a spreadsheet enough?"
+    a: "A spreadsheet is enough while the thing you need to remember is a fact. It stops being enough when the thing you need to remember is a date somebody else set — an NCAA eligibility window, a CHL import draft registration deadline, a contract filing date. A spreadsheet holds that date perfectly and will never once tell you it's coming. If you have fewer than ten players, work alone, and have never been surprised by a deadline, you probably don't need one yet."
+  - q: "Why don't generic CRMs work for hockey agents?"
+    a: "Four reasons that compound. The pipeline is built for sales — Lead, Qualified, Proposal, Closed Won — not Prospect, Committed, Draft Eligible, Signed, Active. The contact model organizes around companies and deals rather than players and the parents, billets, coaches, scouts and GMs around them. The feature gaps mean no scouting reports, no league calendars, no eligibility rules and no e-signatures for advisory agreements. And per-seat pricing escalates once you add the features you actually need."
+  - q: "When should a hockey advisor switch from a spreadsheet to a CRM?"
+    a: "The practical triggers are more than ten players across different pipeline stages, a second advisor joining or about to, compliance deadlines you are tracking by hand, and the first time you realize you forgot to follow up with a family. If your Sunday nights involve updating a roster spreadsheet, you are past the point."
+  - q: "What can a hockey agent CRM track that a spreadsheet can't?"
+    a: "Shared real-time visibility across a multi-advisor agency, contact cadence that tells you which family has gone quiet rather than firing a reminder you set yourself, compliance alerts for rules that change year to year and vary by league, usable mobile access at the rink, and branded PDF scouting reports generated from the player record."
+  - q: "How much does CRM software for hockey agents cost?"
+    a: "Repline is $75/month for a solo advisor on Pro (30 players, 1 user), $249/month on Team (75 players, 5 users), and $695/month on Agency (200 players, 15 users). Annual billing saves 15% on Pro and Team and 16% on Agency. Every plan starts with a free 30-day trial and no credit card."
 excerpt: "Most hockey agents run their practice on spreadsheets and text threads. Here's why that stops working — and what a purpose-built CRM actually changes about your day-to-day."
 ---
 
@@ -116,12 +127,30 @@ You don't need a CRM when you have 3 players and work solo. You do need one when
 - You've ever said "I should write that down" and didn't
 - Your Sunday nights involve updating a spreadsheet
 
+## FAQ
+
+**Do hockey agents really need a CRM, or is a spreadsheet enough?**
+A spreadsheet is enough while the thing you need to remember is a fact. It stops being enough when the thing you need to remember is a date somebody else set — an NCAA eligibility window, a CHL import draft registration deadline, a contract filing date. A spreadsheet holds that date perfectly and will never once tell you it's coming. If you have fewer than ten players, work alone, and have never been surprised by a deadline, you probably don't need one yet.
+
+**Why don't generic CRMs work for hockey agents?**
+Four reasons that compound. The pipeline is built for sales — Lead, Qualified, Proposal, Closed Won — not Prospect, Committed, Draft Eligible, Signed, Active. The contact model organizes around companies and deals rather than players and the parents, billets, coaches, scouts and GMs around them. The feature gaps mean no scouting reports, no league calendars, no eligibility rules and no e-signatures for advisory agreements. And per-seat pricing escalates once you add the features you actually need.
+
+**When should a hockey advisor switch from a spreadsheet to a CRM?**
+The practical triggers are more than ten players across different pipeline stages, a second advisor joining or about to, compliance deadlines you are tracking by hand, and the first time you realize you forgot to follow up with a family. If your Sunday nights involve updating a roster spreadsheet, you are past the point.
+
+**What can a hockey agent CRM track that a spreadsheet can't?**
+Shared real-time visibility across a multi-advisor agency, contact cadence that tells you which family has gone quiet rather than firing a reminder you set yourself, compliance alerts for rules that change year to year and vary by league, usable mobile access at the rink, and branded PDF scouting reports generated from the player record.
+
+**How much does CRM software for hockey agents cost?**
+Repline is $75/month for a solo advisor on Pro (30 players, 1 user), $249/month on Team (75 players, 5 users), and $695/month on Agency (200 players, 15 users). Annual billing saves 15% on Pro and Team and 16% on Agency. Every plan starts with a free 30-day trial and no credit card.
+
 ## Getting Started
 
 [Repline](https://www.repline.io) is purpose-built CRM software for hockey agents and advisors. Hockey-native pipeline stages, contact cadence tracking, contract management, scouting reports, and agency oversight — all in one platform. It's what we wished existed when we talked to agents struggling with spreadsheets and generic CRMs. If you're weighing the options, we compared [the best CRM choices for hockey agents](/blog/best-crm-for-hockey-agents) — including the ones that beat us. If you're weighing it against [general sports agency management software](https://www.repline.io/sports-agent-crm), that comparison is worth reading first.
 
-- **Pro:** $75/month for solo advisors (up to 50 players)
-- **Agency:** $695/month for multi-user agencies (up to 15 users, unlimited players)
+- **Pro:** $75/month for solo advisors — 30 players, 1 user
+- **Team:** $249/month for small agencies — 75 players, 5 users
+- **Agency:** $695/month for larger firms — 200 players, 15 users
 - **Free trial:** 30 days, no credit card required
 
 [Start your free trial](https://app.repline.io/auth/sign-up) or [see how we compare to your current tools](/vs/spreadsheets).

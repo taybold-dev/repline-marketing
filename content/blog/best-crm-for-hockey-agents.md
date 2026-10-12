@@ -15,15 +15,15 @@ keywords:
   - sports agent software comparison
 faqs:
   - q: "What is the best CRM for hockey agents?"
-    a: "There isn't one answer. If hockey-specific compliance and workflow are the problem, a hockey-native tool like Repline is the category to look at. If cost per seat or back-office depth matters most, Agent Live 360 is the stronger choice. If you have fewer than ten clients, a spreadsheet may still be the right call."
+    a: "There isn't one answer, and anyone giving you one is selling something. If hockey-specific compliance and workflow are the problem, a hockey-native tool like Repline is the category to look at. If cost per seat or back-office depth matters most, Agent Live 360 is the stronger choice. If you have fewer than ten clients, a spreadsheet may still be the right call."
   - q: "What software do hockey agents use?"
     a: "Most use a spreadsheet. The rest are split between general-purpose CRMs they've adapted themselves — HubSpot, Salesforce, Monday.com — sport-agnostic agent tools such as Agent Live 360, and the small number of hockey-specific platforms."
   - q: "Is there a free CRM for hockey agents?"
     a: "HubSpot's free tier is the most capable free option, though nothing in it is hockey-specific. Most hockey-specific tools offer trials rather than free plans; Repline's is 30 days with no card."
   - q: "Do hockey advisors need different software from agents?"
-    a: "Often yes. NCAA rules bar an eligible player from signing with an agent, so anyone advising a potential college player works as a flat-fee family advisor. Software built purely around commission has nowhere to record that relationship."
+    a: "Often yes, and it's the most overlooked question here. NCAA rules bar an eligible player from signing with an agent, so anyone advising a potential college player works as a flat-fee family advisor. Software built purely around commission has nowhere to record that relationship. We wrote more about the distinction here."
   - q: "How much should a hockey agent CRM cost?"
-    a: "The realistic range is roughly $40 to $250 a month for a solo advisor or small agency, depending on whether you're buying a sport-agnostic tool or a hockey-specific one. Above that you're into multi-user agency plans or per-seat enterprise pricing."
+    a: "The realistic range is roughly $40–$250 a month for a solo advisor or small agency, depending on whether you're buying a sport-agnostic tool or a hockey-specific one. Above that you're into multi-user agency plans or per-seat enterprise pricing."
 excerpt: "We make one of the tools on this list, so read accordingly. Here are the eight options hockey agents and advisors actually choose between in 2026, what each one genuinely wins at, and the four places ours loses."
 ---
 
