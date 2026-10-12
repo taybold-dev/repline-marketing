@@ -10,8 +10,16 @@ const VS_PAGES = [
   { href: "/vs/the-hockey-crm", label: "The Hockey CRM", short: "The Hockey CRM" },
 ];
 
+// Hub pages worth routing to from any comparison. Filtered against `current`
+// so a page never links to itself.
+const HUB_LINKS = [
+  { href: "/features", label: "See all Repline features" },
+  { href: "/hockey-crm", label: "What “hockey CRM” actually means" },
+];
+
 export function VsCrossLinks({ current }: { current: string }) {
   const others = VS_PAGES.filter((p) => p.href !== current);
+  const hubs = HUB_LINKS.filter((l) => l.href !== current);
 
   return (
     <section className="py-12">
@@ -31,12 +39,17 @@ export function VsCrossLinks({ current }: { current: string }) {
           ))}
         </div>
         <p className="mt-4 text-center">
-          <Link
-            href="/features"
-            className="text-sm text-muted hover:text-foreground transition-colors underline underline-offset-4"
-          >
-            See all Repline features
-          </Link>
+          {hubs.map(({ href, label }, i) => (
+            <span key={href}>
+              {i > 0 && <span className="mx-3 text-muted">&middot;</span>}
+              <Link
+                href={href}
+                className="text-sm text-muted hover:text-foreground transition-colors underline underline-offset-4"
+              >
+                {label}
+              </Link>
+            </span>
+          ))}
         </p>
       </div>
     </section>

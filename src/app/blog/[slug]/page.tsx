@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPostBySlug, getAllSlugs } from "@/lib/blog";
 import { ogImage, defaultOgImage } from "@/lib/seo";
@@ -224,6 +225,14 @@ export default async function BlogPost({ params }: Props) {
               <p className="text-xs text-muted mt-1 leading-relaxed">
                 {post.authorCredentials ??
                   "Built by people who understand the hockey agent and advisor workflow. Repline is purpose-built CRM software for player representation \u2014 designed in partnership with working agents across the OHL, WHL, QMJHL, NCAA, AHL, and NHL."}
+              </p>
+              <p className="mt-2">
+                <Link
+                  href="/about"
+                  className="text-xs text-muted hover:text-foreground transition-colors underline underline-offset-4"
+                >
+                  Why we built Repline &rarr;
+                </Link>
               </p>
             </div>
           </div>
