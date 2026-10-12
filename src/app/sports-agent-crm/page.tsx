@@ -206,6 +206,7 @@ export default function SportsAgentCrmPage() {
               alt="Repline player pipeline board with hockey-specific columns for U.S. Junior A, CHL Major Junior, NCAA and ECHL"
               width={2880}
               height={1800}
+              sizes="(max-width: 896px) 100vw, 896px"
               className="w-full h-auto"
             />
           </div>

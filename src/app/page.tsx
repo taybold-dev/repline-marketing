@@ -71,7 +71,8 @@ export default function Home() {
               alt="Repline hockey agent CRM dashboard showing 18 players, 12 contacts, open tasks, cadence health tracking, and upcoming contract actions"
               width={2880}
               height={1800}
-              priority
+              sizes="(max-width: 1024px) 100vw, 976px"
+              preload
               className="w-full h-auto"
             />
           </div>
@@ -124,6 +125,7 @@ export default function Home() {
               alt="Hockey agent player pipeline board with columns for U.S. Junior A, CHL Major Junior, NCAA, and ECHL — showing players organized by playing level"
               width={2880}
               height={1800}
+              sizes="(max-width: 896px) 100vw, 896px"
               className="w-full h-auto"
             />
           </div>
@@ -171,6 +173,7 @@ export default function Home() {
               alt="Repline player profile for a hockey client showing personal info, position, playing level, current team, and scouting blurb"
               width={2880}
               height={1800}
+              sizes="(max-width: 896px) 100vw, 896px"
               className="w-full h-auto"
             />
           </div>

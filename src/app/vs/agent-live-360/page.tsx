@@ -107,6 +107,7 @@ export default function VsAgentLive360() {
               alt="Repline calendar showing hockey league key dates, draft windows, and contract deadlines auto-populated for OHL, WHL, QMJHL and NCAA"
               width={2880}
               height={1800}
+              sizes="(max-width: 896px) 100vw, 896px"
               className="w-full h-auto"
             />
           </div>

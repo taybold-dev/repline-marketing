@@ -108,6 +108,7 @@ export default function VsHubspot() {
               alt="Repline hockey-native pipeline board — unlike HubSpot's generic sales pipeline, players are organized by playing level with hockey-specific stages"
               width={2880}
               height={1800}
+              sizes="(max-width: 896px) 100vw, 896px"
               className="w-full h-auto"
             />
           </div>

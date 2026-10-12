@@ -102,6 +102,7 @@ export default function FeaturesPage() {
               alt="Hockey agent career pipeline board view — players organized by playing level from U.S. Junior A through CHL, NCAA, and professional leagues"
               width={2880}
               height={1800}
+              sizes="(max-width: 767px) 100vw, (max-width: 1088px) 46vw, 500px"
               className="w-full h-auto"
             />
           </div>
@@ -111,6 +112,7 @@ export default function FeaturesPage() {
               alt="Player profile page showing personal details, hockey position, current team, scouting notes, and contract information for a hockey client"
               width={2880}
               height={1800}
+              sizes="(max-width: 767px) 100vw, (max-width: 1088px) 46vw, 500px"
               className="w-full h-auto"
             />
           </div>
@@ -160,6 +162,7 @@ export default function FeaturesPage() {
               alt="Repline contract management showing a team contract with the Syracuse Crunch (AHL) and an advisory agreement — with start dates, expiry, value, and term details"
               width={2880}
               height={1800}
+              sizes="(max-width: 768px) 100vw, 768px"
               className="w-full h-auto"
             />
           </div>
@@ -220,6 +223,7 @@ export default function FeaturesPage() {
               alt="Task management board for hockey agents — kanban view with To Do, In Progress, and Done columns showing tasks like contract negotiations and compliance follow-ups"
               width={2880}
               height={1800}
+              sizes="(max-width: 767px) 100vw, (max-width: 1088px) 46vw, 500px"
               className="w-full h-auto"
             />
           </div>
@@ -229,6 +233,7 @@ export default function FeaturesPage() {
               alt="Contact management list showing scouts, coaches, parents, and GMs with their team affiliations and contact details — organized for hockey agent relationship tracking"
               width={2880}
               height={1800}
+              sizes="(max-width: 767px) 100vw, (max-width: 1088px) 46vw, 500px"
               className="w-full h-auto"
             />
           </div>
