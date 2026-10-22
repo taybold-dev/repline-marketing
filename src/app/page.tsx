@@ -9,13 +9,13 @@ import { SoftwareApplicationSchema } from "@/components/schema-org";
 import { defaultOgImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Hockey Agent & Advisor CRM — Players & Contracts | Repline",
+  title: "Repline — Hockey Agent & Advisor CRM | Players & Contracts",
   description:
     "The CRM built for hockey agents and advisors. Track players, contracts, scouting reports, and compliance deadlines in one place. Free 30-day trial.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
-    title: "Hockey Agent & Advisor CRM — Players & Contracts | Repline",
+    title: "Repline — Hockey Agent & Advisor CRM | Players & Contracts",
     description:
       "The CRM built for hockey agents and advisors. Track players, contracts, scouting reports, and compliance deadlines in one place. Free 30-day trial.",
     url: "https://www.repline.io",
