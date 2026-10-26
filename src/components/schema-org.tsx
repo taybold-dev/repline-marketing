@@ -121,22 +121,23 @@ export function SoftwareApplicationSchema() {
       },
       {
         "@type": "Offer",
+        name: "Team",
+        price: "249.00",
+        priceCurrency: "USD",
+        priceValidUntil: "2027-12-31",
+        description:
+          "For small agencies with 2-5 advisors. 75 players, 5 users, 5 GB storage, multi-rep assignment.",
+        url: "https://www.repline.io/pricing",
+      },
+      {
+        "@type": "Offer",
         name: "Agency",
-        price: "695",
+        price: "695.00",
         priceCurrency: "USD",
         priceValidUntil: "2027-12-31",
         description:
           "For multi-rep agencies. 200 players, 15 users, 10 GB storage, owner oversight.",
         url: "https://www.repline.io/pricing",
-      },
-      {
-        "@type": "Offer",
-        name: "Enterprise",
-        price: "0",
-        priceCurrency: "USD",
-        description:
-          "Custom pricing for large agencies. Unlimited players, unlimited users, dedicated onboarding.",
-        url: "https://www.repline.io/contact-sales",
       },
     ],
     featureList: [
