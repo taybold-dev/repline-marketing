@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
+import gfm from "remark-gfm";
 import readingTime from "reading-time";
 
 const BLOG_DIR = path.join(process.cwd(), "content", "blog");
@@ -113,7 +114,7 @@ export async function getPostBySlug(
   const { data, content } = matter(fileContent);
   const stats = readingTime(content);
 
-  const processed = await remark().use(html).process(content);
+  const processed = await remark().use(gfm).use(html).process(content);
   let htmlContent = processed.toString();
   htmlContent = addHeadingIds(htmlContent);
   const headings = extractHeadings(htmlContent);
