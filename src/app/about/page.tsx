@@ -45,7 +45,7 @@ export default function AboutPage() {
       <Section>
         <div className="max-w-2xl mx-auto space-y-6 text-base leading-relaxed text-muted">
           <p>
-            Repline exists because the sports representation industry runs on spreadsheets, text threads, and memory. Agents and advisors juggle dozens of players, hundreds of contacts, and thousands of interactions every year &mdash; with tools that were never built for the job.
+            Repline is a CRM built for hockey agents and advisors. It exists because the sports representation industry runs on spreadsheets, text threads, and memory. Agents and advisors juggle dozens of players, hundreds of contacts, and thousands of interactions every year &mdash; with tools that were never built for the job.
           </p>
           <p>
             We watched agents miss contract deadlines because a reminder got buried in email. We saw advisors lose track of which families they had called this month. We talked to agency owners who had no idea how their reps were spending their time.
