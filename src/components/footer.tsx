@@ -8,6 +8,7 @@ const productLinks = [
   { href: "/pricing", label: "Pricing" },
   { href: "/contact-sales", label: "Talk to Us" },
   { href: "/blog", label: "Blog" },
+  { href: "/templates", label: "Templates" },
 ];
 
 const compareLinks = [

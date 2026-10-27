@@ -117,6 +117,16 @@ export default function FeaturesPage() {
             />
           </div>
         </div>
+        <p className="mt-8 text-center text-sm text-muted">
+          Not ready to switch?{" "}
+          <Link
+            href="/templates/hockey-scouting-report"
+            className="underline underline-offset-4 hover:text-foreground"
+          >
+            Start with our free hockey scouting report template
+          </Link>
+          , built on the same fields.
+        </p>
       </Section>
 
       {/* Contracts + signatures */}

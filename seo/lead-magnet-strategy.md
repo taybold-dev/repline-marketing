@@ -172,6 +172,13 @@ sign-ups or warm outbound replies; stop at two if they produce neither.
 ## Build order
 
 1. Scouting report page + PDF + form backend + privacy line (one PR).
+   **Page shipped 2026-10-27, ungated:** `/templates` hub and
+   `/templates/hockey-scouting-report`, with a print / save-as-PDF button
+   (two pages; opening the goalie section swaps in goalie categories and
+   stats). Linked from the footer, `/features`, the draft-day post, the
+   sitemap and `llms.txt`. **Still to do:** the gated branded PDF and Sheets
+   copy, the Resend form, and the privacy-policy line. The gate waits on the
+   privacy line; a form must not collect emails before the policy covers it.
 2. Player profile page, reusing the form (one PR).
 3. Link both from the posts and `/features` listed above.
 4. Start using them in outbound and on LinkedIn the day they ship. That is the

@@ -76,6 +76,12 @@ billing is shown as the per-month equivalent.
 - vs. Fandelo: ${BASE_URL}/vs/fandelo
 - vs. Agent Live 360: ${BASE_URL}/vs/agent-live-360
 - vs. The Hockey CRM: ${BASE_URL}/vs/the-hockey-crm
+
+## Templates
+
+Free, printable, no sign-up.
+
+- Hockey scouting report template (skater and goalie versions, with a filled-in example): ${BASE_URL}/templates/hockey-scouting-report
 `;
 
 const CONTACT = `
