@@ -40,7 +40,7 @@ export default function Home() {
             The OS for player representation
           </h2>
           <p className="mt-4 text-base md:text-lg text-muted max-w-2xl mx-auto">
-            Track players, contracts, scouting reports, and compliance deadlines in one place. Replace your spreadsheets &mdash; from bantam to the bigs.
+            Repline is the CRM for hockey agents and advisors. Track players, contracts, scouting reports, and compliance deadlines in one place &mdash; from bantam to the bigs.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
             <a
