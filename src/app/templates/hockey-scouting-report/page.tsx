@@ -366,9 +366,9 @@ export default function HockeyScoutingReportTemplatePage() {
 
       <Section className="bg-muted-bg">
         <SectionHeader
-          tag="Skip the paperwork"
-          title="Turn the report into a branded PDF"
-          description="In Repline, scouting notes live on the player's profile, and one click turns them into a PDF with your agency's branding, ready to send to a coach, a GM or the family."
+          tag="In Repline"
+          title="Keep your scouting notes on the player's profile"
+          description="In Repline, notes live on the player's profile alongside their career history, contacts and contracts, and one click turns that profile into a branded player PDF for coaches, GMs and families."
         />
         <div className="mx-auto max-w-4xl">
           <div className="rounded-xl border border-border/60 overflow-hidden shadow-lg">
@@ -387,8 +387,15 @@ export default function HockeyScoutingReportTemplatePage() {
             href="/features"
             className="text-sm font-medium text-muted hover:text-foreground transition-colors underline underline-offset-4"
           >
-            See how PDF scouting reports work in Repline &rarr;
+            See how player profiles work in Repline &rarr;
           </Link>
+          <p className="mt-4 text-sm text-muted">
+            Need a profile to send today?{" "}
+            <Link href="/templates/hockey-player-profile" className="underline underline-offset-4 hover:text-foreground">
+              Make one free with our hockey player profile generator
+            </Link>
+            .
+          </p>
         </div>
       </Section>
 
@@ -412,8 +419,8 @@ export default function HockeyScoutingReportTemplatePage() {
       </Section>
 
       <CTASection
-        title="Scouting notes that turn into reports by themselves"
-        description="Player profiles, scouting notes and branded PDF reports in one place. Free 30-day trial."
+        title="Every player's notes, history and contacts in one place"
+        description="Player profiles, scouting notes and branded player PDFs. Free 30-day trial."
       />
     </>
   );
