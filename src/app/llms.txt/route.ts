@@ -79,8 +79,9 @@ billing is shown as the per-month equivalent.
 
 ## Templates
 
-Free, printable, no sign-up.
+Free, no sign-up.
 
+- Hockey player profile generator (fill in a form, download a one-page player profile PDF for coaches and scouts; built in the browser, nothing stored): ${BASE_URL}/templates/hockey-player-profile
 - Hockey scouting report template (skater and goalie versions, with a filled-in example): ${BASE_URL}/templates/hockey-scouting-report
 `;
 

@@ -9,19 +9,24 @@ import { ogImage } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Free Hockey Templates for Agents and Advisors | Repline",
   description:
-    "Free, printable templates for hockey agents, advisors and scouts, starting with a scouting report built around the fields agents actually use.",
+    "Free templates and tools for hockey agents, advisors and scouts: a printable scouting report and a player profile PDF generator. No sign-up.",
   alternates: { canonical: "/templates" },
   openGraph: {
     type: "website",
     title: "Free Hockey Templates for Agents and Advisors | Repline",
     description:
-      "Free, printable templates for hockey agents, advisors and scouts. No sign-up.",
+      "A printable scouting report and a player profile PDF generator for hockey agents, advisors and scouts. No sign-up.",
     url: "https://www.repline.io/templates",
     images: [ogImage({ title: "Free Hockey Templates", subtitle: "For agents, advisors and scouts", tag: "Templates" })],
   },
 };
 
 const templates = [
+  {
+    href: "/templates/hockey-player-profile",
+    title: "Hockey player profile generator",
+    desc: "Fill in a form and download a one-page player profile PDF for coaches and scouts: player card, scouting notes, links, career history and academics.",
+  },
   {
     href: "/templates/hockey-scouting-report",
     title: "Hockey scouting report",
@@ -35,7 +40,7 @@ export default function TemplatesPage() {
       <WebPageSchema
         type="CollectionPage"
         name="Free Hockey Templates for Agents and Advisors"
-        description="Free, printable templates for hockey agents, advisors and scouts."
+        description="Free templates and tools for hockey agents, advisors and scouts."
         url="https://www.repline.io/templates"
       />
       <Breadcrumbs
@@ -54,7 +59,7 @@ export default function TemplatesPage() {
             Free templates for hockey agents and advisors
           </h1>
           <p className="mt-4 text-lg text-muted max-w-2xl mx-auto">
-            Printable templates for the paperwork of player representation, built around the same fields Repline uses, so anything you fill in by hand moves straight across if you switch. Free, with no sign-up.
+            Free templates and tools for the paperwork of player representation: evaluating players, and presenting them to coaches. No sign-up.
           </p>
         </div>
       </section>

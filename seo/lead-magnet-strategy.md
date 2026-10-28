@@ -179,7 +179,14 @@ sign-ups or warm outbound replies; stop at two if they produce neither.
    sitemap and `llms.txt`. **Still to do:** the gated branded PDF and Sheets
    copy, the Resend form, and the privacy-policy line. The gate waits on the
    privacy line; a form must not collect emails before the policy covers it.
-2. Player profile page, reusing the form (one PR).
+2. Player profile page. **Shipped 2026-10-28 as a generator, not a static
+   template** (owner decision): `/templates/hockey-player-profile` builds a
+   one-page PDF in the browser that mirrors the app's player card. Nothing is
+   sent or stored. Free: player card, team/level, scouting notes, Elite
+   Prospects and Hudl links, career history, academics, one contact, and a
+   "Made with Repline" footer. Trial-only, listed beside the form: photos,
+   video, agency branding, parents/contracts/key contacts, saved profiles.
+   No email gate; the trial link carries `?ref=profile-generator`.
 3. Link both from the posts and `/features` listed above.
 4. Start using them in outbound and on LinkedIn the day they ship. That is the
    main channel, not search.

@@ -107,6 +107,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${BASE_URL}/templates/hockey-player-profile`,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: `${BASE_URL}/blog`,
       changeFrequency: "weekly",
       priority: 0.8,

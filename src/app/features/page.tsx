@@ -120,12 +120,12 @@ export default function FeaturesPage() {
         <p className="mt-8 text-center text-sm text-muted">
           Not ready to switch?{" "}
           <Link
-            href="/templates/hockey-scouting-report"
+            href="/templates/hockey-player-profile"
             className="underline underline-offset-4 hover:text-foreground"
           >
-            Start with our free hockey scouting report template
+            Try our free hockey player profile generator
           </Link>
-          , built on the same fields.
+          , a basic version of the player PDF Repline makes.
         </p>
       </Section>
 
