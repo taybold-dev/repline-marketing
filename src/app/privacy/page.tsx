@@ -68,7 +68,7 @@ export default function PrivacyPage() {
     <Section>
       <div className="max-w-2xl mx-auto">
         <h1 className="text-3xl font-bold tracking-tight mb-2">Repline Privacy Policy</h1>
-        <p className="text-sm text-muted mb-8">Last updated: October 15, 2026</p>
+        <p className="text-sm text-muted mb-8">Last updated: October 29, 2026</p>
 
         <p className={p}>
           Repline is operated by Repline LLC (&ldquo;Repline&rdquo;, &ldquo;we&rdquo;,
@@ -229,10 +229,15 @@ export default function PrivacyPage() {
 
         <h2 className={h2}>6. Where information is stored</h2>
         <p className={p}>
-          Repline&apos;s data is stored with Supabase in Canada (Central). Some providers, including
-          Sentry, Stripe, Resend and Twilio, process information in the United States. Information
-          may therefore be stored or processed outside your province or country, where local laws may
-          allow authorities to access it.
+          Repline&apos;s data is stored with Supabase, in the region that matches your agency. Data
+          for agencies in Canada is stored in Canada (Central). Data for agencies in the United
+          States is stored in US West.
+        </p>
+        <p className={p}>
+          Regardless of which region holds your agency&apos;s records, some providers &mdash;
+          including Sentry, Stripe, Resend and Twilio &mdash; process information in the United
+          States. Information may therefore be stored or processed outside your province, state or
+          country, where local laws may allow authorities to access it.
         </p>
 
         <h2 className={h2}>7. How we protect information</h2>
