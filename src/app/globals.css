@@ -30,3 +30,31 @@ html {
   background: #0a0a0a;
   color: #ffffff;
 }
+
+/*
+ * Printable templates. A page that renders a direct child of <main> with
+ * id="printable-template" prints only that block: the nav, footer and every
+ * other section are dropped. Pages without one print normally.
+ */
+@media print {
+  body:has(#printable-template) > *:not(main),
+  body:has(#printable-template) main > *:not(#printable-template) {
+    display: none !important;
+  }
+  #printable-template {
+    padding: 0 !important;
+  }
+  /* An open <details> (e.g. goalie categories) prints; a closed one doesn't. */
+  #printable-template details:not([open]),
+  #printable-template details > summary {
+    display: none;
+  }
+  /* Opening the goalie categories swaps them in for the skater ones. */
+  #printable-template:has(details[open]) .skater-ratings,
+  #printable-template:has(details[open]) .skater-stats {
+    display: none;
+  }
+  #printable-template:has(details[open]) .goalie-stats {
+    display: grid;
+  }
+}

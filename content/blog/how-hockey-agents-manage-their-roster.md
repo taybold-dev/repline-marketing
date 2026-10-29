@@ -76,7 +76,7 @@ Even after a player is signed, the relationship management continues. Regular ch
 - Weekly status review: which players need attention?
 - Update pipeline: any prospects moving stages? Any draft news?
 - Compliance check: any deadlines approaching in the next 30 days?
-- Prepare scouting reports or player packages for team distribution
+- Prepare scouting reports or player packages for team distribution (a one-page [hockey player profile](/templates/hockey-player-profile) is the usual starting point)
 
 ### Weekend
 - Game attendance (junior, college, and pro schedules are heaviest on weekends)

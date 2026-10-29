@@ -60,7 +60,7 @@ This checklist walks through what needs to happen at each stage, from 12 months 
 ### Scouting and Visibility
 - Confirm your client is on scouting services' radar (Central Scouting, league-specific services)
 - Identify which teams have shown interest — track scout attendance at your client's games
-- Prepare and distribute updated scouting reports to interested teams
+- Prepare and distribute updated scouting reports to interested teams (our [free hockey scouting report template](/templates/hockey-scouting-report) covers the fields teams expect)
 - Coordinate interviews with team scouts and development staff
 
 ### Compliance and Documentation

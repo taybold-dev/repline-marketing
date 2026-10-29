@@ -76,6 +76,13 @@ billing is shown as the per-month equivalent.
 - vs. Fandelo: ${BASE_URL}/vs/fandelo
 - vs. Agent Live 360: ${BASE_URL}/vs/agent-live-360
 - vs. The Hockey CRM: ${BASE_URL}/vs/the-hockey-crm
+
+## Templates
+
+Free, no sign-up.
+
+- Hockey player profile generator (fill in a form, download a one-page player profile PDF for coaches and scouts; built in the browser, nothing stored): ${BASE_URL}/templates/hockey-player-profile
+- Hockey scouting report template (skater and goalie versions, with a filled-in example): ${BASE_URL}/templates/hockey-scouting-report
 `;
 
 const CONTACT = `

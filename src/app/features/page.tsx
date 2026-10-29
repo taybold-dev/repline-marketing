@@ -117,6 +117,16 @@ export default function FeaturesPage() {
             />
           </div>
         </div>
+        <p className="mt-8 text-center text-sm text-muted">
+          Not ready to switch?{" "}
+          <Link
+            href="/templates/hockey-player-profile"
+            className="underline underline-offset-4 hover:text-foreground"
+          >
+            Try our free hockey player profile generator
+          </Link>
+          , a basic version of the player PDF Repline makes.
+        </p>
       </Section>
 
       {/* Contracts + signatures */}
