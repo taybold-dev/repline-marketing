@@ -11,7 +11,7 @@ import { ogImage } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Free Hockey Player Profile Template & PDF Generator",
   description:
-    "Build a hockey player profile PDF for coaches and scouts in minutes: player card, scouting notes, career history, academics and links. Free, no sign-up.",
+    "Free hockey player profile template: fill in the form and download a one-page PDF for coaches and scouts, with career history, academics and links.",
   alternates: { canonical: "/templates/hockey-player-profile" },
   openGraph: {
     type: "website",
@@ -60,6 +60,14 @@ const faqs = [
     a: "A player card with name, date of birth, position, height, weight and shot; current team and level; a short scouting summary; links to Elite Prospects and video; career history by season; academics for players with a college path; and one clear contact. Keep it to a single page so a coach can read it in under a minute.",
   },
   {
+    q: "What should a youth hockey player profile include?",
+    a: "The same sections, kept simpler. For a U14 to U16 player, lead with position, birth year, team and level, a short note on how they play, and a parent as the contact. Leave out GPA and Clearinghouse ID until college hockey is a real option, and keep personal details to what a coach needs: no home address or player phone number.",
+  },
+  {
+    q: "What do college coaches look for in a player profile?",
+    a: "Enough to decide whether to watch the player: position, birth year, size, current team and level, stats they can verify on Elite Prospects, and video. Academics matter too, because a coach can only recruit a player the school will admit, so include school, graduation year, GPA and NCAA Eligibility Center (Clearinghouse) ID. Keep it to one page and send it with a short, personal email.",
+  },
+  {
     q: "Is this hockey player profile generator free?",
     a: "Yes. Fill in the form and download the PDF. There is no sign-up and no limit on how many profiles you make. Free PDFs carry a small \"Made with Repline\" footer.",
   },
@@ -103,7 +111,7 @@ export default function HockeyPlayerProfilePage() {
             Hockey Player Profile Template
           </h1>
           <p className="mt-4 text-lg text-muted max-w-2xl mx-auto">
-            A hockey player profile is a one-page summary a coach or scout can read in under a minute: who the player is, how they play, where they&apos;ve played, and who to call. Fill in the form below and download it as a PDF. It&apos;s free, and nothing you type leaves your browser.
+            A hockey player profile is a one-page summary a coach or scout can read in under a minute: who the player is, how they play, where they&apos;ve played, and who to call. This template works for youth, junior and college-bound players: fill in the form below and download it as a PDF. It&apos;s free, and nothing you type leaves your browser.
           </p>
         </div>
       </section>

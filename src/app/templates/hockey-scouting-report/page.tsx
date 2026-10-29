@@ -9,13 +9,13 @@ import { WebPageSchema, FAQPageSchema } from "@/components/schema-org";
 import { ogImage } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Hockey Scouting Report Template (Free, Printable)",
+  title: "Hockey Scouting Report Template: Free Printable PDF",
   description:
-    "A free hockey scouting report template for agents, advisors and scouts: player details, 1-5 ratings for skaters and goalies, and a filled-in example.",
+    "Free hockey scouting report template and printable PDF scouting sheet: player details, 1-5 ratings for skaters and goalies, and a filled-in example.",
   alternates: { canonical: "/templates/hockey-scouting-report" },
   openGraph: {
     type: "website",
-    title: "Hockey Scouting Report Template (Free, Printable)",
+    title: "Hockey Scouting Report Template: Free Printable PDF",
     description:
       "Every field, a 1-5 scale rated against the player's level, a goalie version and a filled-in example. Print it or save it as a PDF.",
     url: "https://www.repline.io/templates/hockey-scouting-report",
@@ -110,8 +110,8 @@ const faqs = [
     a: "Write a report after every viewing, but treat a single viewing as a first impression. One game can flatter or hide a player because of the opponent, the score or the player's role that night. Recording the viewing number on each report makes it easy to see whether a rating is based on one game or ten.",
   },
   {
-    q: "Is this hockey scouting report template free?",
-    a: "Yes. The full template is on this page. Use the print button to print a blank copy, or choose Save as PDF in the print dialog to keep a digital one. There is no sign-up.",
+    q: "Can I download this hockey scouting report template as a PDF?",
+    a: "Yes, free. Use the print button and choose Save as PDF in the print dialog to keep a digital copy, or print a blank scouting sheet to fill in by hand at the rink. There is no sign-up.",
   },
 ];
 
@@ -175,7 +175,7 @@ export default function HockeyScoutingReportTemplatePage() {
             Hockey Scouting Report Template
           </h1>
           <p className="mt-4 text-lg text-muted max-w-2xl mx-auto">
-            A hockey scouting report records what a player showed you in one viewing: who they are, how they skate, handle the puck, read the game and compete, each rated against the level they play at, plus a short summary someone else can act on. This template has every field, a skater and a goalie version, and a filled-in example.
+            A hockey scouting report records what a player showed you in one viewing: who they are, how they skate, handle the puck, read the game and compete, each rated against the level they play at, plus a short summary someone else can act on. This template, sometimes called a scouting sheet, has every field, a skater and a goalie version, and a filled-in example, and it prints or saves as a PDF.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
             <PrintButton />

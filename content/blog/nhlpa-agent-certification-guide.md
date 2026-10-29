@@ -32,7 +32,7 @@ excerpt: "Becoming an NHLPA certified agent is the first step to representing NH
 
 To represent NHL players, you must be certified by the [National Hockey League Players' Association (NHLPA)](https://www.nhlpa.com/certified-agents/). You apply in writing, the NHLPA reviews your education, background and business relationships, and certified agents pay an annual fee [reported at $2,100 plus tax](https://www.thescore.com/nhl/news/2377141). About [200 agents](https://www.nhlpa.com/faqs/) hold certification at any one time.
 
-This guide covers the full process — what the NHLPA asks for, what the application involves, how to prepare for the exam, which contracts you can negotiate without certification, and what your first year as a certified agent actually looks like.
+If you're working out how to become a hockey agent at the NHL level, this is the only hockey agent certification that counts. This guide covers the full process — what the NHLPA asks for, what the application involves, how to prepare for the exam, which contracts you can negotiate without certification, and what your first year as a certified agent actually looks like.
 
 ## What Is an NHLPA Certified Agent?
 
@@ -44,7 +44,7 @@ It is a small group. The NHLPA's [FAQ](https://www.nhlpa.com/faqs/) puts the num
 
 This is distinct from being a hockey advisor. Advisors can guide players and families on development, career planning, and non-contract matters without NHLPA certification. Many advisors eventually pursue certification as their clients approach NHL-readiness.
 
-## Eligibility Requirements
+## NHLPA Agent Requirements
 
 The NHLPA states that applicants must submit [supporting materials](https://www.nhlpa.com/certified-agents/) detailing:
 
