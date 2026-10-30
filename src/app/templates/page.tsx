@@ -25,7 +25,7 @@ const templates = [
   {
     href: "/templates/hockey-player-profile",
     title: "Hockey player profile generator",
-    desc: "Fill in a form and download a one-page player profile PDF for coaches and scouts: player card, scouting notes, links, career history and academics.",
+    desc: "Fill in a form and download a one-page player profile, or hockey resume, as a PDF for coaches and scouts: player card, scouting notes, links, career history and academics.",
   },
   {
     href: "/templates/hockey-scouting-report",

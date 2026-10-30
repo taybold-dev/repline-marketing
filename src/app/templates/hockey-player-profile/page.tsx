@@ -11,7 +11,7 @@ import { ogImage } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Free Hockey Player Profile Template & PDF Generator",
   description:
-    "Free hockey player profile template: fill in the form and download a one-page PDF for coaches and scouts, with career history, academics and links.",
+    "Free hockey player profile template, also called a hockey resume or recruiting profile: fill in the form and download a one-page PDF for coaches.",
   alternates: { canonical: "/templates/hockey-player-profile" },
   openGraph: {
     type: "website",
@@ -58,6 +58,10 @@ const faqs = [
   {
     q: "What should a hockey player profile include?",
     a: "A player card with name, date of birth, position, height, weight and shot; current team and level; a short scouting summary; links to Elite Prospects and video; career history by season; academics for players with a college path; and one clear contact. Keep it to a single page so a coach can read it in under a minute.",
+  },
+  {
+    q: "Is a player profile the same as a hockey resume?",
+    a: "Yes. A hockey resume, a recruiting profile and a player profile are the same one-page document, sent to junior and college coaches to introduce a player, and families and advisors use the names interchangeably. Unlike a job resume, it leads with the player card and how the player plays, not a list of past roles, and career history comes after.",
   },
   {
     q: "What should a youth hockey player profile include?",
@@ -111,7 +115,7 @@ export default function HockeyPlayerProfilePage() {
             Hockey Player Profile Template
           </h1>
           <p className="mt-4 text-lg text-muted max-w-2xl mx-auto">
-            A hockey player profile is a one-page summary a coach or scout can read in under a minute: who the player is, how they play, where they&apos;ve played, and who to call. This template works for youth, junior and college-bound players: fill in the form below and download it as a PDF. It&apos;s free, and nothing you type leaves your browser.
+            A hockey player profile, also called a hockey resume or recruiting profile, is a one-page summary a coach or scout can read in under a minute: who the player is, how they play, where they&apos;ve played, and who to call. This template works for youth, junior and college-bound players: fill in the form below and download it as a PDF. It&apos;s free, and nothing you type leaves your browser.
           </p>
         </div>
       </section>
